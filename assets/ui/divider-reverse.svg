@@ -1,0 +1,53 @@
+<svg width="1200" height="34" viewBox="0 0 1200 34"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="lineReverse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#9333EA"/>
+      <stop offset="50%" stop-color="#C084FC"/>
+      <stop offset="80%" stop-color="#9333EA"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glowReverse">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect
+    x="0"
+    y="16"
+    width="1200"
+    height="2"
+    fill="url(#lineReverse)"
+    filter="url(#glowReverse)"
+  />
+
+  <rect
+    x="1280"
+    y="15"
+    width="220"
+    height="4"
+    rx="2"
+    fill="#E9D5FF"
+    filter="url(#glowReverse)">
+
+    <animate
+      attributeName="x"
+      from="1280"
+      to="-300"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+
+  </rect>
+
+  <circle cx="40" cy="17" r="3" fill="#A855F7"/>
+  <circle cx="1160" cy="17" r="3" fill="#A855F7"/>
+
+</svg>
