@@ -1,168 +1,384 @@
-<!-- ===================================================== -->
-<!--              WANGLING TECH // PROFILE                 -->
-<!-- ===================================================== -->
+<!-- ========================================================= -->
+<!--             WANGLING TECH // GITHUB PROFILE               -->
+<!--                  Kevin Villegas Solis                      -->
+<!-- ========================================================= -->
 
 <div align="center">
 
-# ⚡ KEVIN VILLEGAS
+# `W A N G L I N G // T E C H`
 
-### `SYSTEMS ENGINEERING // SOFTWARE DEVELOPMENT // IT`
+### ⚡ KEVIN VILLEGAS SOLIS
 
-**Systems Engineering Student · VIII Semester**
+`SYSTEMS ENGINEERING` • `SOFTWARE DEVELOPMENT` • `DATABASES` • `QA / IT`
 
-📍 Lima, Peru
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=%3E+Initializing+developer+profile...;%3E+Building+software+and+learning+systems...;%3E+Angular+%7C+Node.js+%7C+TypeScript+%7C+SQL;%3E+BUILD+%2F%2F+LEARN+%2F%2F+ITERATE" alt="Typing SVG" />
+
+<br>
+
+**Systems Engineering Student — VIII Semester**
+
+`LIMA // PERU` &nbsp; • &nbsp; `STATUS // BUILDING`
 
 </div>
 
 ---
 
-## > SYSTEM.IDENTITY
+## `> SYSTEM.IDENTITY`
 
-```text
-NAME        : Kevin Villegas
-ROLE        : Systems Engineering Student
-SEMESTER    : VIII
-LOCATION    : Lima, Peru
-FOCUS       : Software Development · Databases · QA · IT
-STATUS      : Building projects & learning new technologies
+```yaml
+name:       Kevin Villegas Solis
+role:       Systems Engineering Student
+semester:   VIII
+location:   Lima, Peru
+
+focus:
+  - Software Development
+  - Databases & SQL
+  - Software Quality
+  - Information Technology
+
+status:     Building projects and strengthening my technical stack
 ```
 
-I'm a **Systems Engineering student** focused on software development and information technology.
+I'm a **Systems Engineering student** with practical experience in web development and maintenance, including **Landing Pages, E-Commerce and E-Learning platforms**.
 
-I have practical experience in **web development and maintenance**, working with landing pages, e-commerce and e-learning platforms.
+My main focus is **software development**, complemented by knowledge of **SQL and databases, functional testing, IT support and troubleshooting**.
 
-My current technical interests include **software development, databases, software quality, IT support, information security, IoT and artificial intelligence**.
-
----
-
-## > TECH.ARSENAL
-
-### ⚡ Development
-
-![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript)
-![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript)
-![Angular](https://img.shields.io/badge/Angular-111111?style=for-the-badge&logo=angular)
-![React](https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=node.js)
-![Express](https://img.shields.io/badge/Express-111111?style=for-the-badge&logo=express)
-![HTML5](https://img.shields.io/badge/HTML5-111111?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-111111?style=for-the-badge&logo=css3)
-
-### 🗄️ Databases
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql)
-![MySQL](https://img.shields.io/badge/MySQL-111111?style=for-the-badge&logo=mysql)
-![Microsoft SQL Server](https://img.shields.io/badge/SQL_Server-111111?style=for-the-badge&logo=microsoftsqlserver)
-![Prisma](https://img.shields.io/badge/Prisma-111111?style=for-the-badge&logo=prisma)
-
-### 🧪 QA & Testing
-
-`Functional Testing` · `Exploratory Testing` · `DevTools` · `Postman` · `ISO/IEC 25010`
-
-### 🖥️ IT & Systems
-
-`Windows` · `PC Hardware` · `Software Installation` · `Troubleshooting` · `Technical Support`
-
-### 🛠️ Tools
-
-![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github)
-![VS Code](https://img.shields.io/badge/VS_Code-111111?style=for-the-badge&logo=visualstudiocode)
-![Postman](https://img.shields.io/badge/Postman-111111?style=for-the-badge&logo=postman)
+I am currently expanding my knowledge in **Software Quality, Information Security, IoT, Business Intelligence and Big Data**, while developing projects that allow me to apply these concepts in practice.
 
 ---
 
-## > FEATURED.SYSTEMS
+## `> TECH.ARSENAL`
 
-### 🛠️ ERP/POS — Hardware Store
+### `01 // DEVELOPMENT`
 
-Full-stack ERP/POS system for **sales, inventory, customers, administration and reporting**.
+<div align="center">
 
-**Stack:** `Angular` · `Ionic` · `Node.js` · `Express` · `PostgreSQL` · `Prisma` · `Socket.IO`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="48" height="48" title="JavaScript" alt="JavaScript"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" title="TypeScript" alt="TypeScript"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" width="48" height="48" title="Angular" alt="Angular"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="48" height="48" title="React" alt="React"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="48" height="48" title="Node.js" alt="Node.js"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="48" height="48" title="Express.js" alt="Express.js"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="48" height="48" title="HTML5" alt="HTML5"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="48" height="48" title="CSS3" alt="CSS3"/>
+
+<br><br>
+
+`JavaScript` • `TypeScript` • `Angular` • `React` • `Node.js` • `Express.js` • `HTML5` • `CSS3`
+
+</div>
+
+<br>
+
+### `02 // DATABASES`
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" height="48" title="PostgreSQL" alt="PostgreSQL"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="48" height="48" title="MySQL" alt="MySQL"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="48" height="48" title="SQL Server" alt="SQL Server"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" width="48" height="48" title="Prisma ORM" alt="Prisma"/>
+
+<br><br>
+
+`PostgreSQL` • `MySQL` • `SQL Server` • `SQL` • `Prisma ORM`
+
+</div>
+
+<br>
+
+### `03 // QA & SOFTWARE QUALITY`
+
+<div align="center">
+
+`Functional Testing` &nbsp; • &nbsp;
+`Exploratory Testing` &nbsp; • &nbsp;
+`DevTools` &nbsp; • &nbsp;
+`Postman` &nbsp; • &nbsp;
+`ISO/IEC 25010`
+
+</div>
+
+<br>
+
+### `04 // IT & SYSTEMS`
+
+<div align="center">
+
+`Windows` &nbsp; • &nbsp;
+`PC Hardware` &nbsp; • &nbsp;
+`Software Installation` &nbsp; • &nbsp;
+`Troubleshooting` &nbsp; • &nbsp;
+`Technical Support`
+
+</div>
+
+<br>
+
+### `05 // DEVELOPMENT TOOLS`
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="45" height="45" title="Git" alt="Git"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="45" height="45" title="GitHub" alt="GitHub"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="45" height="45" title="Visual Studio Code" alt="VS Code"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="45" height="45" title="Postman" alt="Postman"/>
+
+<br><br>
+
+`Git` • `GitHub` • `VS Code` • `Postman`
+
+</div>
 
 ---
 
-### 🛡️ Smart Security Management System
+## `> FEATURED.SYSTEMS`
 
-Security management platform for **residents, visitors, vehicles, access control and real-time notifications**.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Stack:** `TypeScript` · `REST APIs` · `SSE`
+### ⚙️ ERP/POS — Ferretería
 
----
+Full-stack ERP/POS platform designed for business management.
 
-### 🧠 Computer Vision Peripheral Detector
+**Core modules**
 
-Computer vision system for automatic **detection and classification of IT peripherals**.
+`POS` `Sales` `Inventory` `Customers` `Administration` `Reports`
 
-**Stack:** `Python` · `OpenCV` · `FastAPI` · `React` · `Machine Learning`
+**Architecture / Stack**
 
----
+`Angular` `Ionic` `Node.js` `Express`  
+`PostgreSQL` `Prisma` `Socket.IO`
+
+<a href="https://github.com/wanglingtech/ferreteria-pos">
+<img src="https://img.shields.io/badge/VIEW_REPOSITORY-6D28D9?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🧠 Computer Vision Detector
+
+Computer vision system for automatic detection and classification of IT peripherals.
+
+**Core technologies**
+
+`Computer Vision` `HSV Segmentation`  
+`Image Processing` `REST API`
+
+**Stack**
+
+`Python` `OpenCV` `FastAPI`  
+`React` `Machine Learning`
+
+<a href="https://github.com/wanglingtech/computer-vision-peripheral-detector">
+<img src="https://img.shields.io/badge/VIEW_REPOSITORY-6D28D9?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ Security Management System
+
+Platform for residential security management and real-time event monitoring.
+
+**Core modules**
+
+`Residents` `Visitors` `Vehicles`  
+`Access Control` `Notifications`
+
+**Technologies**
+
+`TypeScript` `REST APIs` `SSE`
+
+<a href="https://github.com/wanglingtech/sistema_seguridad">
+<img src="https://img.shields.io/badge/VIEW_REPOSITORY-6D28D9?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
 
 ### 🛒 Interactive Hardware Store
 
-Responsive interactive catalog with **product search, shopping cart, favorites and WhatsApp integration**.
+Modern responsive product catalog designed as a commercial web experience.
 
-**Stack:** `React` · `TypeScript` · `Vite` · `Tailwind CSS`
+**Features**
 
----
+`Product Search` `Quick View` `Cart`  
+`Favorites` `WhatsApp Integration`
 
-## > EXPERIENCE.LOG
+**Stack**
 
-### 💼 Web Development Intern
+`React` `TypeScript` `Vite` `Tailwind CSS`
 
-**GRUPO LOOMSITE SOLUCIONES TI S.A.C.S.**
+<a href="https://github.com/wanglingtech/LandingPage_Ferreteria">
+<img src="https://img.shields.io/badge/VIEW_REPOSITORY-6D28D9?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-`APR 2026 ───────────────── AUG 2026`
-
-Worked on the development and maintenance of:
-
-`Landing Pages` · `E-Commerce` · `E-Learning`
-
-Performed functional and visual issue resolution, responsive validation and cross-device compatibility improvements.
-
-**Technologies:** `HTML` · `CSS` · `JavaScript` · `WordPress` · `WooCommerce`
+</td>
+</tr>
+</table>
 
 ---
 
-## > ACADEMIC.LOG
+## `> EXPERIENCE.LOG`
+
+```text
+╭──────────────────────────────────────────────────────────────╮
+│  GRUPO LOOMSITE SOLUCIONES TI S.A.C.S.                     │
+│  Web Development Intern                                     │
+│                                                              │
+│  APR 2026 ─────────────────────────────── AUG 2026           │
+╰──────────────────────────────────────────────────────────────╯
+```
+
+Worked on the development and maintenance of **Landing Page, E-Commerce and E-Learning platforms**.
+
+```text
+[+] Web development & maintenance
+[+] Functional and visual issue resolution
+[+] Responsive design validation
+[+] Cross-device compatibility testing
+[+] Implementation of requested improvements
+```
+
+**Stack used**
+
+`HTML` • `CSS` • `JavaScript` • `WordPress` • `WooCommerce`
+
+---
+
+## `> ACADEMIC.LOG`
 
 ### 🎓 Systems Engineering
 
 **Universidad César Vallejo**
 
-`2023 ───────────────────────────── PRESENT`
+```text
+2023 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ PRESENT
 
-**VIII Semester**
+CURRENT LEVEL  // VIII SEMESTER
+STATUS         // IN PROGRESS
+```
 
-Current areas of study:
+### Current areas
 
 ```text
-> Software Quality
-> Risk & Information Security
-> Internet of Things
-> Business Intelligence & Big Data
-> Software Development
+┌─ SOFTWARE QUALITY
+├─ RISK & INFORMATION SECURITY
+├─ INTERNET OF THINGS
+├─ BUSINESS INTELLIGENCE & BIG DATA
+└─ SOFTWARE DEVELOPMENT
 ```
 
 ---
 
-## > CURRENT.MISSION
+## `> CERTIFICATIONS.LOG`
 
 ```text
-[01] Build production-oriented software projects
-[02] Improve software architecture and clean code practices
-[03] Strengthen SQL and database knowledge
-[04] Develop QA and software testing skills
-[05] Explore cybersecurity, IoT and AI
-[06] Prepare for professional IT and software development roles
+[CISCO]  Computer Hardware Basics
+         Cisco Networking Academy · 2026
+
+[MTPE]   Word & Excel for Work — Basic Level
+         Ministerio de Trabajo y Promoción del Empleo · 2026
+
+[UCV]    Help Desk Assistant
+         Universidad César Vallejo · 2025
+
+[UCV]    Knowledge Management in the AI Era I & II
+         Universidad César Vallejo · 2025
 ```
 
 ---
+
+## `> CURRENT.MISSION`
+
+```text
+01  ██████████  Build production-oriented software projects
+
+02  ██████████  Strengthen SQL & database knowledge
+
+03  ████████░░  Improve software architecture practices
+
+04  ████████░░  Develop QA & software testing skills
+
+05  ██████░░░░  Explore cybersecurity, IoT & AI
+
+06  ██████████  Prepare for Software / IT opportunities
+```
+
+---
+
+## `> GITHUB.TELEMETRY`
 
 <div align="center">
 
-### `BUILD // LEARN // ITERATE`
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=wanglingtech&show_icons=true&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=A855F7&text_color=C9D1D9" alt="Kevin's GitHub Stats"/>
 
-**WangLing Tech**
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wanglingtech&layout=compact&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9" alt="Most Used Languages"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=wanglingtech&theme=transparent&hide_border=true&ring=8B5CF6&fire=A855F7&currStreakLabel=8B5CF6" alt="GitHub Streak"/>
+
+</div>
+
+---
+
+## `> CONNECTION.UPLINK`
+
+<div align="center">
+
+### `LET'S CONNECT`
+
+<a href="mailto:kevinvillegas.dev@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-6D28D9?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/kevin-villegas-solis/">
+<img src="https://img.shields.io/badge/LINKEDIN-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/wanglingtech">
+<img src="https://img.shields.io/badge/GITHUB-6D28D9?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br><br>
+
+```text
+╔══════════════════════════════════════════════════════╗
+║                                                      ║
+║             BUILD // LEARN // ITERATE                ║
+║                                                      ║
+║                    WANGLING TECH                     ║
+║                                                      ║
+╚══════════════════════════════════════════════════════╝
+```
 
 </div>
