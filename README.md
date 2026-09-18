@@ -361,7 +361,7 @@ STATUS         // IN PROGRESS
 <img src="https://img.shields.io/badge/EMAIL-6D28D9?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<a href="https://www.linkedin.com/in/kevin-villegas-solis/">
+<a href="https://www.linkedin.com/in/kevin-villegas-solis-7b0038366/">
 <img src="https://img.shields.io/badge/LINKEDIN-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
