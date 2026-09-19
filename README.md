@@ -124,7 +124,7 @@ alt="Engineering tools"
 
 ### `SYS.01 // ERP & POS MANAGEMENT`
 
-<img src="./assets/muebleria.webp" width="100%" alt="ERP POS Management System"/>
+<img src="assets\projects\muebleria.webp" width="100%" alt="ERP POS Management System"/>
 
 **ERP / POS — Business Management System**
 
@@ -140,7 +140,7 @@ Full-stack system designed to centralize **sales, inventory, products, customers
 
 ### `SYS.02 // COMPUTER VISION`
 
-<img src="./assets/peripheral-vision.png" width="100%" alt="Peripheral Vision Computer Vision System"/>
+<img src="assets\projects\peripheral-vision.png" width="100%" alt="Peripheral Vision Computer Vision System"/>
 
 **Peripheral Vision**
 
@@ -156,7 +156,7 @@ Computer vision system designed for automatic **detection and classification of 
 
 ### `SYS.03 // SECURITY MANAGEMENT`
 
-<img src="./assets/security.webp" width="100%" alt="Security Management System"/>
+<img src="assets\projects\security.webp" width="100%" alt="Security Management System"/>
 
 **Smart Security Management System**
 
@@ -172,7 +172,7 @@ Platform for managing **residents, visitors, vehicles, access control and real-t
 
 ### `SYS.04 // DIGITAL COMMERCE`
 
-<img src="./assets/ferreteria.webp" width="100%" alt="Ferreteria July"/>
+<img src="assets\projects\inicioferreteriajulylandingpage.webp" width="100%" alt="Ferreteria July"/>
 
 **Ferretería July — Interactive Catalog**
 
@@ -197,7 +197,7 @@ Responsive commercial experience featuring **product discovery, quick views, sho
 
 <h3 align="center"><code>BARBER STUDIO</code></h3>
 
-<img src="./assets/barberia.webp" width="100%" alt="Barber Studio"/>
+<img src="assets\projects\barberia.webp" width="100%" alt="Barber Studio"/>
 
 <p align="center">
 Responsive business landing page.
@@ -216,7 +216,7 @@ Responsive business landing page.
 
 <h3 align="center"><code>BRASAS DEL SABOR</code></h3>
 
-<img src="./assets/polleria.webp" width="100%" alt="Brasas del Sabor"/>
+<img src="assets\projects\polleria.webp" width="100%" alt="Brasas del Sabor"/>
 
 <p align="center">
 Interactive restaurant website and digital catalog.
