@@ -1,475 +1,233 @@
-<!-- =============================================================== -->
-<!--                                                                 -->
-<!--              WANGLING TECH // SYSTEM PROFILE                    -->
-<!--                   KEVIN VILLEGAS SOLIS                           -->
-<!--                                                                 -->
-<!-- =============================================================== -->
+<!-- ============================================================= -->
+<!--                                                               -->
+<!--        WANGLING TECH // ENGINEERING PROFILE SYSTEM             -->
+<!--               KEVIN VILLEGAS SOLIS                             -->
+<!--                                                               -->
+<!-- ============================================================= -->
 
-<!-- ========================= HERO ================================ -->
+
+<!-- ========================= HERO =============================== -->
 
 <div align="center">
 
-<img src="./assets/banner_github.webp" width="100%" alt="Kevin Villegas Solis - WangLing Tech Cyberpunk Banner"/>
+<img src="./assets/banner_github.webp" width="100%" alt="Kevin Villegas Solis - WangLing Tech"/>
 
 <br>
 
 <img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=700&color=A855F7&center=true&vCenter=true&repeat=true&width=850&height=45&lines=%3E+BOOTING+WANGLING_TECH.EXE...;%3E+IDENTITY%3A+KEVIN+VILLEGAS+SOLIS;%3E+SYSTEMS+ENGINEERING+%2F%2F+VIII+SEMESTER;%3E+SOFTWARE+%2F%2F+DATABASES+%2F%2F+QA+%2F%2F+IT;%3E+BUILD+%2F%2F+LEARN+%2F%2F+ITERATE"
-alt="WangLing Tech Terminal Animation"
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2500&pause=650&color=A855F7&center=true&vCenter=true&repeat=true&width=900&height=50&lines=%3E+INITIALIZING+WANGLING_TECH...;%3E+SOFTWARE+DEVELOPMENT+%2F%2F+SYSTEMS+ENGINEERING;%3E+DATABASES+%2F%2F+QA+%2F%2F+IT+SYSTEMS;%3E+BUILDING+SYSTEMS.+SOLVING+PROBLEMS.;%3E+BUILD+%2F%2F+LEARN+%2F%2F+ITERATE"
+alt="WangLing Tech"
 />
 
-<br>
-
-### `SYSTEMS ENGINEERING // SOFTWARE DEVELOPMENT`
-
-`LIMA // PERU`　•　`VIII SEMESTER`　•　`SYSTEM // ONLINE`
-
-<br>
-
-<img src="./assets/ui/divider.svg" width="100%" alt="Cyberpunk Divider"/>
+<img src="./assets/ui/terminal.svg" width="100%" alt="WangLing Tech terminal"/>
 
 </div>
 
-<!-- ======================== IDENTITY ============================== -->
+
+<!-- ====================== SYSTEM IDENTITY ======================= -->
+
+<img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `01 // SYSTEM.IDENTITY`
 
-<table>
-<tr>
+<img src="./assets/ui/system-status.svg" width="100%" alt="Engineering status"/>
 
-<td width="58%" valign="top">
+### `> WHOAMI`
 
-### `> PROFILE.EXE`
+I'm **Kevin Villegas Solis**, a Systems Engineering student in Lima, Peru, currently completing the **VIII semester** of my degree.
 
-I'm **Kevin Villegas Solis**, a Systems Engineering student focused on **software development and information technology**.
+My main focus is **software development**, with practical experience building and maintaining web applications and working with **JavaScript, TypeScript, Angular, React, Node.js, REST APIs, SQL and relational databases**.
 
-I have practical experience in **web development and maintenance**, working with Landing Pages, E-Commerce and E-Learning platforms.
+My technical profile also includes **functional testing, software quality, troubleshooting and IT support**, while I continue expanding into **Information Security, IoT, Business Intelligence and Artificial Intelligence**.
 
-My technical foundation includes **JavaScript, TypeScript, Angular, React, Node.js, REST APIs, SQL and relational databases**, complemented by knowledge of **functional testing, IT support and troubleshooting**.
-
-Currently expanding my knowledge through academic and personal projects involving **Software Quality, Information Security, IoT, Business Intelligence and Big Data**.
-
-</td>
-
-<td width="42%" valign="top">
-
-```yaml
-USER: Kevin Villegas Solis
-
-ROLE: Systems Engineering Student
-
-LEVEL: VIII Semester
-
-LOCATION: Lima, Peru
-
-PRIMARY: Software Development
-
-SECONDARY: Databases
-  QA
-  IT
-
-STATUS: ACTIVE
+```text
+ROLE        // Systems Engineering Student
+LOCATION    // Lima, Peru
+FOCUS       // Software Development
+SECONDARY   // Databases · QA · IT Systems
+STATUS      // Building · Learning · Improving
 ```
 
-</td>
 
-</tr>
-</table>
+<!-- ========================= ARSENAL ============================ -->
 
-<div align="center">
-
-`SYS://ONLINE`　　`MODE://BUILDING`　　`LEARNING://ENABLED`
-
-</div>
-
-<br>
-
-<img src="./assets/ui/divider-reverse.svg" width="100%" alt="Cyberpunk Divider"/>
-
-<!-- ========================== STACK =============================== -->
+<img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `02 // TECH.ARSENAL`
 
 <div align="center">
 
-### `CORE // DEVELOPMENT`
+### `DEVELOPMENT CORE`
 
-<br>
-
-<img src="https://skillicons.dev/icons?i=js,ts,angular,react,nodejs,express,html,css&theme=dark" alt="Development Stack"/>
-
-<br><br>
-
-`JavaScript`　•　`TypeScript`　•　`Angular`　•　`React`  
-`Node.js`　•　`Express.js`　•　`HTML5`　•　`CSS3`
+<img
+src="https://skillicons.dev/icons?i=js,ts,angular,react,nodejs,express,html,css&theme=dark"
+alt="Development technologies"
+/>
 
 <br><br>
 
-### `DATA // PERSISTENCE`
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,prisma&theme=dark" alt="Database Stack"/>
+`JavaScript` • `TypeScript` • `Angular` • `React` • `Node.js` • `Express.js` • `HTML5` • `CSS3`
 
 <br><br>
 
-`PostgreSQL`　•　`MySQL`　•　`SQL Server`　•　`SQL`　•　`Prisma ORM`
+### `DATA & PERSISTENCE`
+
+<img
+src="https://skillicons.dev/icons?i=postgres,mysql,prisma&theme=dark"
+alt="Database technologies"
+/>
 
 <br><br>
 
-### `TOOLS // ENVIRONMENT`
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark" alt="Development Tools"/>
+`PostgreSQL` • `MySQL` • `SQL Server` • `SQL` • `Prisma ORM`
 
 <br><br>
 
-`Git`　•　`GitHub`　•　`VS Code`　•　`Postman`
+### `ENGINEERING TOOLCHAIN`
+
+<img
+src="https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark"
+alt="Engineering tools"
+/>
+
+<br><br>
+
+`Git` • `GitHub` • `VS Code` • `Postman`
 
 </div>
 
 <br>
 
-<table>
+| `QUALITY ENGINEERING` | `IT & SYSTEMS` |
+| :--- | :--- |
+| Functional Testing | Windows |
+| Exploratory Testing | PC Hardware |
+| Issue Documentation | Software Installation |
+| Browser DevTools | Troubleshooting |
+| API Testing / Postman | Technical Support |
+| ISO/IEC 25010 | System Configuration |
 
-<tr>
 
-<td width="50%" valign="top">
+<!-- ======================= FEATURED SYSTEMS ===================== -->
 
-### `QUALITY.NODE`
-
-```diff
-+ Functional Testing
-+ Exploratory Testing
-+ Issue Documentation
-+ Browser DevTools
-+ API Testing / Postman
-+ ISO/IEC 25010
-```
-
-</td>
-
-<td width="50%" valign="top">
-
-### `SYSTEM.NODE`
-
-```diff
-+ Windows
-+ PC Hardware
-+ Software Installation
-+ Troubleshooting
-+ Technical Support
-+ System Configuration
-```
-
-</td>
-
-</tr>
-
-</table>
-
-<br>
-
-<img src="./assets/ui/divider.svg" width="100%" alt="Cyberpunk Divider"/>
-
-<!-- ========================= PROJECTS ============================== -->
+<img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `03 // FEATURED.SYSTEMS`
 
 <div align="center">
 
-### `SELECTED DEVELOPMENT WORK`
-
-`REAL PROJECTS // REAL INTERFACES // CONTINUOUS IMPROVEMENT`
-
-<br>
+`SELECTED SOFTWARE ENGINEERING PROJECTS`
 
 </div>
 
-<!-- ========================= PROJECT 001 ========================== -->
+<br>
 
-<table>
+### `SYS.01 // ERP & POS MANAGEMENT`
 
-<tr>
+<img src="./assets/muebleria.webp" width="100%" alt="ERP POS Management System"/>
 
-<td width="58%" valign="middle">
+**ERP / POS — Business Management System**
 
-<a href="https://github.com/wanglingtech/muebleria-pos">
-<img src="./assets/gestionproductosmuebleriaigen.webp" width="100%" alt="ERP POS Muebleria"/>
-</a>
+Full-stack system designed to centralize **sales, inventory, products, customers, reporting and operational management**.
 
-</td>
+`Angular` • `TypeScript` • `Node.js` • `PostgreSQL` • `REST API`
 
-<td width="42%" valign="top">
-
-### `SYSTEM // 001`
-
-## ERP / POS — Mueblería
-
-Business management system designed to centralize sales and operational processes.
-
-**CORE MODULES**
-
-`Sales` `Inventory` `Products`
-
-`Customers` `Reports` `Dashboard`
-
-**TECH**
-
-`Angular` `TypeScript`
-
-`Node.js` `PostgreSQL`
-
-`REST API`
-
-```text
-CLASS  // ERP / POS
-LAYER  // FULL STACK
-STATE  // OPERATIONAL
-```
-
-<a href="https://github.com/wanglingtech/muebleria-pos">
-<img src="https://img.shields.io/badge/SOURCE_CODE-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
-</a>
-
-</td>
-
-</tr>
-
-</table>
+**Architecture focus:** modular business logic, persistence, transactional workflows and administrative interfaces.
 
 <br>
 
-<!-- ========================= PROJECT 002 ========================== -->
+---
 
-<table>
+### `SYS.02 // COMPUTER VISION`
 
-<tr>
+<img src="./assets/peripheral-vision.png" width="100%" alt="Peripheral Vision Computer Vision System"/>
 
-<td width="42%" valign="top">
+**Peripheral Vision**
 
-### `SYSTEM // 002`
+Computer vision system designed for automatic **detection and classification of IT peripherals** using image-processing techniques.
 
-## Peripheral Vision
+`Python` • `OpenCV` • `FastAPI` • `React` • `Machine Learning`
 
-Computer vision system for automatic detection and classification of IT peripherals.
-
-**CAPABILITIES**
-
-`Computer Vision`
-
-`Object Detection`
-
-`HSV Segmentation`
-
-`Image Processing`
-
-**TECH**
-
-`Python` `OpenCV`
-
-`FastAPI` `React`
-
-`Machine Learning`
-
-```text
-CLASS  // COMPUTER VISION
-LAYER  // AI / WEB
-STATE  // EXPERIMENTAL
-```
-
-<a href="https://github.com/wanglingtech/computer-vision-peripheral-detector">
-<img src="https://img.shields.io/badge/SOURCE_CODE-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
-</a>
-
-</td>
-
-<td width="58%" valign="middle">
-
-<a href="https://github.com/wanglingtech/computer-vision-peripheral-detector">
-<img src="./assets/Seleccion_imagenpheripvision.png" width="100%" alt="Computer Vision Peripheral Detector"/>
-</a>
-
-</td>
-
-</tr>
-
-</table>
+**Engineering focus:** image processing, HSV segmentation, detection pipelines and web integration.
 
 <br>
 
-<!-- ========================= PROJECT 003 ========================== -->
+---
 
-<table>
+### `SYS.03 // SECURITY MANAGEMENT`
 
-<tr>
+<img src="./assets/security.webp" width="100%" alt="Security Management System"/>
 
-<td width="58%" valign="middle">
+**Smart Security Management System**
 
-<a href="https://github.com/wanglingtech/sistema_seguridad">
-<img src="./assets/panelparaisoverde.webp" width="100%" alt="Security Management System"/>
-</a>
+Platform for managing **residents, visitors, vehicles, access control and real-time notifications**.
 
-</td>
+`TypeScript` • `REST APIs` • `SSE`
 
-<td width="42%" valign="top">
-
-### `SYSTEM // 003`
-
-## Security Management
-
-Platform for residential security administration and real-time event monitoring.
-
-**MODULES**
-
-`Residents` `Visitors`
-
-`Vehicles` `Access Control`
-
-`Notifications`
-
-**TECH**
-
-`TypeScript`
-
-`REST APIs`
-
-`SSE`
-
-```text
-CLASS  // SECURITY SYSTEM
-MODE   // REAL-TIME
-STATE  // OPERATIONAL
-```
-
-<a href="https://github.com/wanglingtech/sistema_seguridad">
-<img src="https://img.shields.io/badge/SOURCE_CODE-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
-</a>
-
-</td>
-
-</tr>
-
-</table>
+**Engineering focus:** event-driven communication, security workflows and real-time system state.
 
 <br>
 
-<!-- ========================= PROJECT 004 ========================== -->
+---
 
-<table>
+### `SYS.04 // DIGITAL COMMERCE`
 
-<tr>
+<img src="./assets/ferreteria.webp" width="100%" alt="Ferreteria July"/>
 
-<td width="42%" valign="top">
+**Ferretería July — Interactive Catalog**
 
-### `SYSTEM // 004`
+Responsive commercial experience featuring **product discovery, quick views, shopping cart, favorites and WhatsApp integration**.
 
-## Ferretería July
+`React` • `TypeScript` • `Vite` • `Tailwind CSS`
 
-Interactive commercial catalog designed for the digital presence of a local hardware business.
+**Engineering focus:** responsive UI, state management and customer conversion flows.
 
-**FEATURES**
 
-`Product Search`
+<!-- ======================= WEB ARCHIVE ========================== -->
 
-`Quick View`
-
-`Shopping Cart`
-
-`Favorites`
-
-`WhatsApp Integration`
-
-**TECH**
-
-`React` `TypeScript`
-
-`Vite` `Tailwind CSS`
-
-```text
-CLASS  // WEB COMMERCE
-UI     // RESPONSIVE
-STATE  // DEPLOYED
-```
-
-<a href="https://github.com/wanglingtech/LandingPage_Ferreteria">
-<img src="https://img.shields.io/badge/SOURCE_CODE-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
-</a>
-
-</td>
-
-<td width="58%" valign="middle">
-
-<a href="https://github.com/wanglingtech/LandingPage_Ferreteria">
-<img src="./assets/inicioferreteriajulylandingpage.webp" width="100%" alt="Ferreteria July"/>
-</a>
-
-</td>
-
-</tr>
-
-</table>
-
-<br>
-
-<img src="./assets/ui/divider-reverse.svg" width="100%" alt="Cyberpunk Divider"/>
-
-<!-- ======================= PROJECT ARCHIVE ======================== -->
+<img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `04 // WEB.PROJECT_ARCHIVE`
 
-<div align="center">
-
-`ADDITIONAL WEB DEVELOPMENT PROJECTS`
-
-<br><br>
-
 <table>
 
 <tr>
 
-<td width="50%" align="center" valign="top">
+<td width="50%" valign="top">
 
-### `BARBER // STUDIO`
+<h3 align="center"><code>BARBER STUDIO</code></h3>
 
-<img src="./assets/iniciobarberia.webp" width="100%" alt="Barber Studio"/>
+<img src="./assets/barberia.webp" width="100%" alt="Barber Studio"/>
 
-<br>
+<p align="center">
+Responsive business landing page.
+</p>
 
-Responsive landing page for a barber business.
-
-<br><br>
-
-`Responsive UI`　•　`Services`　•　`Appointments`
-
-<br><br>
-
-<a href="https://github.com/wanglingtech/Landing_Page_BarberStudio">
-<img src="https://img.shields.io/badge/VIEW_PROJECT-6D28D9?style=flat-square&logo=github&logoColor=white" alt="View Barber Project"/>
-</a>
+<p align="center">
+<code>UI</code>
+<code>Services</code>
+<code>Appointments</code>
+<code>Responsive</code>
+</p>
 
 </td>
 
-<td width="50%" align="center" valign="top">
+<td width="50%" valign="top">
 
-### `BRASAS // DEL SABOR`
+<h3 align="center"><code>BRASAS DEL SABOR</code></h3>
 
-<img src="./assets/iniciopollobrasasdelsabor.webp" width="100%" alt="Brasas del Sabor"/>
+<img src="./assets/polleria.webp" width="100%" alt="Brasas del Sabor"/>
 
-<br>
+<p align="center">
+Interactive restaurant website and digital catalog.
+</p>
 
-Interactive restaurant landing page and digital catalog.
-
-<br><br>
-
-`Catalog`　•　`Cart`　•　`WhatsApp`　•　`Maps`
-
-<br><br>
-
-<a href="https://github.com/wanglingtech/LandingPage_Polleria">
-<img src="https://img.shields.io/badge/VIEW_PROJECT-6D28D9?style=flat-square&logo=github&logoColor=white" alt="View Polleria Project"/>
-</a>
+<p align="center">
+<code>Catalog</code>
+<code>Cart</code>
+<code>WhatsApp</code>
+<code>Maps</code>
+</p>
 
 </td>
 
@@ -477,45 +235,20 @@ Interactive restaurant landing page and digital catalog.
 
 </table>
 
-</div>
 
-<br>
+<!-- ========================= EXPERIENCE ========================= -->
 
-<img src="./assets/ui/divider.svg" width="100%" alt="Cyberpunk Divider"/>
-
-<!-- ======================== EXPERIENCE ============================ -->
+<img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `05 // EXPERIENCE.LOG`
 
-<table>
+### `2026.04 ───────── 2026.08`
 
-<tr>
-
-<td width="28%" valign="middle" align="center">
-
-### `CAREER.EVENT`
-
-```text
-2026.04
-   │
-   │
-   ▼
-2026.08
-
-COMPLETED
-```
-
-</td>
-
-<td width="72%" valign="top">
-
-### `WEB DEVELOPMENT INTERN`
+### **Web Development Intern**
 
 **GRUPO LOOMSITE SOLUCIONES TI S.A.C.S.**
 
-`APR 2026 ───────────────────────────── AUG 2026`
-
-Participated in the development and maintenance of **Landing Page, E-Commerce and E-Learning platforms**.
+Worked on development and maintenance of **Landing Page, E-Commerce and E-Learning platforms**.
 
 ```diff
 + Web development and maintenance
@@ -526,334 +259,128 @@ Participated in the development and maintenance of **Landing Page, E-Commerce an
 + Technical improvements
 ```
 
-**PRODUCTION STACK**
+**Production stack**
 
 `HTML` • `CSS` • `JavaScript` • `WordPress` • `WooCommerce`
 
-</td>
+`STATUS // INTERNSHIP COMPLETED`
 
-</tr>
 
-</table>
+<!-- ======================== EDUCATION =========================== -->
 
-<br>
-
-<img src="./assets/ui/divider-reverse.svg" width="100%" alt="Cyberpunk Divider"/>
-
-<!-- ========================= ACADEMIC ============================= -->
+<img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `06 // ACADEMIC.NETWORK`
 
-```text
-2023
- │
- ●──── SYSTEMS ENGINEERING
- │     Universidad César Vallejo
- │
- │
-2025
- │
- ●──── HELP DESK ASSISTANT
- │     Intermediate Certification
- │
- │
-2026.04
- │
- ●──── WEB DEVELOPMENT INTERNSHIP
- │     Grupo Loomsite Soluciones TI
- │
-2026.08
- │
- ●──── INTERNSHIP COMPLETED
- │
-2026.09
- │
- ●──── VIII SEMESTER
- │
- ▼
-CURRENT
-```
+### `UNIVERSIDAD CÉSAR VALLEJO`
+
+**Systems Engineering**
+
+`2023 ───────────────────────────── PRESENT`
+
+`CURRENT LEVEL // VIII SEMESTER`
 
 <br>
 
-### `CURRENTLY.EXPLORING`
+| `SOFTWARE QUALITY` | `SECURITY` | `IoT` | `DATA` |
+| :---: | :---: | :---: | :---: |
+| ISO/IEC 25010 | Risk Management | Microcontrollers | Business Intelligence |
+| Quality Models | Information Security | Connected Systems | Data Warehouse |
+| Functional Testing | Security Controls | IoT Architecture | Big Data |
 
-<table>
 
-<tr>
+<!-- ====================== CERTIFICATIONS ======================== -->
 
-<td width="25%" align="center" valign="top">
-
-### `QUALITY`
-
-**ISO/IEC 25010**
-
-Software Quality Models
-
-Functional Testing
-
-</td>
-
-<td width="25%" align="center" valign="top">
-
-### `SECURITY`
-
-**Risk Management**
-
-Information Security
-
-Security Controls
-
-</td>
-
-<td width="25%" align="center" valign="top">
-
-### `IoT`
-
-**Microcontrollers**
-
-Connected Systems
-
-IoT Architecture
-
-</td>
-
-<td width="25%" align="center" valign="top">
-
-### `DATA`
-
-**Business Intelligence**
-
-Data Warehouse
-
-Big Data
-
-</td>
-
-</tr>
-
-</table>
-
-<br>
-
-<img src="./assets/ui/divider.svg" width="100%" alt="Cyberpunk Divider"/>
-
-<!-- ====================== CERTIFICATIONS ========================== -->
+<img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `07 // CERTIFICATION.DATABASE`
 
-<table>
+| YEAR | ORGANIZATION | CERTIFICATION / TRAINING | STATUS |
+| :---: | :--- | :--- | :---: |
+| `2026` | Cisco Networking Academy | Computer Hardware Basics | `CERTIFIED` |
+| `2026` | MTPE | Word & Excel for Work — Basic Level | `CERTIFIED` |
+| `2025` | Universidad César Vallejo | Help Desk Assistant | `CERTIFIED` |
+| `2025` | Universidad César Vallejo | Knowledge Management in the AI Era I & II | `COMPLETED` |
 
-<tr>
 
-<td width="50%" valign="top">
+<!-- ========================== MISSION =========================== -->
 
-### `CISCO // 2026`
-
-#### Computer Hardware Basics
-
-Cisco Networking Academy
-
-`STATUS // CERTIFIED`
-
-</td>
-
-<td width="50%" valign="top">
-
-### `MTPE // 2026`
-
-#### Word & Excel for Work
-
-Basic Level
-
-Ministerio de Trabajo y Promoción del Empleo
-
-`STATUS // CERTIFIED`
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### `UCV // 2025`
-
-#### Help Desk Assistant
-
-Intermediate Certification
-
-Universidad César Vallejo
-
-`STATUS // CERTIFIED`
-
-</td>
-
-<td width="50%" valign="top">
-
-### `UCV // 2025`
-
-#### Knowledge Management in the AI Era
-
-Modules I & II
-
-Universidad César Vallejo
-
-`STATUS // COMPLETED`
-
-</td>
-
-</tr>
-
-</table>
-
-<br>
-
-<img src="./assets/ui/divider-reverse.svg" width="100%" alt="Cyberpunk Divider"/>
-
-<!-- ========================= MISSION ============================== -->
+<img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `08 // CURRENT.MISSION`
 
-<table>
+<img src="./assets/ui/mission.svg" width="100%" alt="Current engineering mission"/>
 
-<tr>
-<td align="center"><code>01</code></td>
-<td><strong>Build</strong> production-oriented software projects</td>
-<td align="center"><code>ACTIVE</code></td>
-</tr>
 
-<tr>
-<td align="center"><code>02</code></td>
-<td>Strengthen <strong>SQL & database engineering</strong></td>
-<td align="center"><code>ACTIVE</code></td>
-</tr>
+<!-- ======================== TELEMETRY =========================== -->
 
-<tr>
-<td align="center"><code>03</code></td>
-<td>Improve <strong>software architecture</strong> practices</td>
-<td align="center"><code>ACTIVE</code></td>
-</tr>
-
-<tr>
-<td align="center"><code>04</code></td>
-<td>Develop <strong>QA & software testing</strong> skills</td>
-<td align="center"><code>ACTIVE</code></td>
-</tr>
-
-<tr>
-<td align="center"><code>05</code></td>
-<td>Explore <strong>Cybersecurity, IoT & AI</strong></td>
-<td align="center"><code>LEARNING</code></td>
-</tr>
-
-<tr>
-<td align="center"><code>06</code></td>
-<td>Prepare for <strong>Software / IT opportunities</strong></td>
-<td align="center"><code>ACTIVE</code></td>
-</tr>
-
-</table>
-
-<br>
-
-<img src="./assets/ui/divider.svg" width="100%" alt="Cyberpunk Divider"/>
-
-<!-- ========================= TELEMETRY ============================ -->
+<img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `09 // SYSTEM.TELEMETRY`
 
 <div align="center">
 
-### `GITHUB // ACTIVITY MATRIX`
-
-<br>
-
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=wanglingtech&bg_color=0D1117&color=A855F7&line=7C3AED&point=C084FC&area=true&area_color=581C87&hide_border=true&custom_title=WangLing%20Tech%20%2F%2F%20Development%20Activity"
-width="100%"
-alt="WangLing Tech GitHub Activity Graph"
-/>
-
-<br><br>
-
-### `CONTRIBUTION // STREAM`
-
-<br>
+### `CONTRIBUTION STREAM`
 
 <img
 src="https://raw.githubusercontent.com/wanglingtech/wanglingtech/output/github-contribution-grid-snake-dark.svg"
 width="100%"
-alt="WangLing Tech Contribution Snake"
+alt="WangLing Tech contribution snake"
 />
 
 <br>
 
-`COMMITS`　•　`PROJECTS`　•　`LEARNING`　•　`CONTINUOUS DEVELOPMENT`
+`CODE`　•　`PROJECTS`　•　`EXPERIMENTS`　•　`CONTINUOUS LEARNING`
 
 </div>
 
-<br>
 
-<img src="./assets/ui/divider-reverse.svg" width="100%" alt="Cyberpunk Divider"/>
+<!-- ========================= CONTACT ============================ -->
 
-<!-- ========================= CONNECTION =========================== -->
+<img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `10 // CONNECTION.UPLINK`
 
 <div align="center">
 
-### `> ESTABLISH CONNECTION_`
+### `> READY FOR NEXT CHALLENGE_`
 
-Interested in opportunities related to **Software Development, Systems, Databases, QA and IT**.
+Interested in opportunities involving **Software Development, Systems, Databases, QA and IT**.
 
 <br>
 
 <a href="mailto:kevinvillegas.dev@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+<img src="https://img.shields.io/badge/EMAIL-A855F7?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://www.linkedin.com/in/kevin-villegas-solis-7b0038366/">
-<img src="https://img.shields.io/badge/LINKEDIN-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LINKEDIN-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="https://github.com/wanglingtech">
-<img src="https://img.shields.io/badge/GITHUB-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br><br>
 
 <img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3000&pause=900&color=A855F7&center=true&vCenter=true&repeat=true&width=780&height=45&lines=%3E+UPLINK+AVAILABLE...;%3E+OPEN+TO+SOFTWARE+%26+IT+OPPORTUNITIES;%3E+BUILDING+SYSTEMS.+SOLVING+PROBLEMS.;%3E+ALWAYS+LEARNING.+ALWAYS+BUILDING."
-alt="Connection Status"
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&repeat=true&width=850&height=40&lines=%3E+OPEN+TO+SOFTWARE+%26+IT+OPPORTUNITIES;%3E+ENGINEERING+SOLUTIONS+ONE+ITERATION+AT+A+TIME.;%3E+BUILDING.+LEARNING.+IMPROVING."
+alt="Professional status"
 />
-
-<br>
-
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-7C3AED?style=flat-square" alt="System Online"/>
-<img src="https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-A855F7?style=flat-square" alt="Open to Opportunities"/>
 
 </div>
 
+
+<!-- ========================== FOOTER ============================ -->
+
 <br>
 
-<img src="./assets/ui/divider.svg" width="100%" alt="Cyberpunk Divider"/>
-
-<!-- =========================== FOOTER ============================= -->
+<img src="./assets/ui/footer.svg" width="100%" alt="WangLing Tech Footer"/>
 
 <div align="center">
 
-<img src="./assets/ui/footer.svg" width="100%" alt="WangLing Tech Cyberpunk Footer"/>
-
-### `W A N G L I N G // T E C H`
-
-**`BUILD // LEARN // ITERATE`**
-
-`SOFTWARE` • `SYSTEMS` • `DATA` • `QUALITY`
-
-<br>
-
-<sub>Kevin Villegas Solis // Lima, Peru</sub>
+<sub>
+Kevin Villegas Solis · Systems Engineering · Lima, Peru
+</sub>
 
 </div>

@@ -1,0 +1,190 @@
+<svg width="1200" height="310" viewBox="0 0 1200 310"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="308"
+    rx="14"
+    fill="#0D1117"
+    stroke="#30363D"
+  />
+
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="4"
+    fill="url(#edge)"
+  />
+
+  <text
+    x="40"
+    y="48"
+    fill="#A855F7"
+    font-family="monospace"
+    font-size="16"
+    font-weight="bold">
+    MISSION QUEUE // ACTIVE OBJECTIVES
+  </text>
+
+  <!-- Mission 01 -->
+
+  <text x="45" y="95"
+        fill="#22D3EE"
+        font-family="monospace"
+        font-size="15">01</text>
+
+  <text x="95" y="95"
+        fill="#E6EDF3"
+        font-family="monospace"
+        font-size="15">
+    Build production-oriented software
+  </text>
+
+  <text x="1050" y="95"
+        fill="#3FB950"
+        font-family="monospace"
+        font-size="13">
+    ACTIVE
+  </text>
+
+  <!-- Mission 02 -->
+
+  <text x="45" y="130"
+        fill="#22D3EE"
+        font-family="monospace"
+        font-size="15">02</text>
+
+  <text x="95" y="130"
+        fill="#E6EDF3"
+        font-family="monospace"
+        font-size="15">
+    Strengthen SQL &amp; database engineering
+  </text>
+
+  <text x="1050" y="130"
+        fill="#3FB950"
+        font-family="monospace"
+        font-size="13">
+    ACTIVE
+  </text>
+
+  <!-- Mission 03 -->
+
+  <text x="45" y="165"
+        fill="#22D3EE"
+        font-family="monospace"
+        font-size="15">03</text>
+
+  <text x="95" y="165"
+        fill="#E6EDF3"
+        font-family="monospace"
+        font-size="15">
+    Improve architecture &amp; clean-code practices
+  </text>
+
+  <text x="1050" y="165"
+        fill="#3FB950"
+        font-family="monospace"
+        font-size="13">
+    ACTIVE
+  </text>
+
+  <!-- Mission 04 -->
+
+  <text x="45" y="200"
+        fill="#22D3EE"
+        font-family="monospace"
+        font-size="15">04</text>
+
+  <text x="95" y="200"
+        fill="#E6EDF3"
+        font-family="monospace"
+        font-size="15">
+    Develop QA &amp; software testing skills
+  </text>
+
+  <text x="1050" y="200"
+        fill="#3FB950"
+        font-family="monospace"
+        font-size="13">
+    ACTIVE
+  </text>
+
+  <!-- Mission 05 -->
+
+  <text x="45" y="235"
+        fill="#22D3EE"
+        font-family="monospace"
+        font-size="15">05</text>
+
+  <text x="95" y="235"
+        fill="#E6EDF3"
+        font-family="monospace"
+        font-size="15">
+    Explore cybersecurity, IoT &amp; AI
+  </text>
+
+  <text x="1020" y="235"
+        fill="#A855F7"
+        font-family="monospace"
+        font-size="13">
+    LEARNING
+  </text>
+
+  <!-- progress -->
+
+  <rect x="40"
+        y="270"
+        width="1120"
+        height="3"
+        rx="2"
+        fill="#21262D"/>
+
+  <rect x="40"
+        y="270"
+        height="3"
+        rx="2"
+        fill="url(#edge)"
+        filter="url(#glow)">
+
+    <animate
+      attributeName="width"
+      values="0;1120;1120"
+      keyTimes="0;0.7;1"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+
+  </rect>
+
+  <text
+    x="40"
+    y="295"
+    fill="#8B949E"
+    font-family="monospace"
+    font-size="12">
+    CONTINUOUS IMPROVEMENT PROTOCOL
+  </text>
+
+</svg>
