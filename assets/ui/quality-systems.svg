@@ -1,0 +1,107 @@
+<svg width="1200" height="310" viewBox="0 0 1200 310"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+<linearGradient id="qline" x1="0" x2="1">
+<stop offset="0%" stop-color="#A855F7"/>
+<stop offset="100%" stop-color="#22D3EE"/>
+</linearGradient>
+</defs>
+
+<rect x="1" y="1" width="1198" height="308" rx="14"
+fill="#0D1117" stroke="#30363D"/>
+
+<!-- QUALITY -->
+
+<rect x="25" y="25" width="555" height="260" rx="10"
+fill="#161B22" stroke="#30363D"/>
+
+<text x="55" y="65"
+fill="#A855F7"
+font-family="monospace"
+font-size="16"
+font-weight="bold">
+QUALITY.NODE
+</text>
+
+<text x="55" y="103" fill="#E6EDF3"
+font-family="monospace" font-size="14">
++ Functional Testing
+</text>
+
+<text x="55" y="133" fill="#E6EDF3"
+font-family="monospace" font-size="14">
++ Exploratory Testing
+</text>
+
+<text x="55" y="163" fill="#E6EDF3"
+font-family="monospace" font-size="14">
++ Issue Documentation
+</text>
+
+<text x="55" y="193" fill="#E6EDF3"
+font-family="monospace" font-size="14">
++ Browser DevTools
+</text>
+
+<text x="55" y="223" fill="#E6EDF3"
+font-family="monospace" font-size="14">
++ API Testing / Postman
+</text>
+
+<text x="55" y="253" fill="#22D3EE"
+font-family="monospace" font-size="14">
++ ISO/IEC 25010
+</text>
+
+<!-- SYSTEM -->
+
+<rect x="620" y="25" width="555" height="260" rx="10"
+fill="#161B22" stroke="#30363D"/>
+
+<text x="650" y="65"
+fill="#22D3EE"
+font-family="monospace"
+font-size="16"
+font-weight="bold">
+SYSTEM.NODE
+</text>
+
+<text x="650" y="103" fill="#E6EDF3"
+font-family="monospace" font-size="14">
++ Windows
+</text>
+
+<text x="650" y="133" fill="#E6EDF3"
+font-family="monospace" font-size="14">
++ PC Hardware
+</text>
+
+<text x="650" y="163" fill="#E6EDF3"
+font-family="monospace" font-size="14">
++ Software Installation
+</text>
+
+<text x="650" y="193" fill="#E6EDF3"
+font-family="monospace" font-size="14">
++ Troubleshooting
+</text>
+
+<text x="650" y="223" fill="#E6EDF3"
+font-family="monospace" font-size="14">
++ Technical Support
+</text>
+
+<text x="650" y="253" fill="#22D3EE"
+font-family="monospace" font-size="14">
++ System Configuration
+</text>
+
+<rect x="25" y="301" height="2" fill="url(#qline)">
+<animate attributeName="width"
+values="0;1150;0"
+dur="6s"
+repeatCount="indefinite"/>
+</rect>
+
+</svg>

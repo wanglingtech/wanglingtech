@@ -1,12 +1,7 @@
-<!-- ============================================================= -->
-<!--                                                               -->
-<!--        WANGLING TECH // ENGINEERING PROFILE SYSTEM             -->
-<!--               KEVIN VILLEGAS SOLIS                             -->
-<!--                                                               -->
-<!-- ============================================================= -->
-
-
-<!-- ========================= HERO =============================== -->
+<!-- ============================================================ -->
+<!-- WANGLING TECH // ENGINEERING PROFILE                         -->
+<!-- KEVIN VILLEGAS SOLIS                                        -->
+<!-- ============================================================ -->
 
 <div align="center">
 
@@ -15,41 +10,29 @@
 <br>
 
 <img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2500&pause=650&color=A855F7&center=true&vCenter=true&repeat=true&width=900&height=50&lines=%3E+INITIALIZING+WANGLING_TECH...;%3E+SOFTWARE+DEVELOPMENT+%2F%2F+SYSTEMS+ENGINEERING;%3E+DATABASES+%2F%2F+QA+%2F%2F+IT+SYSTEMS;%3E+BUILDING+SYSTEMS.+SOLVING+PROBLEMS.;%3E+BUILD+%2F%2F+LEARN+%2F%2F+ITERATE"
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=650&color=A855F7&center=true&vCenter=true&repeat=true&width=900&height=50&lines=%3E+INITIALIZING+WANGLING_TECH...;%3E+SOFTWARE+DEVELOPMENT+%2F%2F+SYSTEMS+ENGINEERING;%3E+DATABASES+%2F%2F+QA+%2F%2F+IT+SYSTEMS;%3E+BUILDING+SYSTEMS.+SOLVING+PROBLEMS.;%3E+BUILD+%2F%2F+LEARN+%2F%2F+ITERATE"
 alt="WangLing Tech"
 />
 
-<img src="./assets/ui/terminal.svg" width="100%" alt="WangLing Tech terminal"/>
+<img src="./assets/ui/terminal.svg" width="100%" alt="WangLing Tech Terminal"/>
 
 </div>
 
 
-<!-- ====================== SYSTEM IDENTITY ======================= -->
+<!-- ===================== IDENTITY ============================== -->
 
 <img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `01 // SYSTEM.IDENTITY`
 
-<img src="./assets/ui/system-status.svg" width="100%" alt="Engineering status"/>
+<img src="./assets/ui/system-status.svg" width="100%" alt="Engineering System Status"/>
 
-### `> WHOAMI`
+<br>
 
-I'm **Kevin Villegas Solis**, a Systems Engineering student in Lima, Peru, currently completing the **VIII semester** of my degree.
-
-My main focus is **software development**, with practical experience building and maintaining web applications and working with **JavaScript, TypeScript, Angular, React, Node.js, REST APIs, SQL and relational databases**.
-
-My technical profile also includes **functional testing, software quality, troubleshooting and IT support**, while I continue expanding into **Information Security, IoT, Business Intelligence and Artificial Intelligence**.
-
-```text
-ROLE        // Systems Engineering Student
-LOCATION    // Lima, Peru
-FOCUS       // Software Development
-SECONDARY   // Databases · QA · IT Systems
-STATUS      // Building · Learning · Improving
-```
+<img src="./assets/ui/identity-card.svg" width="100%" alt="Kevin Villegas Engineering Identity"/>
 
 
-<!-- ========================= ARSENAL ============================ -->
+<!-- ====================== ARSENAL ============================== -->
 
 <img src="./assets/ui/section-line.svg" width="100%"/>
 
@@ -57,58 +40,52 @@ STATUS      // Building · Learning · Improving
 
 <div align="center">
 
-### `DEVELOPMENT CORE`
+### `CORE // DEVELOPMENT`
 
 <img
 src="https://skillicons.dev/icons?i=js,ts,angular,react,nodejs,express,html,css&theme=dark"
-alt="Development technologies"
+alt="Development Technologies"
 />
 
 <br><br>
 
-`JavaScript` • `TypeScript` • `Angular` • `React` • `Node.js` • `Express.js` • `HTML5` • `CSS3`
+`JavaScript`　•　`TypeScript`　•　`Angular`　•　`React`  
+`Node.js`　•　`Express.js`　•　`HTML5`　•　`CSS3`
 
 <br><br>
 
-### `DATA & PERSISTENCE`
+### `DATA // PERSISTENCE`
 
 <img
 src="https://skillicons.dev/icons?i=postgres,mysql,prisma&theme=dark"
-alt="Database technologies"
+alt="Database Technologies"
 />
 
 <br><br>
 
-`PostgreSQL` • `MySQL` • `SQL Server` • `SQL` • `Prisma ORM`
+`PostgreSQL`　•　`MySQL`　•　`SQL Server`　•　`SQL`　•　`Prisma ORM`
 
 <br><br>
 
-### `ENGINEERING TOOLCHAIN`
+### `ENGINEERING // TOOLCHAIN`
 
 <img
 src="https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark"
-alt="Engineering tools"
+alt="Engineering Tools"
 />
 
 <br><br>
 
-`Git` • `GitHub` • `VS Code` • `Postman`
+`Git`　•　`GitHub`　•　`VS Code`　•　`Postman`
 
 </div>
 
 <br>
 
-| `QUALITY ENGINEERING` | `IT & SYSTEMS` |
-| :--- | :--- |
-| Functional Testing | Windows |
-| Exploratory Testing | PC Hardware |
-| Issue Documentation | Software Installation |
-| Browser DevTools | Troubleshooting |
-| API Testing / Postman | Technical Support |
-| ISO/IEC 25010 | System Configuration |
+<img src="./assets/ui/quality-systems.svg" width="100%" alt="Quality Engineering and IT Systems"/>
 
 
-<!-- ======================= FEATURED SYSTEMS ===================== -->
+<!-- ===================== FEATURED ============================== -->
 
 <img src="./assets/ui/section-line.svg" width="100%"/>
 
@@ -116,7 +93,9 @@ alt="Engineering tools"
 
 <div align="center">
 
-`SELECTED SOFTWARE ENGINEERING PROJECTS`
+### `SELECTED ENGINEERING PROJECTS`
+
+`FULL STACK`　•　`COMPUTER VISION`　•　`REAL-TIME SYSTEMS`　•　`WEB ENGINEERING`
 
 </div>
 
@@ -124,15 +103,21 @@ alt="Engineering tools"
 
 ### `SYS.01 // ERP & POS MANAGEMENT`
 
-<img src="assets\projects\muebleria.webp" width="100%" alt="ERP POS Management System"/>
+<img src="./assets/projects/muebleria.webp" width="100%" alt="ERP POS Management System"/>
 
-**ERP / POS — Business Management System**
+### **ERP / POS — Business Management System**
 
-Full-stack system designed to centralize **sales, inventory, products, customers, reporting and operational management**.
+Full-stack business platform designed to centralize **sales, inventory, products, customers, reporting and operational processes**.
 
-`Angular` • `TypeScript` • `Node.js` • `PostgreSQL` • `REST API`
+**CORE MODULES**
 
-**Architecture focus:** modular business logic, persistence, transactional workflows and administrative interfaces.
+`Sales`　`Inventory`　`Products`　`Customers`　`Reports`　`Dashboard`
+
+**TECH**
+
+`Angular`　•　`TypeScript`　•　`Node.js`　•　`PostgreSQL`　•　`REST API`
+
+> **ENGINEERING FOCUS //** Modular business logic, persistence, transactional workflows and administrative interfaces.
 
 <br>
 
@@ -140,15 +125,21 @@ Full-stack system designed to centralize **sales, inventory, products, customers
 
 ### `SYS.02 // COMPUTER VISION`
 
-<img src="assets\projects\peripheral-vision.png" width="100%" alt="Peripheral Vision Computer Vision System"/>
+<img src="./assets/projects/peripheral-vision.png" width="100%" alt="Peripheral Vision"/>
 
-**Peripheral Vision**
+### **Peripheral Vision**
 
-Computer vision system designed for automatic **detection and classification of IT peripherals** using image-processing techniques.
+Computer vision system for automatic **detection and classification of IT peripherals** through image-processing pipelines.
 
-`Python` • `OpenCV` • `FastAPI` • `React` • `Machine Learning`
+**CAPABILITIES**
 
-**Engineering focus:** image processing, HSV segmentation, detection pipelines and web integration.
+`Object Detection`　`Image Processing`　`HSV Segmentation`　`Classification`
+
+**TECH**
+
+`Python`　•　`OpenCV`　•　`FastAPI`　•　`React`　•　`Machine Learning`
+
+> **ENGINEERING FOCUS //** Computer vision pipelines, image segmentation, detection logic and web integration.
 
 <br>
 
@@ -156,15 +147,21 @@ Computer vision system designed for automatic **detection and classification of 
 
 ### `SYS.03 // SECURITY MANAGEMENT`
 
-<img src="assets\projects\security.webp" width="100%" alt="Security Management System"/>
+<img src="./assets/projects/security.webp" width="100%" alt="Security Management System"/>
 
-**Smart Security Management System**
+### **Smart Security Management System**
 
-Platform for managing **residents, visitors, vehicles, access control and real-time notifications**.
+Platform designed to manage **residents, visitors, vehicles, access control and real-time notifications**.
 
-`TypeScript` • `REST APIs` • `SSE`
+**SYSTEM MODULES**
 
-**Engineering focus:** event-driven communication, security workflows and real-time system state.
+`Residents`　`Visitors`　`Vehicles`　`Access Control`　`Events`
+
+**TECH**
+
+`TypeScript`　•　`REST APIs`　•　`SSE`
+
+> **ENGINEERING FOCUS //** Event-driven communication, access workflows and real-time system state.
 
 <br>
 
@@ -172,35 +169,49 @@ Platform for managing **residents, visitors, vehicles, access control and real-t
 
 ### `SYS.04 // DIGITAL COMMERCE`
 
-<img src="assets\projects\inicioferreteriajulylandingpage.webp" width="100%" alt="Ferreteria July"/>
+<img src="./assets/projects/inicioferreteriajulylandingpage.webp" width="100%" alt="Ferreteria July"/>
 
-**Ferretería July — Interactive Catalog**
+### **Ferretería July — Interactive Catalog**
 
-Responsive commercial experience featuring **product discovery, quick views, shopping cart, favorites and WhatsApp integration**.
+Responsive commercial platform featuring **product discovery, quick views, shopping cart, favorites and WhatsApp integration**.
 
-`React` • `TypeScript` • `Vite` • `Tailwind CSS`
+**CAPABILITIES**
 
-**Engineering focus:** responsive UI, state management and customer conversion flows.
+`Catalog`　`Search`　`Cart`　`Favorites`　`WhatsApp`
+
+**TECH**
+
+`React`　•　`TypeScript`　•　`Vite`　•　`Tailwind CSS`
+
+> **ENGINEERING FOCUS //** Responsive UI, state management and customer conversion flows.
 
 
-<!-- ======================= WEB ARCHIVE ========================== -->
+<!-- ======================= ARCHIVE ============================= -->
 
 <img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `04 // WEB.PROJECT_ARCHIVE`
 
-<table>
+<div align="center">
 
+### `COMMERCIAL WEB INTERFACES`
+
+</div>
+
+<table>
 <tr>
 
 <td width="50%" valign="top">
 
-<h3 align="center"><code>BARBER STUDIO</code></h3>
+<h3 align="center">
+<code>WEB // 01</code><br>
+BARBER STUDIO
+</h3>
 
-<img src="assets\projects\barberia.webp" width="100%" alt="Barber Studio"/>
+<img src="./assets/projects/barberia.webp" width="100%" alt="Barber Studio"/>
 
 <p align="center">
-Responsive business landing page.
+Responsive business landing experience.
 </p>
 
 <p align="center">
@@ -214,9 +225,12 @@ Responsive business landing page.
 
 <td width="50%" valign="top">
 
-<h3 align="center"><code>BRASAS DEL SABOR</code></h3>
+<h3 align="center">
+<code>WEB // 02</code><br>
+BRASAS DEL SABOR
+</h3>
 
-<img src="assets\projects\polleria.webp" width="100%" alt="Brasas del Sabor"/>
+<img src="./assets/projects/polleria.webp" width="100%" alt="Brasas del Sabor"/>
 
 <p align="center">
 Interactive restaurant website and digital catalog.
@@ -232,23 +246,22 @@ Interactive restaurant website and digital catalog.
 </td>
 
 </tr>
-
 </table>
 
 
-<!-- ========================= EXPERIENCE ========================= -->
+<!-- ===================== EXPERIENCE ============================ -->
 
 <img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `05 // EXPERIENCE.LOG`
 
-### `2026.04 ───────── 2026.08`
-
-### **Web Development Intern**
+### `WEB DEVELOPMENT INTERN // 2026`
 
 **GRUPO LOOMSITE SOLUCIONES TI S.A.C.S.**
 
-Worked on development and maintenance of **Landing Page, E-Commerce and E-Learning platforms**.
+`APR 2026 ━━━━━━━━━━━━━━━━━━━━━━━━━ AUG 2026`
+
+Participated in the development and maintenance of **Landing Page, E-Commerce and E-Learning platforms**.
 
 ```diff
 + Web development and maintenance
@@ -259,60 +272,49 @@ Worked on development and maintenance of **Landing Page, E-Commerce and E-Learni
 + Technical improvements
 ```
 
-**Production stack**
+### `PRODUCTION STACK`
 
-`HTML` • `CSS` • `JavaScript` • `WordPress` • `WooCommerce`
+`HTML`　•　`CSS`　•　`JavaScript`　•　`WordPress`　•　`WooCommerce`
 
 `STATUS // INTERNSHIP COMPLETED`
 
 
-<!-- ======================== EDUCATION =========================== -->
+<!-- ===================== ACADEMIC ============================== -->
 
 <img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `06 // ACADEMIC.NETWORK`
 
-### `UNIVERSIDAD CÉSAR VALLEJO`
+### `SYSTEMS ENGINEERING // UNIVERSIDAD CÉSAR VALLEJO`
 
-**Systems Engineering**
-
-`2023 ───────────────────────────── PRESENT`
+`2023 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ PRESENT`
 
 `CURRENT LEVEL // VIII SEMESTER`
 
 <br>
 
-| `SOFTWARE QUALITY` | `SECURITY` | `IoT` | `DATA` |
-| :---: | :---: | :---: | :---: |
-| ISO/IEC 25010 | Risk Management | Microcontrollers | Business Intelligence |
-| Quality Models | Information Security | Connected Systems | Data Warehouse |
-| Functional Testing | Security Controls | IoT Architecture | Big Data |
+<img src="./assets/ui/academic-grid.svg" width="100%" alt="Current Academic Areas"/>
 
 
-<!-- ====================== CERTIFICATIONS ======================== -->
+<!-- ================= CERTIFICATIONS ============================ -->
 
 <img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `07 // CERTIFICATION.DATABASE`
 
-| YEAR | ORGANIZATION | CERTIFICATION / TRAINING | STATUS |
-| :---: | :--- | :--- | :---: |
-| `2026` | Cisco Networking Academy | Computer Hardware Basics | `CERTIFIED` |
-| `2026` | MTPE | Word & Excel for Work — Basic Level | `CERTIFIED` |
-| `2025` | Universidad César Vallejo | Help Desk Assistant | `CERTIFIED` |
-| `2025` | Universidad César Vallejo | Knowledge Management in the AI Era I & II | `COMPLETED` |
+<img src="./assets/ui/certifications.svg" width="100%" alt="Certifications and Training"/>
 
 
-<!-- ========================== MISSION =========================== -->
+<!-- ======================= MISSION ============================== -->
 
 <img src="./assets/ui/section-line.svg" width="100%"/>
 
 ## `08 // CURRENT.MISSION`
 
-<img src="./assets/ui/mission.svg" width="100%" alt="Current engineering mission"/>
+<img src="./assets/ui/mission.svg" width="100%" alt="Current Engineering Mission"/>
 
 
-<!-- ======================== TELEMETRY =========================== -->
+<!-- ====================== TELEMETRY ============================= -->
 
 <img src="./assets/ui/section-line.svg" width="100%"/>
 
@@ -320,26 +322,59 @@ Worked on development and maintenance of **Landing Page, E-Commerce and E-Learni
 
 <div align="center">
 
-### `CONTRIBUTION STREAM`
+### `GITHUB // CONTRIBUTION MATRIX`
+
+<img
+src="https://ghchart.rshah.org/A855F7/wanglingtech"
+width="100%"
+alt="Kevin Villegas GitHub Contribution Chart"
+/>
+
+<br><br>
+
+### `CONTRIBUTION // STREAM`
 
 <img
 src="https://raw.githubusercontent.com/wanglingtech/wanglingtech/output/github-contribution-grid-snake-dark.svg"
 width="100%"
-alt="WangLing Tech contribution snake"
+alt="WangLing Tech Contribution Snake"
 />
 
 <br>
 
-`CODE`　•　`PROJECTS`　•　`EXPERIMENTS`　•　`CONTINUOUS LEARNING`
+`COMMITS`　•　`PROJECTS`　•　`EXPERIMENTS`　•　`CONTINUOUS DEVELOPMENT`
 
 </div>
 
 
-<!-- ========================= CONTACT ============================ -->
+<!-- ======================== SIGNAL ============================== -->
 
 <img src="./assets/ui/section-line.svg" width="100%"/>
 
-## `10 // CONNECTION.UPLINK`
+## `10 // ENGINEERING.SIGNAL`
+
+<div align="center">
+
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2300&pause=700&color=22D3EE&center=true&vCenter=true&repeat=true&width=950&height=45&lines=%5B+SYSTEMS+ENGINEERING+%5D+%E2%86%92+BUILDING+TECHNICAL+FOUNDATIONS;%5B+SOFTWARE+%5D+%E2%86%92+DESIGNING+AND+IMPLEMENTING+SYSTEMS;%5B+DATA+%5D+%E2%86%92+STRUCTURING+INFORMATION+FOR+DECISIONS;%5B+QUALITY+%5D+%E2%86%92+TESTING+BEFORE+TRUSTING;%5B+IT+%5D+%E2%86%92+UNDERSTANDING+THE+SYSTEM+BEHIND+THE+SOFTWARE"
+alt="Engineering Signal"
+/>
+
+<br>
+
+**Software is one layer of the system.  
+Engineering means understanding how the layers connect.**
+
+`DESIGN`　→　`BUILD`　→　`TEST`　→　`MEASURE`　→　`IMPROVE`
+
+</div>
+
+
+<!-- ======================== CONTACT ============================= -->
+
+<img src="./assets/ui/section-line.svg" width="100%"/>
+
+## `11 // CONNECTION.UPLINK`
 
 <div align="center">
 
@@ -364,14 +399,14 @@ Interested in opportunities involving **Software Development, Systems, Databases
 <br><br>
 
 <img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&repeat=true&width=850&height=40&lines=%3E+OPEN+TO+SOFTWARE+%26+IT+OPPORTUNITIES;%3E+ENGINEERING+SOLUTIONS+ONE+ITERATION+AT+A+TIME.;%3E+BUILDING.+LEARNING.+IMPROVING."
-alt="Professional status"
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2600&pause=800&color=A855F7&center=true&vCenter=true&repeat=true&width=850&height=40&lines=%3E+OPEN+TO+SOFTWARE+%26+IT+OPPORTUNITIES;%3E+ENGINEERING+SOLUTIONS+ONE+ITERATION+AT+A+TIME.;%3E+BUILDING.+LEARNING.+IMPROVING."
+alt="Professional Status"
 />
 
 </div>
 
 
-<!-- ========================== FOOTER ============================ -->
+<!-- ======================== FOOTER ============================== -->
 
 <br>
 

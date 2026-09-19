@@ -1,0 +1,202 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="edge" x1="0" x2="1">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#A855F7"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+  </linearGradient>
+
+  <radialGradient id="ambient">
+    <stop offset="0%" stop-color="#581C87" stop-opacity=".20"/>
+    <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+<rect x="1" y="1" width="1198" height="398" rx="14"
+fill="#0D1117" stroke="#30363D"/>
+
+<rect x="1" y="1" width="1198" height="398" rx="14"
+fill="url(#ambient)"/>
+
+<rect x="1" y="1" width="1198" height="4" rx="2"
+fill="url(#edge)"/>
+
+<!-- LEFT -->
+
+<text x="45" y="52"
+fill="#A855F7"
+font-family="monospace"
+font-size="15"
+font-weight="bold">
+IDENTITY // 0xKV
+</text>
+
+<text x="45" y="96"
+fill="#E6EDF3"
+font-family="monospace"
+font-size="27"
+font-weight="bold">
+KEVIN VILLEGAS SOLIS
+</text>
+
+<text x="45" y="128"
+fill="#22D3EE"
+font-family="monospace"
+font-size="15">
+SYSTEMS ENGINEERING // SOFTWARE DEVELOPMENT
+</text>
+
+<line x1="45" y1="150" x2="720" y2="150"
+stroke="#30363D"/>
+
+<text x="45" y="188"
+fill="#8B949E"
+font-family="monospace"
+font-size="13">
+PROFILE
+</text>
+
+<text x="45" y="217"
+fill="#E6EDF3"
+font-family="monospace"
+font-size="14">
+Engineering student with practical experience in
+</text>
+
+<text x="45" y="241"
+fill="#E6EDF3"
+font-family="monospace"
+font-size="14">
+software development, web systems and maintenance.
+</text>
+
+<text x="45" y="275"
+fill="#E6EDF3"
+font-family="monospace"
+font-size="14">
+Working across development, databases, software
+</text>
+
+<text x="45" y="299"
+fill="#E6EDF3"
+font-family="monospace"
+font-size="14">
+quality, troubleshooting and IT environments.
+</text>
+
+<text x="45" y="342"
+fill="#8B949E"
+font-family="monospace"
+font-size="12">
+CURRENT EXPANSION
+</text>
+
+<text x="45" y="369"
+fill="#C084FC"
+font-family="monospace"
+font-size="13">
+SECURITY // IoT // DATA // ARTIFICIAL INTELLIGENCE
+</text>
+
+<!-- DIVIDER -->
+
+<line x1="770" y1="40" x2="770" y2="360"
+stroke="#30363D"/>
+
+<!-- RIGHT -->
+
+<text x="820" y="65"
+fill="#8B949E"
+font-family="monospace"
+font-size="12">
+ROLE
+</text>
+
+<text x="820" y="89"
+fill="#E6EDF3"
+font-family="monospace"
+font-size="14"
+font-weight="bold">
+SYSTEMS ENGINEERING STUDENT
+</text>
+
+<text x="820" y="130"
+fill="#8B949E"
+font-family="monospace"
+font-size="12">
+ACADEMIC LEVEL
+</text>
+
+<text x="820" y="154"
+fill="#E6EDF3"
+font-family="monospace"
+font-size="14">
+VIII SEMESTER
+</text>
+
+<text x="820" y="195"
+fill="#8B949E"
+font-family="monospace"
+font-size="12">
+LOCATION
+</text>
+
+<text x="820" y="219"
+fill="#E6EDF3"
+font-family="monospace"
+font-size="14">
+LIMA // PERU
+</text>
+
+<text x="820" y="260"
+fill="#8B949E"
+font-family="monospace"
+font-size="12">
+PRIMARY
+</text>
+
+<text x="820" y="284"
+fill="#A855F7"
+font-family="monospace"
+font-size="14"
+font-weight="bold">
+SOFTWARE DEVELOPMENT
+</text>
+
+<circle cx="827" cy="329" r="6"
+fill="#3FB950" filter="url(#glow)">
+  <animate attributeName="opacity"
+  values=".25;1;.25"
+  dur="1.6s"
+  repeatCount="indefinite"/>
+</circle>
+
+<text x="846" y="334"
+fill="#3FB950"
+font-family="monospace"
+font-size="13">
+SYSTEM // ACTIVE
+</text>
+
+<rect x="820" y="355" width="310" height="3"
+fill="#21262D"/>
+
+<rect x="820" y="355" height="3"
+fill="url(#edge)">
+  <animate attributeName="width"
+  values="40;310;40"
+  dur="5s"
+  repeatCount="indefinite"/>
+</rect>
+
+</svg>
