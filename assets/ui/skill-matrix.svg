@@ -1,0 +1,141 @@
+<svg width="1200" height="440" viewBox="0 0 1200 440" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="mx-edge" x1="0" x2="1">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#A855F7"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+  </linearGradient>
+  <linearGradient id="mx-fill" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.30"/>
+  </linearGradient>
+  <linearGradient id="mx-bar" x1="0" x2="1">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+  </linearGradient>
+  <filter id="mx-glow">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<!-- FRAME -->
+<rect x="1" y="1" width="1198" height="438" rx="14" fill="#0D1117" stroke="#30363D"/>
+<rect x="1" y="1" width="1198" height="4" rx="2" fill="url(#mx-edge)"/>
+
+<text x="35" y="42" fill="#A855F7"
+      font-family="monospace" font-size="14" font-weight="bold">
+  SKILL.MATRIX // CAPABILITY ANALYTICS
+</text>
+
+<!-- ============ LEFT: RADAR ============ -->
+<rect x="25" y="65" width="565" height="350" rx="10" fill="#161B22" stroke="#30363D"/>
+<text x="55" y="92" fill="#22D3EE" font-family="monospace" font-size="12">
+  RADAR // CORE CAPABILITIES
+</text>
+
+<!-- Grid rings -->
+<polygon points="330,100 451.2,170 451.2,310 330,380 208.8,310 208.8,170"
+         fill="none" stroke="#30363D" stroke-width="1"/>
+<polygon points="330,135 420.9,187.5 420.9,292.5 330,345 239.1,292.5 239.1,187.5"
+         fill="none" stroke="#21262D" stroke-width="1"/>
+<polygon points="330,170 390.6,205 390.6,275 330,310 269.4,275 269.4,205"
+         fill="none" stroke="#21262D" stroke-width="1"/>
+<polygon points="330,205 360.3,222.5 360.3,257.5 330,275 299.7,257.5 299.7,222.5"
+         fill="none" stroke="#21262D" stroke-width="1"/>
+
+<!-- Axes -->
+<g stroke="#21262D" stroke-width="1">
+  <line x1="330" y1="240" x2="330" y2="100"/>
+  <line x1="330" y1="240" x2="451.2" y2="170"/>
+  <line x1="330" y1="240" x2="451.2" y2="310"/>
+  <line x1="330" y1="240" x2="330" y2="380"/>
+  <line x1="330" y1="240" x2="208.8" y2="310"/>
+  <line x1="330" y1="240" x2="208.8" y2="170"/>
+</g>
+
+<!-- DATA POLYGON (v: 0.88 / 0.80 / 0.85 / 0.75 / 0.92 / 0.65) -->
+<polygon points="330,116.8 427,184 433.1,299.5 330,345 218.5,304.4 251.2,194.5"
+         fill="url(#mx-fill)"
+         stroke="url(#mx-edge)"
+         stroke-width="2"
+         filter="url(#mx-glow)">
+  <animate attributeName="opacity" values="0;1;1" dur="2s" fill="freeze"/>
+</polygon>
+
+<!-- Vertex dots -->
+<g fill="#22D3EE" filter="url(#mx-glow)">
+  <circle cx="330" cy="116.8" r="4"><animate attributeName="r" values="3;5;3" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="427" cy="184" r="4"/>
+  <circle cx="433.1" cy="299.5" r="4"/>
+  <circle cx="330" cy="345" r="4"/>
+  <circle cx="218.5" cy="304.4" r="4"/>
+  <circle cx="251.2" cy="194.5" r="4"/>
+</g>
+
+<!-- Labels -->
+<g font-family="monospace" font-size="11" fill="#8B949E" letter-spacing="1">
+  <text x="330" y="88" text-anchor="middle" fill="#A855F7">FRONTEND</text>
+  <text x="470" y="170">BACKEND</text>
+  <text x="470" y="316">DATABASES</text>
+  <text x="330" y="402" text-anchor="middle">QA / TESTING</text>
+  <text x="190" y="316" text-anchor="end">IT / SYSTEMS</text>
+  <text x="190" y="170" text-anchor="end">DEVOPS / TOOLS</text>
+</g>
+
+<!-- ============ RIGHT: BARS ============ -->
+<rect x="610" y="65" width="565" height="350" rx="10" fill="#161B22" stroke="#30363D"/>
+<text x="640" y="92" fill="#22D3EE" font-family="monospace" font-size="12">
+  BARS // PROFICIENCY INDEX
+</text>
+
+<!-- ROW 1: FRONTEND 88 -->
+<text x="640" y="135" fill="#E6EDF3" font-family="monospace" font-size="12" letter-spacing="1">FRONTEND</text>
+<rect x="870" y="125" width="250" height="12" rx="3" fill="#21262D"/>
+<rect x="870" y="125" width="0" height="12" rx="3" fill="url(#mx-bar)" filter="url(#mx-glow)">
+  <animate attributeName="width" values="0;220" dur="1.8s" fill="freeze"/>
+</rect>
+<text x="1130" y="135" fill="#22D3EE" font-family="monospace" font-size="12">88%</text>
+
+<!-- ROW 2: BACKEND 80 -->
+<text x="640" y="180" fill="#E6EDF3" font-family="monospace" font-size="12" letter-spacing="1">BACKEND</text>
+<rect x="870" y="170" width="250" height="12" rx="3" fill="#21262D"/>
+<rect x="870" y="170" width="0" height="12" rx="3" fill="url(#mx-bar)" filter="url(#mx-glow)">
+  <animate attributeName="width" values="0;200" dur="1.8s" fill="freeze"/>
+</rect>
+<text x="1130" y="180" fill="#22D3EE" font-family="monospace" font-size="12">80%</text>
+
+<!-- ROW 3: DATABASES 85 -->
+<text x="640" y="225" fill="#E6EDF3" font-family="monospace" font-size="12" letter-spacing="1">DATABASES / SQL</text>
+<rect x="870" y="215" width="250" height="12" rx="3" fill="#21262D"/>
+<rect x="870" y="215" width="0" height="12" rx="3" fill="url(#mx-bar)" filter="url(#mx-glow)">
+  <animate attributeName="width" values="0;212.5" dur="1.8s" fill="freeze"/>
+</rect>
+<text x="1130" y="225" fill="#22D3EE" font-family="monospace" font-size="12">85%</text>
+
+<!-- ROW 4: QA 75 -->
+<text x="640" y="270" fill="#E6EDF3" font-family="monospace" font-size="12" letter-spacing="1">QA / TESTING</text>
+<rect x="870" y="260" width="250" height="12" rx="3" fill="#21262D"/>
+<rect x="870" y="260" width="0" height="12" rx="3" fill="url(#mx-bar)" filter="url(#mx-glow)">
+  <animate attributeName="width" values="0;187.5" dur="1.8s" fill="freeze"/>
+</rect>
+<text x="1130" y="270" fill="#22D3EE" font-family="monospace" font-size="12">75%</text>
+
+<!-- ROW 5: IT 92 -->
+<text x="640" y="315" fill="#E6EDF3" font-family="monospace" font-size="12" letter-spacing="1">IT SYSTEMS</text>
+<rect x="870" y="305" width="250" height="12" rx="3" fill="#21262D"/>
+<rect x="870" y="305" width="0" height="12" rx="3" fill="url(#mx-bar)" filter="url(#mx-glow)">
+  <animate attributeName="width" values="0;230" dur="1.8s" fill="freeze"/>
+</rect>
+<text x="1130" y="315" fill="#22D3EE" font-family="monospace" font-size="12">92%</text>
+
+<!-- ROW 6: DEVOPS 65 -->
+<text x="640" y="360" fill="#E6EDF3" font-family="monospace" font-size="12" letter-spacing="1">DEVOPS / TOOLS</text>
+<rect x="870" y="350" width="250" height="12" rx="3" fill="#21262D"/>
+<rect x="870" y="350" width="0" height="12" rx="3" fill="url(#mx-bar)" filter="url(#mx-glow)">
+  <animate attributeName="width" values="0;162.5" dur="1.8s" fill="freeze"/>
+</rect>
+<text x="1130" y="360" fill="#22D3EE" font-family="monospace" font-size="12">65%</text>
+
+</svg>
