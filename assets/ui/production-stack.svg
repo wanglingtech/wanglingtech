@@ -1,0 +1,33 @@
+<svg width="1200" height="145" viewBox="0 0 1200 145"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+<linearGradient id="g">
+<stop stop-color="#A855F7"/>
+<stop offset=".5" stop-color="#7C3AED"/>
+<stop offset="1" stop-color="#22D3EE"/>
+</linearGradient>
+
+<style>
+.h{font:700 18px monospace;fill:#E6EDF3}
+.t{font:600 12px monospace;fill:#22D3EE}
+.s{font:500 11px monospace;fill:#8B949E}
+</style>
+</defs>
+
+<rect x="1" y="1" width="1198" height="143" rx="10"
+fill="#0D1117" stroke="url(#g)"/>
+
+<text x="35" y="39" class="h">PRODUCTION // TECHNOLOGIES</text>
+
+<text x="35" y="78" class="t">
+HTML // CSS // JAVASCRIPT // WORDPRESS // WOOCOMMERCE
+</text>
+
+<text x="35" y="111" class="s">
+LANDING PAGES · E-COMMERCE · E-LEARNING · RESPONSIVE MAINTENANCE
+</text>
+
+<circle cx="1135" cy="37" r="5" fill="#3FB950"/>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+<linearGradient id="g">
+<stop stop-color="#A855F7"/>
+<stop offset="1" stop-color="#22D3EE"/>
+</linearGradient>
+
+<style>
+.n{font:700 11px monospace;fill:#A855F7}
+.h{font:700 21px monospace;fill:#E6EDF3}
+.t{font:500 13px monospace;fill:#C9D1D9}
+.c{font:600 11px monospace;fill:#22D3EE}
+</style>
+</defs>
+
+<rect x="1" y="1" width="1198" height="148" rx="10"
+fill="#0D1117" stroke="url(#g)"/>
+
+<text x="35" y="35" class="n">WEB.01 // COMMERCIAL INTERFACE</text>
+<text x="35" y="70" class="h">BLACK CROWN // BARBER STUDIO</text>
+<text x="35" y="101" class="t">
+Responsive service showcase and appointment-oriented business interface.
+</text>
+<text x="35" y="130" class="c">
+SERVICES // APPOINTMENTS // RESPONSIVE UI
+</text>
+
+<circle cx="1130" cy="32" r="5" fill="#3FB950"/>
+
+</svg>

@@ -1,0 +1,33 @@
+<svg width="1200" height="145" viewBox="0 0 1200 145"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+<linearGradient id="g">
+<stop stop-color="#A855F7"/>
+<stop offset=".55" stop-color="#7C3AED"/>
+<stop offset="1" stop-color="#22D3EE"/>
+</linearGradient>
+
+<style>
+.h{font:700 20px monospace;fill:#E6EDF3}
+.s{font:600 12px monospace;fill:#22D3EE}
+.x{font:500 11px monospace;fill:#A855F7}
+</style>
+</defs>
+
+<rect x="1" y="1" width="1198" height="143" rx="12"
+fill="#0D1117" stroke="url(#g)" stroke-width="2"/>
+
+<text x="600" y="43" text-anchor="middle" class="h">
+COMMERCIAL // WEB INTERFACES
+</text>
+
+<text x="600" y="81" text-anchor="middle" class="s">
+RESPONSIVE DESIGN // BUSINESS UI // DIGITAL COMMERCE
+</text>
+
+<text x="600" y="113" text-anchor="middle" class="x">
+FROM BUSINESS REQUIREMENTS TO DEPLOYED INTERFACES
+</text>
+
+</svg>
