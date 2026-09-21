@@ -175,10 +175,7 @@ SOFTWARE DEVELOPMENT
 
 <circle cx="827" cy="329" r="6"
 fill="#3FB950" filter="url(#glow)">
-  <animate attributeName="opacity"
-  values=".25;1;.25"
-  dur="1.6s"
-  repeatCount="indefinite"/>
+
 </circle>
 
 <text x="846" y="334"
@@ -191,12 +188,9 @@ SYSTEM // ACTIVE
 <rect x="820" y="355" width="310" height="3"
 fill="#21262D"/>
 
-<rect x="820" y="355" height="3"
+<rect x="820" y="355" width="310" height="3"
 fill="url(#edge)">
-  <animate attributeName="width"
-  values="40;310;40"
-  dur="5s"
-  repeatCount="indefinite"/>
+
 </rect>
 
 </svg>

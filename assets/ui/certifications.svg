@@ -1,75 +1,8 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg">
-
-<defs>
-  <linearGradient id="cert" x1="0" x2="1">
-    <stop offset="0%" stop-color="#7C3AED"/>
-    <stop offset="50%" stop-color="#A855F7"/>
-    <stop offset="100%" stop-color="#22D3EE"/>
-  </linearGradient>
-</defs>
-
-<rect x="1" y="1" width="1198" height="338" rx="14" fill="#0D1117" stroke="#30363D"/>
-
-<text x="35" y="45" fill="#A855F7"
-      font-family="monospace" font-size="14" font-weight="bold">
-  VERIFIED LEARNING RECORDS // DATABASE
-</text>
-
-<!-- ============ ROW 1 ============ -->
-
-<!-- CARD 1: CISCO -->
-<rect x="30" y="70" width="370" height="100" rx="9" fill="#161B22" stroke="#30363D"/>
-<text x="50" y="98" fill="#22D3EE" font-family="monospace" font-size="12">CISCO // 2026</text>
-<text x="50" y="128" fill="#E6EDF3" font-family="monospace" font-size="14" font-weight="bold">Computer Hardware Basics</text>
-<text x="380" y="128" text-anchor="end" fill="#3FB950" font-family="monospace" font-size="11">[CERTIFIED]</text>
-<line x1="50" y1="145" x2="380" y2="145" stroke="#21262D"/>
-<text x="50" y="160" fill="#8B949E" font-family="monospace" font-size="10">ID // HW-BASICS</text>
-
-<!-- CARD 2: MTPE -->
-<rect x="415" y="70" width="370" height="100" rx="9" fill="#161B22" stroke="#30363D"/>
-<text x="435" y="98" fill="#22D3EE" font-family="monospace" font-size="12">MTPE // 2026</text>
-<text x="435" y="128" fill="#E6EDF3" font-family="monospace" font-size="14" font-weight="bold">Word &amp; Excel for Work — Basic</text>
-<text x="765" y="128" text-anchor="end" fill="#3FB950" font-family="monospace" font-size="11">[CERTIFIED]</text>
-<line x1="435" y1="145" x2="765" y2="145" stroke="#21262D"/>
-<text x="435" y="160" fill="#8B949E" font-family="monospace" font-size="10">ID // OFFICE-BASIC</text>
-
-<!-- CARD 3: UCV Help Desk -->
-<rect x="800" y="70" width="370" height="100" rx="9" fill="#161B22" stroke="#30363D"/>
-<text x="820" y="98" fill="#A855F7" font-family="monospace" font-size="12">UCV // 2025</text>
-<text x="820" y="128" fill="#E6EDF3" font-family="monospace" font-size="14" font-weight="bold">Help Desk Assistant</text>
-<text x="1150" y="128" text-anchor="end" fill="#3FB950" font-family="monospace" font-size="11">[CERTIFIED]</text>
-<line x1="820" y1="145" x2="1150" y2="145" stroke="#21262D"/>
-<text x="820" y="160" fill="#8B949E" font-family="monospace" font-size="10">ID // HELP-DESK</text>
-
-<!-- ============ ROW 2 ============ -->
-
-<!-- CARD 4: UCV AI Era -->
-<rect x="30" y="185" width="370" height="100" rx="9" fill="#161B22" stroke="#30363D"/>
-<text x="50" y="213" fill="#A855F7" font-family="monospace" font-size="12">UCV // 2025</text>
-<text x="50" y="243" fill="#E6EDF3" font-family="monospace" font-size="14" font-weight="bold">Knowledge Mgmt · AI Era I &amp; II</text>
-<text x="380" y="243" text-anchor="end" fill="#22D3EE" font-family="monospace" font-size="11">[COMPLETED]</text>
-<line x1="50" y1="260" x2="380" y2="260" stroke="#21262D"/>
-<text x="50" y="275" fill="#8B949E" font-family="monospace" font-size="10">ID // KM-AI-I-II</text>
-
-<!-- CARD 5: freeCodeCamp (IN PROGRESS) -->
-<rect x="415" y="185" width="370" height="100" rx="9" fill="#161B22" stroke="#A855F7" stroke-dasharray="4 4"/>
-<text x="435" y="213" fill="#22D3EE" font-family="monospace" font-size="12">freeCodeCamp // 2026</text>
-<text x="435" y="243" fill="#E6EDF3" font-family="monospace" font-size="14" font-weight="bold">Full Stack Development Path</text>
-<text x="765" y="243" text-anchor="end" fill="#A855F7" font-family="monospace" font-size="11">[IN PROGRESS]</text>
-<line x1="435" y1="260" x2="765" y2="260" stroke="#21262D"/>
-<text x="435" y="275" fill="#8B949E" font-family="monospace" font-size="10">ID // FCC-FULLSTACK</text>
-
-<!-- CARD 6: PLANNED (slot libre) -->
-<rect x="800" y="185" width="370" height="100" rx="9" fill="#161B22" stroke="#30363D" stroke-dasharray="4 4"/>
-<text x="820" y="213" fill="#8B949E" font-family="monospace" font-size="12">— // 2026</text>
-<text x="820" y="243" fill="#8B949E" font-family="monospace" font-size="14" font-weight="bold">Next Certification Slot</text>
-<text x="1150" y="243" text-anchor="end" fill="#8B949E" font-family="monospace" font-size="11">[PLANNED]</text>
-<line x1="820" y1="260" x2="1150" y2="260" stroke="#21262D"/>
-<text x="820" y="275" fill="#8B949E" font-family="monospace" font-size="10">ID // RESERVED</text>
-
-<!-- PROGRESS BAR -->
-<rect x="30" y="316" height="3" fill="url(#cert)">
-  <animate attributeName="width" values="100;1140;100" dur="6s" repeatCount="indefinite"/>
-</rect>
-
+<svg width="1200" height="330" viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="certs" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.num{font:700 13px monospace;fill:#22D3EE}.org{font:700 14px monospace;fill:#A855F7}.name{font:600 16px monospace;fill:#E6EDF3}</style></defs>
+<rect x="1" y="1" width="1198" height="328" rx="14" fill="#0D1117" stroke="#30363D"/><text x="35" y="42" class="org">CONFIRMED LEARNING RECORDS // 04</text>
+<g><rect x="30" y="65" width="555" height="105" rx="10" fill="#161B22" stroke="#7C3AED"/><text x="50" y="94" class="num">01 // 2026</text><text x="50" y="122" class="org">CISCO NETWORKING ACADEMY</text><text x="50" y="151" class="name">Computer Hardware Basics</text></g>
+<g><rect x="615" y="65" width="555" height="105" rx="10" fill="#161B22" stroke="#A855F7"/><text x="635" y="94" class="num">02 // 2026</text><text x="635" y="122" class="org">MTPE</text><text x="635" y="151" class="name">Word &amp; Excel for Work — Basic Level</text></g>
+<g><rect x="30" y="190" width="555" height="105" rx="10" fill="#161B22" stroke="#A855F7"/><text x="50" y="219" class="num">03 // 2025</text><text x="50" y="247" class="org">UNIVERSIDAD CÉSAR VALLEJO</text><text x="50" y="276" class="name">Help Desk Assistant</text></g>
+<g><rect x="615" y="190" width="555" height="105" rx="10" fill="#161B22" stroke="#22D3EE"/><text x="635" y="219" class="num">04 // 2025</text><text x="635" y="247" class="org">UNIVERSIDAD CÉSAR VALLEJO</text><text x="635" y="276" class="name">Knowledge Management in the AI Era I &amp; II</text></g><rect x="30" y="313" width="1140" height="2" fill="url(#certs)"/>
 </svg>

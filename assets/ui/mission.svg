@@ -163,18 +163,13 @@
 
   <rect x="40"
         y="270"
+        width="1120"
         height="3"
         rx="2"
         fill="url(#edge)"
         filter="url(#glow)">
 
-    <animate
-      attributeName="width"
-      values="0;1120;1120"
-      keyTimes="0;0.7;1"
-      dur="5s"
-      repeatCount="indefinite"
-    />
+
 
   </rect>
 

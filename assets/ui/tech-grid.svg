@@ -52,7 +52,7 @@ fill="#0D1117" stroke="#A855F7"/>
 <circle cx="1130" cy="57" r="4" fill="#3FB950"/>
 
 <text x="645" y="112" class="sub">RELATIONAL DATA SYSTEMS</text>
-<text x="645" y="143" class="sub">POSTGRESQL · MYSQL · SQL SERVER · PRISMA</text>
+<text x="645" y="143" class="sub">POSTGRESQL · MYSQL · SQL SERVER · SQL · PRISMA ORM</text>
 
 <!-- CARD 3 -->
 <rect x="20" y="205" width="570" height="165" rx="10"

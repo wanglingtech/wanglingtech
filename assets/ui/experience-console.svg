@@ -1,4 +1,4 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300"
+<svg width="1200" height="330" viewBox="0 0 1200 330"
 xmlns="http://www.w3.org/2000/svg">
 
 <defs>
@@ -16,7 +16,7 @@ xmlns="http://www.w3.org/2000/svg">
 </style>
 </defs>
 
-<rect x="1" y="1" width="1198" height="298" rx="12"
+<rect x="1" y="1" width="1198" height="328" rx="12"
 fill="#0D1117" stroke="url(#g)" stroke-width="2"/>
 
 <rect x="25" y="23" width="1150" height="43" rx="6" fill="#161B22"/>
@@ -38,12 +38,13 @@ GRUPO LOOMSITE SOLUCIONES TI S.A.C.S.
 APR 2026 ───────────────────── AUG 2026
 </text>
 
-<line x1="610" y1="86" x2="610" y2="260" stroke="#30363D"/>
+<line x1="610" y1="86" x2="610" y2="290" stroke="#30363D"/>
 
 <text x="45" y="172" class="t">+ Web development &amp; maintenance</text>
 <text x="45" y="200" class="t">+ Functional / visual issue resolution</text>
 <text x="45" y="228" class="t">+ Responsive validation</text>
 <text x="45" y="256" class="t">+ Cross-device compatibility</text>
+<text x="45" y="284" class="t">+ Technical improvements</text>
 
 <text x="650" y="102" class="p">PRODUCTION // STACK</text>
 

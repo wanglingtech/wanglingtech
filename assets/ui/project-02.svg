@@ -14,8 +14,8 @@ xmlns="http://www.w3.org/2000/svg">
 .x{font:500 14px monospace;fill:#C9D1D9}
 .c{font:600 12px monospace;fill:#22D3EE}
 .green{fill:#3FB950}
-.blink{animation:b 2s infinite}
-@keyframes b{50%{opacity:.25}}
+
+}
 </style>
 </defs>
 
@@ -26,9 +26,9 @@ fill="#0D1117" stroke="url(#g)" stroke-width="2"/>
 
 <text x="43" y="47" class="s">SYS.02 // COMPUTER VISION</text>
 
-<circle cx="1085" cy="41" r="5" class="green blink"/>
+<circle cx="1085" cy="41" r="5" class="green"/>
 <text x="1100" y="45" font-family="monospace" font-size="10" fill="#3FB950">
-ACTIVE
+PROTOTYPE
 </text>
 
 <text x="42" y="95" class="t">PERIPHERAL VISION</text>

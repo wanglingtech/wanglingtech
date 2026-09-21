@@ -1,478 +1,156 @@
-<!-- ============================================================ -->
-<!-- WANGLING TECH // ENGINEERING PROFILE                         -->
-<!-- KEVIN VILLEGAS SOLIS                                        -->
-<!-- ============================================================ -->
+<!-- WANGLING TECH // CYBERPUNK ENGINEERING INTERFACE -->
 
 <div align="center">
-
-<img src="./assets/banner_github.webp" width="100%" alt="Kevin Villegas Solis - WangLing Tech"/>
-
-<br>
-
-<img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=650&color=A855F7&center=true&vCenter=true&repeat=true&width=900&height=50&lines=%3E+INITIALIZING+WANGLING_TECH...;%3E+SOFTWARE+DEVELOPMENT+%2F%2F+SYSTEMS+ENGINEERING;%3E+DATABASES+%2F%2F+QA+%2F%2F+IT+SYSTEMS;%3E+BUILDING+SYSTEMS.+SOLVING+PROBLEMS.;%3E+BUILD+%2F%2F+LEARN+%2F%2F+ITERATE"
-alt="WangLing Tech System"
-/>
-
-<img src="./assets/ui/terminal.svg" width="100%" alt="WangLing Tech Terminal"/>
-
+<img src="./assets/banner_github.webp" width="100%" alt="Kevin Villegas Solis — WangLing Tech cyberpunk engineering profile banner"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=650&color=A855F7&center=true&vCenter=true&repeat=true&width=900&height=50&lines=%3E+INITIALIZING+WANGLING_TECH...;%3E+SOFTWARE+DEVELOPMENT+%2F%2F+SYSTEMS+ENGINEERING;%3E+DATABASES+%2F%2F+QA+%2F%2F+IT+SYSTEMS;%3E+BUILDING+SYSTEMS.+SOLVING+PROBLEMS.;%3E+BUILD+%2F%2F+LEARN+%2F%2F+ITERATE" alt="Animated WangLing Tech engineering introduction"/>
+<img src="./assets/ui/terminal.svg" width="100%" alt="WangLing Tech terminal interface"/>
 </div>
 
-<!-- ============================================================ -->
-<!-- 01 // SYSTEM.IDENTITY                                       -->
-<!-- ============================================================ -->
+<!-- 01 // SYSTEM.IDENTITY -->
+<img src="./assets/ui/section-title-01.svg" width="100%" alt="Section 01 — System Identity"/>
+<img src="./assets/ui/system-status.svg" width="100%" alt="WangLing Tech engineering profile status"/>
+<img src="./assets/ui/identity-card.svg" width="100%" alt="Kevin Villegas Solis systems engineering identity"/>
 
-<img src="./assets/ui/section-title-01.svg" width="100%" alt="01 System Identity"/>
-
-<img src="./assets/ui/system-status.svg" width="100%" alt="Engineering System Status"/>
-
-<br>
-
-<img src="./assets/ui/identity-card.svg" width="100%" alt="Kevin Villegas Engineering Identity"/>
-
-<!-- ============================================================ -->
-<!-- 02 // TECH.ARSENAL                                          -->
-<!-- ============================================================ -->
-
-<img src="./assets/ui/section-title-02.svg" width="100%" alt="02 Tech Arsenal"/>
-
-<img src="./assets/ui/tech-grid.svg" width="100%" alt="Technology Categories"/>
-
-<br>
+<!-- 02 // TECH.ARSENAL -->
+<img src="./assets/ui/section-title-02.svg" width="100%" alt="Section 02 — Tech Arsenal"/>
+<img src="./assets/ui/tech-grid.svg" width="100%" alt="Development, data, engineering and deployment technology categories"/>
 
 <table>
 <tr>
-<td width="50%" align="center">
-
-<img src="https://skillicons.dev/icons?i=js,ts,angular,react,nodejs,express,html,css&theme=dark" alt="Development Technologies"/>
-
-</td>
-
-<td width="50%" align="center">
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,prisma&theme=dark" alt="Database Technologies"/>
-
-</td>
+<td width="50%" align="center"><img src="https://skillicons.dev/icons?i=js,ts,angular,react,nodejs,express,html,css&theme=dark" alt="JavaScript TypeScript Angular React Node.js Express HTML and CSS"/></td>
+<td width="50%" align="center"><img src="https://skillicons.dev/icons?i=postgres,mysql,prisma&theme=dark" alt="PostgreSQL MySQL and Prisma ORM"/></td>
 </tr>
-
 <tr>
-<td width="50%" align="center">
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark" alt="Engineering Toolchain"/>
-
-</td>
-
-<td width="50%" align="center">
-
-<img src="https://skillicons.dev/icons?i=vercel,cloudflare&theme=dark" alt="Deployment Platforms"/>
-
-</td>
+<td width="50%" align="center"><img src="https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark" alt="Git GitHub Visual Studio Code and Postman"/></td>
+<td width="50%" align="center"><img src="https://skillicons.dev/icons?i=vercel,cloudflare&theme=dark" alt="Vercel and Cloudflare"/></td>
 </tr>
 </table>
 
-<br>
+<!-- 03 // FEATURED.SYSTEMS -->
+<img src="./assets/ui/section-title-03.svg" width="100%" alt="Section 03 — Featured Systems"/>
+<img src="./assets/ui/projects-header.svg" width="100%" alt="Selected engineering projects"/>
 
-<img src="./assets/ui/tech-console.svg" width="100%" alt="Engineering Capability Matrix"/>
-
-<br>
-
-<img src="./assets/ui/skill-matrix.svg" width="100%" alt="Engineering Skill Matrix"/>
-
-<br>
-
-<img src="./assets/ui/quality-systems.svg" width="100%" alt="Quality Engineering and IT Systems"/>
-
-<!-- ============================================================ -->
-<!-- 03 // FEATURED.SYSTEMS                                      -->
-<!-- ============================================================ -->
-
-<img src="./assets/ui/section-title-03.svg" width="100%" alt="03 Featured Systems"/>
-
-<img src="./assets/ui/projects-header.svg" width="100%" alt="Selected Engineering Projects"/>
-
-<br>
-
-<!-- ERP POS -->
-
-<img src="./assets/ui/project-01.svg" width="100%" alt="ERP POS Business Management System"/>
-
-<img src="./assets/projects/muebleria.webp" width="100%" alt="ERP POS Management System"/>
-
+<img src="./assets/ui/project-01.svg" width="100%" alt="ERP POS business management project card"/>
+<img src="./assets/projects/muebleria.webp" width="100%" alt="ERP POS management system interface"/>
 <div align="center">
-
-<img src="https://img.shields.io/badge/SALES-161B22?style=for-the-badge&labelColor=7C3AED" alt="Sales"/>
-<img src="https://img.shields.io/badge/INVENTORY-161B22?style=for-the-badge&labelColor=7C3AED" alt="Inventory"/>
-<img src="https://img.shields.io/badge/PRODUCTS-161B22?style=for-the-badge&labelColor=7C3AED" alt="Products"/>
-<img src="https://img.shields.io/badge/CUSTOMERS-161B22?style=for-the-badge&labelColor=7C3AED" alt="Customers"/>
-<img src="https://img.shields.io/badge/REPORTS-161B22?style=for-the-badge&labelColor=7C3AED" alt="Reports"/>
-<img src="https://img.shields.io/badge/DASHBOARD-161B22?style=for-the-badge&labelColor=22D3EE" alt="Dashboard"/>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=angular,ts,nodejs,express,postgres&theme=dark" alt="ERP POS Stack"/>
-
+<img src="https://img.shields.io/badge/SALES-161B22?style=for-the-badge&labelColor=7C3AED" alt="Sales capability"/>
+<img src="https://img.shields.io/badge/INVENTORY-161B22?style=for-the-badge&labelColor=7C3AED" alt="Inventory capability"/>
+<img src="https://img.shields.io/badge/CUSTOMERS-161B22?style=for-the-badge&labelColor=A855F7" alt="Customer management capability"/>
+<img src="https://img.shields.io/badge/REPORTS-161B22?style=for-the-badge&labelColor=22D3EE" alt="Reporting capability"/>
+<br>
+<img src="https://skillicons.dev/icons?i=angular,ts,nodejs,express,postgres&theme=dark" alt="Angular TypeScript Node.js Express and PostgreSQL"/>
 </div>
 
-<br>
-
-<!-- PERIPHERAL VISION -->
-
-<img src="./assets/ui/project-02.svg" width="100%" alt="Peripheral Vision System"/>
-
-<img src="./assets/projects/peripheral-vision.png" width="100%" alt="Peripheral Vision Computer Vision System"/>
-
+<img src="./assets/ui/project-02.svg" width="100%" alt="Peripheral Vision computer vision prototype card"/>
+<img src="./assets/projects/peripheral-vision.png" width="100%" alt="Peripheral Vision computer vision interface"/>
 <div align="center">
-
-<img src="https://img.shields.io/badge/DETECTION-161B22?style=for-the-badge&labelColor=7C3AED"/>
-<img src="https://img.shields.io/badge/IMAGE_PROCESSING-161B22?style=for-the-badge&labelColor=7C3AED"/>
-<img src="https://img.shields.io/badge/HSV_SEGMENTATION-161B22?style=for-the-badge&labelColor=A855F7"/>
-<img src="https://img.shields.io/badge/CLASSIFICATION-161B22?style=for-the-badge&labelColor=22D3EE"/>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=python,opencv,fastapi,react&theme=dark" alt="Peripheral Vision Stack"/>
-
+<img src="https://img.shields.io/badge/DETECTION-161B22?style=for-the-badge&labelColor=7C3AED" alt="Object detection capability"/>
+<img src="https://img.shields.io/badge/IMAGE_PROCESSING-161B22?style=for-the-badge&labelColor=7C3AED" alt="Image processing capability"/>
+<img src="https://img.shields.io/badge/HSV_SEGMENTATION-161B22?style=for-the-badge&labelColor=A855F7" alt="HSV segmentation capability"/>
+<img src="https://img.shields.io/badge/CLASSIFICATION-161B22?style=for-the-badge&labelColor=22D3EE" alt="Classification capability"/>
+<br>
+<img src="https://skillicons.dev/icons?i=python,opencv,fastapi,react&theme=dark" alt="Python OpenCV FastAPI and React"/>
 </div>
 
-<br>
-
-<!-- SECURITY -->
-
-<img src="./assets/ui/project-03.svg" width="100%" alt="Security Management System"/>
-
-<img src="./assets/projects/security.webp" width="100%" alt="Smart Security Management System"/>
-
+<img src="./assets/ui/project-03.svg" width="100%" alt="Security Management development project card"/>
+<img src="./assets/projects/security.webp" width="100%" alt="Security management system interface"/>
 <div align="center">
-
-<img src="https://img.shields.io/badge/RESIDENTS-161B22?style=for-the-badge&labelColor=7C3AED"/>
-<img src="https://img.shields.io/badge/VISITORS-161B22?style=for-the-badge&labelColor=7C3AED"/>
-<img src="https://img.shields.io/badge/VEHICLES-161B22?style=for-the-badge&labelColor=A855F7"/>
-<img src="https://img.shields.io/badge/ACCESS_CONTROL-161B22?style=for-the-badge&labelColor=A855F7"/>
-<img src="https://img.shields.io/badge/REAL--TIME_EVENTS-161B22?style=for-the-badge&labelColor=22D3EE"/>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=ts,nodejs&theme=dark"/>
-
+<img src="https://img.shields.io/badge/RESIDENTS-161B22?style=for-the-badge&labelColor=7C3AED" alt="Resident management capability"/>
+<img src="https://img.shields.io/badge/VISITORS-161B22?style=for-the-badge&labelColor=7C3AED" alt="Visitor management capability"/>
+<img src="https://img.shields.io/badge/ACCESS_CONTROL-161B22?style=for-the-badge&labelColor=A855F7" alt="Access control capability"/>
+<img src="https://img.shields.io/badge/EVENTS-161B22?style=for-the-badge&labelColor=22D3EE" alt="Event management capability"/>
+<br>
+<img src="https://skillicons.dev/icons?i=ts,nodejs&theme=dark" alt="TypeScript and Node.js"/>
 </div>
 
-<br>
-
-<!-- FERRETERIA -->
-
-<img src="./assets/ui/project-04.svg" width="100%" alt="Ferreteria July Interactive Catalog"/>
-
-<img src="./assets/projects/inicioferreteriajulylandingpage.webp" width="100%" alt="Ferreteria July"/>
-
+<img src="./assets/ui/project-04.svg" width="100%" alt="Ferretería July web project card"/>
+<img src="./assets/projects/inicioferreteriajulylandingpage.webp" width="100%" alt="Ferretería July interactive catalog interface"/>
 <div align="center">
-
-<img src="https://img.shields.io/badge/CATALOG-161B22?style=for-the-badge&labelColor=7C3AED"/>
-<img src="https://img.shields.io/badge/SEARCH-161B22?style=for-the-badge&labelColor=7C3AED"/>
-<img src="https://img.shields.io/badge/QUICK_VIEW-161B22?style=for-the-badge&labelColor=A855F7"/>
-<img src="https://img.shields.io/badge/CART-161B22?style=for-the-badge&labelColor=A855F7"/>
-<img src="https://img.shields.io/badge/WHATSAPP-161B22?style=for-the-badge&labelColor=22D3EE"/>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind&theme=dark"/>
-
+<img src="https://img.shields.io/badge/CATALOG-161B22?style=for-the-badge&labelColor=7C3AED" alt="Product catalog capability"/>
+<img src="https://img.shields.io/badge/SEARCH-161B22?style=for-the-badge&labelColor=7C3AED" alt="Product search capability"/>
+<img src="https://img.shields.io/badge/CART-161B22?style=for-the-badge&labelColor=A855F7" alt="Shopping cart capability"/>
+<img src="https://img.shields.io/badge/WHATSAPP-161B22?style=for-the-badge&labelColor=22D3EE" alt="WhatsApp ordering capability"/>
+<br>
+<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind&theme=dark" alt="React TypeScript Vite and Tailwind CSS"/>
 </div>
 
-<!-- ============================================================ -->
-<!-- 04 // WEB.PROJECT_ARCHIVE                                   -->
-<!-- ============================================================ -->
+<!-- 04 // WEB.PROJECT_ARCHIVE -->
+<img src="./assets/ui/section-title-04.svg" width="100%" alt="Section 04 — Web Project Archive"/>
+<img src="./assets/ui/web-header.svg" width="100%" alt="Commercial web interface archive"/>
+<img src="./assets/ui/web-card-01.svg" width="100%" alt="Black Crown Barber Studio web project card"/>
+<img src="./assets/projects/barberia.webp" width="100%" alt="Black Crown Barber Studio website"/>
+<img src="./assets/ui/web-card-02.svg" width="100%" alt="Brasas del Sabor digital commerce project card"/>
+<img src="./assets/projects/polleria.webp" width="100%" alt="Brasas del Sabor restaurant website"/>
 
-<img src="./assets/ui/section-title-04.svg" width="100%" alt="04 Web Project Archive"/>
-
-<img src="./assets/ui/web-header.svg" width="100%" alt="Commercial Web Interfaces"/>
-
-<br>
-
-<img src="./assets/ui/web-card-01.svg" width="100%" alt="Black Crown Barber Studio"/>
-
-<img src="./assets/projects/barberia.webp" width="100%" alt="Black Crown Barber Studio"/>
-
-<br>
-
-<img src="./assets/ui/web-card-02.svg" width="100%" alt="Brasas del Sabor"/>
-
-<img src="./assets/projects/polleria.webp" width="100%" alt="Brasas del Sabor"/>
-
-<!-- ============================================================ -->
-<!-- 05 // EXPERIENCE.LOG                                        -->
-<!-- ============================================================ -->
-
-<img src="./assets/ui/section-title-05.svg" width="100%" alt="05 Experience Log"/>
-
-<img src="./assets/ui/experience-console.svg" width="100%" alt="Web Development Internship Experience"/>
-
-<br>
-
-<img src="./assets/ui/production-stack.svg" width="100%" alt="Production Technologies"/>
-
+<!-- 05 // EXPERIENCE.LOG -->
+<img src="./assets/ui/section-title-05.svg" width="100%" alt="Section 05 — Experience Log"/>
+<img src="./assets/ui/experience-console.svg" width="100%" alt="Web Development Intern at Grupo Loomsite Soluciones TI from April to August 2026"/>
 <div align="center">
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=html,css,js,wordpress&theme=dark" alt="Internship Technologies"/>
-
+<img src="https://skillicons.dev/icons?i=html,css,js,wordpress&theme=dark" alt="HTML CSS JavaScript and WordPress"/>
 </div>
 
-<!-- ============================================================ -->
-<!-- 06 // ACADEMIC.NETWORK                                      -->
-<!-- ============================================================ -->
+<!-- 06 // ACADEMIC.NETWORK -->
+<img src="./assets/ui/section-title-06.svg" width="100%" alt="Section 06 — Academic Network"/>
+<img src="./assets/ui/academic-grid.svg" width="100%" alt="Systems Engineering at Universidad César Vallejo, current academic areas and VIII semester status"/>
 
-<img src="./assets/ui/section-title-06.svg" width="100%" alt="06 Academic Network"/>
+<!-- 07 // CERTIFICATION.DATABASE -->
+<img src="./assets/ui/section-title-07.svg" width="100%" alt="Section 07 — Certification Database"/>
+<img src="./assets/ui/certifications.svg" width="100%" alt="Four confirmed training records from Cisco Networking Academy, MTPE and Universidad César Vallejo"/>
 
-<img src="./assets/ui/academic-grid.svg" width="100%" alt="Current Academic Areas"/>
+<!-- 08 // CURRENT.MISSION -->
+<img src="./assets/ui/section-title-08.svg" width="100%" alt="Section 08 — Current Mission"/>
+<img src="./assets/ui/mission.svg" width="100%" alt="Current software engineering learning objectives"/>
 
-<!-- ============================================================ -->
-<!-- 07 // CERTIFICATION.DATABASE                                -->
-<!-- ============================================================ -->
+<!-- DIGITAL // ECOSYSTEM -->
+<img src="./assets/ui/digital-network.svg" width="100%" alt="WangLing digital ecosystem with WangLing Tech as the primary identity"/>
 
-<img src="./assets/ui/section-title-07.svg" width="100%" alt="07 Certification Database"/>
+<div align="center">
+<h3>WANGLING TECH // PRIMARY NODE</h3>
+<img src="./assets/logodemarcawanglingtech.png" width="110" alt="WangLing Tech logo"/>
 
-<img src="./assets/ui/certifications.svg" width="100%" alt="Certifications and Training"/>
+Software development and digital solutions.
 
-<!-- ============================================================ -->
-<!-- 08 // CURRENT.MISSION                                       -->
-<!-- ============================================================ -->
+<a href="https://wanglingtech.vercel.app/"><img src="https://img.shields.io/badge/OPEN_PORTFOLIO-A855F7?style=for-the-badge&logo=vercel&logoColor=white" alt="Open WangLing Tech portfolio"/></a>
+<a href="https://github.com/wanglingtech"><img src="https://img.shields.io/badge/GITHUB-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Visit WangLing Tech on GitHub"/></a>
 
-<img src="./assets/ui/section-title-08.svg" width="100%" alt="08 Current Mission"/>
+<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind&theme=dark" alt="React TypeScript Vite and Tailwind CSS"/>
 
-<img src="./assets/ui/mission.svg" width="100%" alt="Current Engineering Mission"/>
-
-<!-- ============================================================ -->
-<!-- DIGITAL // ECOSYSTEM                                        -->
-<!-- ============================================================ -->
-
-<img src="./assets/ui/digital-network.svg" width="100%" alt="WangLing Digital Ecosystem"/>
-
-<br>
-
-<table>
-<tr>
-
-<td width="50%" align="center" valign="top">
-
-<h3>WangLing Tech</h3>
-
-<img src="./assets/logodemarcawanglingtech.png" width="110" alt="WangLing Tech"/>
-
-<br><br>
-
-Software development, web solutions and digital systems for businesses.
-
-<br><br>
-
-<a href="https://wanglingtech.vercel.app/">
-<img src="https://img.shields.io/badge/OPEN_PORTFOLIO-A855F7?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<a href="https://github.com/wanglingtech">
-<img src="https://img.shields.io/badge/GITHUB-161B22?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind&theme=dark"/>
-
-</td>
-
-<td width="50%" align="center" valign="top">
-
-<h3>WangLing Gaming</h3>
-
-<img src="./assets/wanglinglogo de yt.jpg" width="110" alt="WangLing Gaming"/>
-
-<br><br>
+<h4>WANGLING GAMING // SECONDARY PROJECT</h4>
+<img src="./assets/wanglinglogo de yt.jpg" width="90" alt="WangLing Gaming logo"/>
 
 Gaming platform connecting videos, community and interactive content.
 
-<br><br>
+<a href="https://wanglinggaming.sanhorikita37.workers.dev/"><img src="https://img.shields.io/badge/VISIT_GAMING_PROJECT-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit WangLing Gaming"/></a>
+<a href="https://www.youtube.com/@xWangLingx"><img src="https://img.shields.io/badge/YOUTUBE-161B22?style=for-the-badge&logo=youtube&logoColor=FF0000" alt="Watch WangLing Gaming on YouTube"/></a>
 
-<a href="https://wanglinggaming.sanhorikita37.workers.dev/">
-<img src="https://img.shields.io/badge/OPEN_GAMING_HUB-A855F7?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
+<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,cloudflare&theme=dark" alt="React TypeScript Vite Tailwind CSS and Cloudflare"/>
 
-<a href="https://www.youtube.com/@xWangLingx">
-<img src="https://img.shields.io/badge/YOUTUBE-161B22?style=for-the-badge&logo=youtube&logoColor=FF0000"/>
-</a>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,cloudflare&theme=dark"/>
-
-</td>
-
-</tr>
-</table>
-
-<br>
-
-<div align="center">
-
-<a href="https://www.youtube.com/@xWangLingx">
-<img src="https://img.shields.io/badge/YOUTUBE-@xWangLingx-A855F7?style=for-the-badge&logo=youtube&logoColor=white"/>
-</a>
-
-<a href="https://instagram.com/xwanglingx">
-<img src="https://img.shields.io/badge/INSTAGRAM-@xwanglingx-7C3AED?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
-
-<a href="https://tiktok.com/@xwanglingx">
-<img src="https://img.shields.io/badge/TIKTOK-@xwanglingx-161B22?style=for-the-badge&logo=tiktok&logoColor=white"/>
-</a>
-
-<br>
-
-<a href="https://facebook.com/AniMe-Of-LeGends-103320744933189">
-<img src="https://img.shields.io/badge/FACEBOOK-COMMUNITY-7C3AED?style=for-the-badge&logo=facebook&logoColor=white"/>
-</a>
-
-<a href="https://x.com/KevinGOD123478">
-<img src="https://img.shields.io/badge/X-@KevinGOD123478-161B22?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
-
-<a href="https://discord.gg/tkDPuxAXz">
-<img src="https://img.shields.io/badge/DISCORD-WANGLING_ARMY-A855F7?style=for-the-badge&logo=discord&logoColor=white"/>
-</a>
-
+<a href="https://www.youtube.com/@xWangLingx"><img src="https://img.shields.io/badge/YOUTUBE-@xWangLingx-A855F7?style=for-the-badge&logo=youtube&logoColor=white" alt="WangLing YouTube channel"/></a>
+<a href="https://instagram.com/xwanglingx"><img src="https://img.shields.io/badge/INSTAGRAM-@xwanglingx-7C3AED?style=for-the-badge&logo=instagram&logoColor=white" alt="WangLing Instagram profile"/></a>
+<a href="https://tiktok.com/@xwanglingx"><img src="https://img.shields.io/badge/TIKTOK-@xwanglingx-161B22?style=for-the-badge&logo=tiktok&logoColor=white" alt="WangLing TikTok profile"/></a>
+<a href="https://discord.gg/tkDPuxAXz"><img src="https://img.shields.io/badge/DISCORD-WANGLING_ARMY-A855F7?style=for-the-badge&logo=discord&logoColor=white" alt="Join the WangLing Discord community"/></a>
 </div>
 
-<!-- ============================================================ -->
-<!-- VELYXORA // ACTIVE DEVELOPMENT                              -->
-<!-- ============================================================ -->
+<!-- VELYXORA // IN DEVELOPMENT -->
+<img src="./assets/ui/velyxora-card.svg" width="100%" alt="Velyxora authentication project in development"/>
 
-<br>
+<!-- 09 // SYSTEM.TELEMETRY -->
+<img src="./assets/ui/section-title-09.svg" width="100%" alt="Section 09 — System Telemetry"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wanglingtech&theme=2077" width="100%" alt="WangLing Tech GitHub profile activity details"/>
+<img src="https://raw.githubusercontent.com/wanglingtech/wanglingtech/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated WangLing Tech GitHub contribution snake"/>
 
+<!-- 11 // CONNECTION.UPLINK -->
+<img src="./assets/ui/section-title-11.svg" width="100%" alt="Connection Uplink"/>
+<img src="./assets/ui/uplink.svg" width="100%" alt="Professional contact uplink for software development opportunities"/>
 <div align="center">
-
-<img src="https://img.shields.io/badge/PROJECT_NODE-VELYXORA-A855F7?style=for-the-badge"/>
-
-### `VELYXORA // ACTIVE DEVELOPMENT`
-
-Authentication-oriented full-stack application currently under iterative development.
-
-<img src="https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-161B22?style=for-the-badge&labelColor=A855F7"/>
-<img src="https://img.shields.io/badge/AUTH-COOKIE_BASED-161B22?style=for-the-badge&labelColor=7C3AED"/>
-<img src="https://img.shields.io/badge/API-REST-161B22?style=for-the-badge&labelColor=22D3EE"/>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=react,ts,vite,nodejs,express&theme=dark"/>
-
+<a href="mailto:kevinvillegas.dev@gmail.com"><img src="https://img.shields.io/badge/EMAIL-A855F7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Kevin Villegas"/></a>
+<a href="https://www.linkedin.com/in/kevin-villegas-solis-7b0038366/"><img src="https://img.shields.io/badge/LINKEDIN-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" alt="Kevin Villegas LinkedIn profile"/></a>
+<a href="https://github.com/wanglingtech"><img src="https://img.shields.io/badge/GITHUB-161B22?style=for-the-badge&logo=github&logoColor=white" alt="WangLing Tech GitHub profile"/></a>
 </div>
 
-<!-- ============================================================ -->
-<!-- 09 // SYSTEM.TELEMETRY                                      -->
-<!-- ============================================================ -->
-
-<img src="./assets/ui/section-title-09.svg" width="100%" alt="09 System Telemetry"/>
-
-<img src="./assets/ui/telemetry-header.svg" width="100%" alt="Development Activity Monitor"/>
+<img src="./assets/ui/footer.svg" width="100%" alt="WangLing Tech engineering cycle: Design, Build, Test, Measure and Improve"/>
 
 <div align="center">
-
-<br>
-
-<img
-src="https://streak-stats.demolab.com?user=wanglingtech&theme=dark&background=0D1117&border=7C3AED&stroke=A855F7&ring=A855F7&fire=22D3EE&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=22D3EE&sideLabels=A855F7&dates=8B949E"
-width="80%"
-alt="GitHub Streak"
-/>
-
-<br><br>
-
-<img
-src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wanglingtech&theme=2077"
-width="100%"
-alt="GitHub Profile Details"
-/>
-
-<br>
-
-<img
-src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wanglingtech&theme=2077"
-width="49%"
-alt="Repositories per Language"
-/>
-
-<img
-src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=wanglingtech&theme=2077"
-width="49%"
-alt="Most Commit Language"
-/>
-
-<br><br>
-
-<img
-src="https://ghchart.rshah.org/A855F7/wanglingtech"
-width="100%"
-alt="GitHub Contribution Chart"
-/>
-
-<br><br>
-
-<img
-src="https://raw.githubusercontent.com/wanglingtech/wanglingtech/output/github-contribution-grid-snake-dark.svg"
-width="100%"
-alt="WangLing Tech Contribution Snake"
-/>
-
-</div>
-
-<!-- ============================================================ -->
-<!-- 10 // ENGINEERING.SIGNAL                                    -->
-<!-- ============================================================ -->
-
-<img src="./assets/ui/section-title-10.svg" width="100%" alt="10 Engineering Signal"/>
-
-<img src="./assets/ui/engineering-signal.svg" width="100%" alt="Engineering Design Protocol"/>
-
-<!-- ============================================================ -->
-<!-- 11 // CONNECTION.UPLINK                                     -->
-<!-- ============================================================ -->
-
-<img src="./assets/ui/section-title-11.svg" width="100%" alt="11 Connection Uplink"/>
-
-<img src="./assets/ui/uplink.svg" width="100%" alt="Connection Uplink"/>
-
-<div align="center">
-
-<br>
-
-<a href="mailto:kevinvillegas.dev@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-A855F7?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/kevin-villegas-solis-7b0038366/">
-<img src="https://img.shields.io/badge/LINKEDIN-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/wanglingtech">
-<img src="https://img.shields.io/badge/GITHUB-161B22?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<br><br>
-
-<img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2600&pause=800&color=A855F7&center=true&vCenter=true&repeat=true&width=850&height=40&lines=%3E+OPEN+TO+SOFTWARE+%26+IT+OPPORTUNITIES;%3E+ENGINEERING+SOLUTIONS+ONE+ITERATION+AT+A+TIME.;%3E+BUILDING.+LEARNING.+IMPROVING."
-alt="Professional Status"
-/>
-
-</div>
-
-<br>
-
-<img src="./assets/ui/footer.svg" width="100%" alt="WangLing Tech Footer"/>
-
-<div align="center">
-
-<sub>Kevin Villegas Solis · Systems Engineering · Lima, Peru</sub>
-
-<br>
-
+<sub>Kevin Villegas Solis · Systems Engineering · Lima, Peru</sub><br>
 <sub>WangLing Tech // Build · Learn · Iterate</sub>
-
 </div>
