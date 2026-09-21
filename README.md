@@ -1,11 +1,7 @@
 <!-- ============================================================ -->
-<!--                                                              -->
-<!--        WANGLING TECH // ENGINEERING PROFILE SYSTEM            -->
-<!--               KEVIN VILLEGAS SOLIS                            -->
-<!--                                                              -->
+<!-- WANGLING TECH // ENGINEERING PROFILE                         -->
+<!-- KEVIN VILLEGAS SOLIS                                        -->
 <!-- ============================================================ -->
-
-<!-- ========================== HERO ============================= -->
 
 <div align="center">
 
@@ -18,49 +14,27 @@ src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=1
 alt="WangLing Tech System"
 />
 
-<br>
-
-<img
-src="./assets/ui/terminal.svg"
-width="100%"
-alt="WangLing Tech Terminal"
-/>
+<img src="./assets/ui/terminal.svg" width="100%" alt="WangLing Tech Terminal"/>
 
 </div>
 
 <!-- ============================================================ -->
-<!-- 01 // SYSTEM.IDENTITY                                        -->
+<!-- 01 // SYSTEM.IDENTITY                                       -->
 <!-- ============================================================ -->
 
-<img
-src="./assets/ui/section-title-01.svg"
-width="100%"
-alt="01 System Identity"
-/>
+<img src="./assets/ui/section-title-01.svg" width="100%" alt="01 System Identity"/>
 
-<img
-src="./assets/ui/system-status.svg"
-width="100%"
-alt="Engineering System Status"
-/>
+<img src="./assets/ui/system-status.svg" width="100%" alt="Engineering System Status"/>
 
 <br>
 
-<img
-src="./assets/ui/identity-card.svg"
-width="100%"
-alt="Kevin Villegas Engineering Identity"
-/>
+<img src="./assets/ui/identity-card.svg" width="100%" alt="Kevin Villegas Engineering Identity"/>
 
 <!-- ============================================================ -->
-<!-- 02 // TECH.ARSENAL                                           -->
+<!-- 02 // TECH.ARSENAL                                          -->
 <!-- ============================================================ -->
 
-<img
-src="./assets/ui/section-title-02.svg"
-width="100%"
-alt="02 Tech Arsenal"
-/>
+<img src="./assets/ui/section-title-02.svg" width="100%" alt="02 Tech Arsenal"/>
 
 <div align="center">
 
@@ -68,13 +42,8 @@ alt="02 Tech Arsenal"
 
 <img
 src="https://skillicons.dev/icons?i=js,ts,angular,react,nodejs,express,html,css&theme=dark"
-alt="Core Development Technologies"
+alt="JavaScript TypeScript Angular React Node Express HTML CSS"
 />
-
-<br><br>
-
-`JavaScript`　•　`TypeScript`　•　`Angular`　•　`React`  
-`Node.js`　•　`Express.js`　•　`HTML5`　•　`CSS3`
 
 <br><br>
 
@@ -82,10 +51,10 @@ alt="Core Development Technologies"
 
 <img
 src="https://skillicons.dev/icons?i=postgres,mysql,prisma&theme=dark"
-alt="Database Technologies"
+alt="PostgreSQL MySQL Prisma"
 />
 
-<br><br>
+<br>
 
 `PostgreSQL`　•　`MySQL`　•　`SQL Server`　•　`SQL`　•　`Prisma ORM`
 
@@ -95,12 +64,8 @@ alt="Database Technologies"
 
 <img
 src="https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark"
-alt="Engineering Tools"
+alt="Git GitHub VS Code Postman"
 />
-
-<br><br>
-
-`Git`　•　`GitHub`　•　`VS Code`　•　`Postman`
 
 <br><br>
 
@@ -108,40 +73,28 @@ alt="Engineering Tools"
 
 <img
 src="https://skillicons.dev/icons?i=vercel,cloudflare&theme=dark"
-alt="Deployment Platforms"
+alt="Vercel Cloudflare"
 />
-
-<br><br>
-
-`Vercel`　•　`Cloudflare Pages`
 
 </div>
 
 <br>
 
-<img
-src="./assets/ui/skill-matrix.svg"
-width="100%"
-alt="Engineering Skill Matrix"
-/>
+<img src="./assets/ui/tech-console.svg" width="100%" alt="Engineering Capability Matrix"/>
 
 <br>
 
-<img
-src="./assets/ui/quality-systems.svg"
-width="100%"
-alt="Quality Engineering and IT Systems"
-/>
+<img src="./assets/ui/skill-matrix.svg" width="100%" alt="Engineering Skill Matrix"/>
+
+<br>
+
+<img src="./assets/ui/quality-systems.svg" width="100%" alt="Quality Engineering and IT Systems"/>
 
 <!-- ============================================================ -->
-<!-- 03 // FEATURED.SYSTEMS                                       -->
+<!-- 03 // FEATURED.SYSTEMS                                      -->
 <!-- ============================================================ -->
 
-<img
-src="./assets/ui/section-title-03.svg"
-width="100%"
-alt="03 Featured Systems"
-/>
+<img src="./assets/ui/section-title-03.svg" width="100%" alt="03 Featured Systems"/>
 
 <div align="center">
 
@@ -153,129 +106,113 @@ alt="03 Featured Systems"
 
 <br>
 
-<!-- ======================== SYSTEM 01 ========================== -->
+<!-- PROJECT 01 -->
 
-### `SYS.01 // ERP & POS MANAGEMENT`
+<img src="./assets/ui/project-01.svg" width="100%" alt="ERP POS System"/>
 
-<img
-src="./assets/projects/muebleria.webp"
-width="100%"
-alt="ERP POS Management System"
-/>
+<br>
 
-### **ERP / POS — Business Management System**
+<img src="./assets/projects/muebleria.webp" width="100%" alt="ERP POS Management System"/>
 
-Full-stack business platform designed to centralize **sales, inventory, products, customers, reporting and operational processes**.
+<br>
 
-**CORE MODULES**
+<div align="center">
 
 `Sales`　`Inventory`　`Products`　`Customers`　`Reports`　`Dashboard`
 
-**TECH**
+<br><br>
 
-`Angular`　•　`TypeScript`　•　`Node.js`　•　`Express.js`　•　`PostgreSQL`　•　`REST API`
+<img src="https://skillicons.dev/icons?i=angular,ts,nodejs,express,postgres&theme=dark" alt="ERP POS Stack"/>
 
-> **ENGINEERING FOCUS //** Modular business logic, relational persistence, transactional workflows and administrative interfaces.
+</div>
 
 <br>
 
 ---
 
-<!-- ======================== SYSTEM 02 ========================== -->
+<!-- PROJECT 02 -->
 
-### `SYS.02 // COMPUTER VISION`
+<img src="./assets/ui/project-02.svg" width="100%" alt="Peripheral Vision System"/>
 
-<img
-src="./assets/projects/peripheral-vision.png"
-width="100%"
-alt="Peripheral Vision Computer Vision System"
-/>
+<br>
 
-### **Peripheral Vision**
+<img src="./assets/projects/peripheral-vision.png" width="100%" alt="Peripheral Vision Computer Vision System"/>
 
-Computer vision system for automatic **detection and classification of IT peripherals** through image-processing pipelines.
+<br>
 
-**CAPABILITIES**
+<div align="center">
 
 `Detection`　`Image Processing`　`HSV Segmentation`　`Classification`
 
-**TECH**
+<br><br>
 
-`Python`　•　`OpenCV`　•　`FastAPI`　•　`React`　•　`Machine Learning`
+<img src="https://skillicons.dev/icons?i=python,opencv,fastapi,react&theme=dark" alt="Peripheral Vision Stack"/>
 
-> **ENGINEERING FOCUS //** Computer vision pipelines, image segmentation, detection logic and web integration.
+</div>
 
 <br>
 
 ---
 
-<!-- ======================== SYSTEM 03 ========================== -->
+<!-- PROJECT 03 -->
 
-### `SYS.03 // SECURITY MANAGEMENT`
+<img src="./assets/ui/project-03.svg" width="100%" alt="Security Management System"/>
 
-<img
-src="./assets/projects/security.webp"
-width="100%"
-alt="Smart Security Management System"
-/>
+<br>
 
-### **Smart Security Management System**
+<img src="./assets/projects/security.webp" width="100%" alt="Smart Security Management System"/>
 
-Platform designed to manage **residents, visitors, vehicles, access control and real-time notifications**.
+<br>
 
-**SYSTEM MODULES**
+<div align="center">
 
 `Residents`　`Visitors`　`Vehicles`　`Access Control`　`Events`
 
-**TECH**
+<br><br>
 
-`TypeScript`　•　`REST APIs`　•　`SSE`
+<img src="https://skillicons.dev/icons?i=ts,nodejs&theme=dark" alt="Security Management Stack"/>
 
-> **ENGINEERING FOCUS //** Event-driven communication, access workflows and real-time system state.
+</div>
 
 <br>
 
 ---
 
-<!-- ======================== SYSTEM 04 ========================== -->
+<!-- PROJECT 04 -->
 
-### `SYS.04 // DIGITAL COMMERCE`
+<img src="./assets/ui/project-04.svg" width="100%" alt="Ferreteria July Interactive Catalog"/>
 
-<img
-src="./assets/projects/inicioferreteriajulylandingpage.webp"
-width="100%"
-alt="Ferreteria July Interactive Catalog"
-/>
+<br>
 
-### **Ferretería July — Interactive Catalog**
+<img src="./assets/projects/inicioferreteriajulylandingpage.webp" width="100%" alt="Ferreteria July Interactive Catalog"/>
 
-Responsive commercial platform featuring **product discovery, quick views, shopping cart, favorites and WhatsApp integration**.
+<br>
 
-**CAPABILITIES**
+<div align="center">
 
-`Catalog`　`Search`　`Cart`　`Favorites`　`WhatsApp`
+`Catalog`　`Search`　`Quick View`　`Cart`　`Favorites`　`WhatsApp`
 
-**TECH**
+<br><br>
 
-`React`　•　`TypeScript`　•　`Vite`　•　`Tailwind CSS`
+<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind&theme=dark" alt="Ferreteria July Stack"/>
 
-> **ENGINEERING FOCUS //** Responsive UI, state management and customer conversion flows.
+</div>
 
 <!-- ============================================================ -->
-<!-- 04 // WEB.PROJECT_ARCHIVE                                    -->
+<!-- 04 // WEB.PROJECT_ARCHIVE                                   -->
 <!-- ============================================================ -->
 
-<img
-src="./assets/ui/section-title-04.svg"
-width="100%"
-alt="04 Web Project Archive"
-/>
+<img src="./assets/ui/section-title-04.svg" width="100%" alt="04 Web Project Archive"/>
 
 <div align="center">
 
 ### `COMMERCIAL // WEB INTERFACES`
 
+`RESPONSIVE DESIGN`　•　`BUSINESS UI`　•　`DIGITAL COMMERCE`
+
 </div>
+
+<br>
 
 <table>
 <tr>
@@ -287,11 +224,7 @@ alt="04 Web Project Archive"
 BARBER STUDIO
 </h3>
 
-<img
-src="./assets/projects/barberia.webp"
-width="100%"
-alt="Barber Studio"
-/>
+<img src="./assets/projects/barberia.webp" width="100%" alt="Barber Studio"/>
 
 <p align="center">
 Responsive business landing experience.
@@ -313,11 +246,7 @@ Responsive business landing experience.
 BRASAS DEL SABOR
 </h3>
 
-<img
-src="./assets/projects/polleria.webp"
-width="100%"
-alt="Brasas del Sabor"
-/>
+<img src="./assets/projects/polleria.webp" width="100%" alt="Brasas del Sabor"/>
 
 <p align="center">
 Interactive restaurant website and digital catalog.
@@ -336,141 +265,85 @@ Interactive restaurant website and digital catalog.
 </table>
 
 <!-- ============================================================ -->
-<!-- 05 // EXPERIENCE.LOG                                         -->
+<!-- 05 // EXPERIENCE.LOG                                        -->
 <!-- ============================================================ -->
 
-<img
-src="./assets/ui/section-title-05.svg"
-width="100%"
-alt="05 Experience Log"
-/>
+<img src="./assets/ui/section-title-05.svg" width="100%" alt="05 Experience Log"/>
 
-### `CAREER.EVENT // WEB DEVELOPMENT INTERN`
-
-**GRUPO LOOMSITE SOLUCIONES TI S.A.C.S.**
-
-`APR 2026 ━━━━━━━━━━━━━━━━━━━━━━━━━ AUG 2026`
-
-Participated in the development and maintenance of **Landing Page, E-Commerce and E-Learning platforms**.
-
-```diff
-+ Web development and maintenance
-+ Functional issue resolution
-+ Visual issue resolution
-+ Responsive validation
-+ Cross-device compatibility
-+ Technical improvements
-```
-
-### `PRODUCTION // STACK`
-
-`HTML`　•　`CSS`　•　`JavaScript`　•　`WordPress`　•　`WooCommerce`
-
-`STATUS // INTERNSHIP COMPLETED`
-
-<!-- ============================================================ -->
-<!-- 06 // ACADEMIC.NETWORK                                       -->
-<!-- ============================================================ -->
-
-<img
-src="./assets/ui/section-title-06.svg"
-width="100%"
-alt="06 Academic Network"
-/>
-
-### `SYSTEMS ENGINEERING // UNIVERSIDAD CÉSAR VALLEJO`
-
-`2023 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ PRESENT`
-
-`CURRENT LEVEL // VIII SEMESTER`
-
-<br>
-
-<img
-src="./assets/ui/academic-grid.svg"
-width="100%"
-alt="Current Academic Areas"
-/>
-
-<!-- ============================================================ -->
-<!-- 07 // CERTIFICATION.DATABASE                                  -->
-<!-- ============================================================ -->
-
-<img
-src="./assets/ui/section-title-07.svg"
-width="100%"
-alt="07 Certification Database"
-/>
-
-<img
-src="./assets/ui/certifications.svg"
-width="100%"
-alt="Certifications and Training"
-/>
-
-<!-- ============================================================ -->
-<!-- 08 // CURRENT.MISSION                                        -->
-<!-- ============================================================ -->
-
-<img
-src="./assets/ui/section-title-08.svg"
-width="100%"
-alt="08 Current Mission"
-/>
-
-<img
-src="./assets/ui/mission.svg"
-width="100%"
-alt="Current Engineering Mission"
-/>
-
-<!-- ============================================================ -->
-<!-- 09 // SYSTEM.TELEMETRY                                       -->
-<!-- ============================================================ -->
-
-<img
-src="./assets/ui/section-title-09.svg"
-width="100%"
-alt="09 System Telemetry"
-/>
+<img src="./assets/ui/experience-console.svg" width="100%" alt="Web Development Internship Experience"/>
 
 <div align="center">
 
-### `GITHUB // PROFILE ANALYTICS`
+### `PRODUCTION // TECHNOLOGIES`
 
 <img
-src="https://github-readme-stats.vercel.app/api?username=wanglingtech&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0D1117&title_color=A855F7&text_color=E6EDF3&icon_color=22D3EE&border_color=30363D"
-height="180"
-alt="WangLing Tech GitHub Statistics"
-/>
-
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=wanglingtech&layout=compact&langs_count=8&bg_color=0D1117&title_color=A855F7&text_color=E6EDF3&border_color=30363D"
-height="180"
-alt="WangLing Tech Top Languages"
+src="https://skillicons.dev/icons?i=html,css,js,wordpress&theme=dark"
+alt="Internship Technologies"
 />
 
 <br><br>
 
+`HTML`　•　`CSS`　•　`JavaScript`　•　`WordPress`　•　`WooCommerce`
+
+</div>
+
+<!-- ============================================================ -->
+<!-- 06 // ACADEMIC.NETWORK                                      -->
+<!-- ============================================================ -->
+
+<img src="./assets/ui/section-title-06.svg" width="100%" alt="06 Academic Network"/>
+
+<div align="center">
+
+### `SYSTEMS ENGINEERING // UNIVERSIDAD CÉSAR VALLEJO`
+
+`2023 ━━━━━━━━━━━━━━━━━━━━━━━━━ PRESENT`
+
+`CURRENT LEVEL // VIII SEMESTER`
+
+</div>
+
+<br>
+
+<img src="./assets/ui/academic-grid.svg" width="100%" alt="Current Academic Areas"/>
+
+<!-- ============================================================ -->
+<!-- 07 // CERTIFICATION.DATABASE                                -->
+<!-- ============================================================ -->
+
+<img src="./assets/ui/section-title-07.svg" width="100%" alt="07 Certification Database"/>
+
+<img src="./assets/ui/certifications.svg" width="100%" alt="Certifications and Training"/>
+
+<!-- ============================================================ -->
+<!-- 08 // CURRENT.MISSION                                       -->
+<!-- ============================================================ -->
+
+<img src="./assets/ui/section-title-08.svg" width="100%" alt="08 Current Mission"/>
+
+<img src="./assets/ui/mission.svg" width="100%" alt="Current Engineering Mission"/>
+
+<!-- ============================================================ -->
+<!-- 09 // SYSTEM.TELEMETRY                                      -->
+<!-- ============================================================ -->
+
+<img src="./assets/ui/section-title-09.svg" width="100%" alt="09 System Telemetry"/>
+
+<img src="./assets/ui/telemetry-header.svg" width="100%" alt="Development Activity Monitor"/>
+
+<br>
+
+<div align="center">
+
 ### `STREAK // CONSISTENCY`
 
 <img
-src="https://streak-stats.demolab.com?user=wanglingtech&theme=dark&background=0D1117&border=30363D&stroke=A855F7&ring=22D3EE&fire=A855F7&currStreakLabel=E6EDF3&sideLabels=E6EDF3&dates=8B949E"
+src="https://streak-stats.demolab.com?user=wanglingtech&theme=dark&background=0D1117&border=7C3AED&stroke=A855F7&ring=A855F7&fire=22D3EE&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=22D3EE&sideLabels=A855F7&dates=8B949E"
 width="80%"
 alt="WangLing Tech GitHub Streak"
 />
 
 <br><br>
-
-### `ACTIVITY // DEVELOPMENT GRAPH`
-
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=wanglingtech&bg_color=0D1117&color=A855F7&line=22D3EE&point=E6EDF3&area=true&hide_border=true&custom_title=WangLing%20Tech%20%2F%2F%20Development%20Activity"
-width="100%"
-alt="WangLing Tech Development Activity"
-/>
-
-<br>
 
 ### `PROFILE // SUMMARY MATRIX`
 
@@ -521,54 +394,35 @@ alt="WangLing Tech Contribution Snake"
 </div>
 
 <!-- ============================================================ -->
-<!-- 10 // ENGINEERING.SIGNAL                                     -->
+<!-- 10 // ENGINEERING.SIGNAL                                    -->
 <!-- ============================================================ -->
 
-<img
-src="./assets/ui/section-title-10.svg"
-width="100%"
-alt="10 Engineering Signal"
-/>
+<img src="./assets/ui/section-title-10.svg" width="100%" alt="10 Engineering Signal"/>
+
+<img src="./assets/ui/engineering-signal.svg" width="100%" alt="Engineering Design Protocol"/>
 
 <div align="center">
 
+<br>
+
 <img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2300&pause=700&color=22D3EE&center=true&vCenter=true&repeat=true&width=950&height=45&lines=%5B+SYSTEMS+ENGINEERING+%5D+%E2%86%92+BUILDING+TECHNICAL+FOUNDATIONS;%5B+SOFTWARE+%5D+%E2%86%92+DESIGNING+AND+IMPLEMENTING+SYSTEMS;%5B+DATA+%5D+%E2%86%92+STRUCTURING+INFORMATION+FOR+DECISIONS;%5B+QUALITY+%5D+%E2%86%92+TESTING+BEFORE+TRUSTING;%5B+IT+%5D+%E2%86%92+UNDERSTANDING+THE+SYSTEM+BEHIND+THE+SOFTWARE"
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=2300&pause=700&color=A855F7&center=true&vCenter=true&repeat=true&width=950&height=45&lines=%5B+SYSTEMS+%5D+%3E+UNDERSTAND+THE+WHOLE+SYSTEM;%5B+SOFTWARE+%5D+%3E+DESIGN+AND+IMPLEMENT;%5B+DATA+%5D+%3E+STRUCTURE+INFORMATION;%5B+QUALITY+%5D+%3E+TEST+BEFORE+TRUSTING;%5B+ITERATION+%5D+%3E+MEASURE+AND+IMPROVE"
 alt="Engineering Signal"
 />
-
-<br>
-
-**Software is one layer of the system.**  
-**Engineering means understanding how the layers connect.**
-
-<br>
-
-`DESIGN`　→　`BUILD`　→　`TEST`　→　`MEASURE`　→　`IMPROVE`
-
-<br><br>
-
-`SYSTEM STATUS // ONLINE`
 
 </div>
 
 <!-- ============================================================ -->
-<!-- 11 // CONNECTION.UPLINK                                      -->
+<!-- 11 // CONNECTION.UPLINK                                     -->
 <!-- ============================================================ -->
 
-<img
-src="./assets/ui/section-title-11.svg"
-width="100%"
-alt="11 Connection Uplink"
-/>
+<img src="./assets/ui/section-title-11.svg" width="100%" alt="11 Connection Uplink"/>
 
-<div align="center">
-
-### `> READY FOR NEXT CHALLENGE_`
-
-Interested in opportunities involving **Software Development, Systems, Databases, QA and IT**.
+<img src="./assets/ui/uplink.svg" width="100%" alt="Connection Uplink"/>
 
 <br>
+
+<div align="center">
 
 <a href="mailto:kevinvillegas.dev@gmail.com">
 <img
@@ -601,16 +455,12 @@ alt="Professional Status"
 </div>
 
 <!-- ============================================================ -->
-<!-- FOOTER                                                       -->
+<!-- FOOTER                                                      -->
 <!-- ============================================================ -->
 
 <br>
 
-<img
-src="./assets/ui/footer.svg"
-width="100%"
-alt="WangLing Tech Footer"
-/>
+<img src="./assets/ui/footer.svg" width="100%" alt="WangLing Tech Footer"/>
 
 <div align="center">
 

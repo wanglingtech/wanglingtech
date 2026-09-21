@@ -1,0 +1,147 @@
+<svg width="1200" height="290" viewBox="0 0 1200 290"
+     xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="border" x1="0" x2="1">
+    <stop offset="0%" stop-color="#A855F7"/>
+    <stop offset="50%" stop-color="#7C3AED"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <style>
+    .title {
+      font: 700 18px monospace;
+      fill: #E6EDF3;
+    }
+
+    .label {
+      font: 700 13px monospace;
+      fill: #A855F7;
+    }
+
+    .text {
+      font: 500 14px monospace;
+      fill: #C9D1D9;
+    }
+
+    .cyan {
+      fill: #22D3EE;
+    }
+
+    .green {
+      fill: #3FB950;
+    }
+
+    .blink {
+      animation: blink 1.8s infinite;
+    }
+
+    .pulse {
+      animation: pulse 2s infinite;
+      transform-origin: center;
+    }
+
+    @keyframes blink {
+      0%,45%,100% { opacity:1; }
+      50%,70% { opacity:.25; }
+    }
+
+    @keyframes pulse {
+      0%,100% { opacity:.5; }
+      50% { opacity:1; }
+    }
+  </style>
+</defs>
+
+<rect x="1" y="1" width="1198" height="288" rx="12"
+      fill="#0D1117"
+      stroke="url(#border)"
+      stroke-width="2"/>
+
+<!-- header -->
+
+<rect x="24" y="22" width="1152" height="42" rx="7"
+      fill="#161B22"
+      stroke="#30363D"/>
+
+<circle cx="48" cy="43" r="5" fill="#A855F7" class="pulse"/>
+
+<text x="65" y="49" class="title">
+ENGINEERING // CAPABILITY MATRIX
+</text>
+
+<circle cx="1100" cy="43" r="5" fill="#3FB950" class="blink"/>
+
+<text x="1114" y="48"
+      font-family="monospace"
+      font-size="11"
+      fill="#3FB950">
+ONLINE
+</text>
+
+<!-- columns -->
+
+<line x1="300" y1="88" x2="300" y2="255" stroke="#30363D"/>
+<line x1="600" y1="88" x2="600" y2="255" stroke="#30363D"/>
+<line x1="900" y1="88" x2="900" y2="255" stroke="#30363D"/>
+
+<!-- dev -->
+
+<text x="40" y="112" class="label">
+01 // DEVELOPMENT
+</text>
+
+<text x="40" y="145" class="text">JavaScript / TypeScript</text>
+<text x="40" y="172" class="text">Angular / React</text>
+<text x="40" y="199" class="text">Node.js / Express</text>
+<text x="40" y="226" class="text">HTML / CSS</text>
+
+<!-- data -->
+
+<text x="340" y="112" class="label">
+02 // DATA
+</text>
+
+<text x="340" y="145" class="text">PostgreSQL</text>
+<text x="340" y="172" class="text">MySQL / SQL Server</text>
+<text x="340" y="199" class="text">SQL</text>
+<text x="340" y="226" class="text">Prisma ORM</text>
+
+<!-- quality -->
+
+<text x="640" y="112" class="label">
+03 // QUALITY
+</text>
+
+<text x="640" y="145" class="text">Functional Testing</text>
+<text x="640" y="172" class="text">Exploratory Testing</text>
+<text x="640" y="199" class="text">DevTools / Postman</text>
+<text x="640" y="226" class="text">ISO/IEC 25010</text>
+
+<!-- systems -->
+
+<text x="940" y="112" class="label">
+04 // SYSTEMS
+</text>
+
+<text x="940" y="145" class="text">Windows</text>
+<text x="940" y="172" class="text">PC Hardware</text>
+<text x="940" y="199" class="text">Troubleshooting</text>
+<text x="940" y="226" class="text">Technical Support</text>
+
+<line x1="24" y1="268" x2="1176" y2="268"
+      stroke="url(#border)"
+      opacity=".7"/>
+
+<circle cx="24" cy="268" r="3" fill="#A855F7"/>
+<circle cx="1176" cy="268" r="3" fill="#22D3EE"/>
+
+</svg>

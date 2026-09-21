@@ -1,0 +1,40 @@
+<svg width="1200" height="170" viewBox="0 0 1200 170"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+<linearGradient id="g">
+<stop stop-color="#A855F7"/>
+<stop offset=".5" stop-color="#7C3AED"/>
+<stop offset="1" stop-color="#22D3EE"/>
+</linearGradient>
+
+<style>
+.a{font:700 15px monospace;fill:#A855F7}
+.b{font:700 26px monospace;fill:#E6EDF3}
+.c{font:500 13px monospace;fill:#8B949E}
+.d{font:600 12px monospace;fill:#22D3EE}
+</style>
+</defs>
+
+<rect x="1" y="1" width="1198" height="168" rx="12"
+fill="#0D1117" stroke="url(#g)" stroke-width="2"/>
+
+<text x="40" y="43" class="a">SYSTEM // TELEMETRY</text>
+<text x="40" y="82" class="b">DEVELOPMENT ACTIVITY MONITOR</text>
+<text x="40" y="112" class="c">
+Public GitHub activity · repositories · languages · contribution stream
+</text>
+
+<rect x="865" y="35" width="290" height="95" rx="7"
+fill="#161B22" stroke="#30363D"/>
+
+<text x="890" y="64" class="d">PROFILE NODE</text>
+<text x="890" y="91" class="c">wanglingtech</text>
+<text x="890" y="114" class="c">STATUS // SYNCHRONIZED</text>
+
+<circle cx="1125" cy="61" r="6" fill="#3FB950"/>
+
+<line x1="40" y1="143" x2="1155" y2="143"
+stroke="url(#g)" stroke-width="2"/>
+
+</svg>
