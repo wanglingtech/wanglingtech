@@ -1,1 +1,12 @@
-<svg width="1000" height="205" viewBox="0 0 1000 205" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="uplinkEdge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.label{font:700 14px monospace;fill:#A855F7}.title{font:700 25px monospace;fill:#E6EDF3}.text{font:500 17px monospace;fill:#C9D1D9}</style></defs><rect x="1" y="1" width="998" height="203" rx="12" fill="#0D1117" stroke="url(#uplinkEdge)" stroke-width="2"/><circle cx="39" cy="38" r="5" fill="#22D3EE"/><text x="56" y="44" class="label">CONNECTION AVAILABLE</text><text x="500" y="98" text-anchor="middle" class="title">READY FOR NEXT CHALLENGE</text><text x="500" y="139" text-anchor="middle" class="text">Software Development • Systems • Databases • QA • IT</text><line x1="180" y1="174" x2="820" y2="174" stroke="url(#uplinkEdge)" stroke-width="2"/></svg>
+<svg width="1000" height="273" viewBox="0 0 1000 273" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+<title id="title">Open to software development, junior opportunities, tech collaboration and web projects</title>
+<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.title{font:700 28px monospace;fill:#E6EDF3}.meta{font:700 18px monospace;fill:#A855F7}.body{font:500 21px monospace;fill:#C9D1D9}.cyan{font:600 20px monospace;fill:#22D3EE}.small{font:500 18px monospace;fill:#8B949E}</style></defs>
+<rect x="1" y="1" width="998" height="271" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
+<text x="36" y="48" class="meta">CONNECTION AVAILABLE</text>
+<text x="36" y="96" class="title">READY FOR NEXT CHALLENGE</text>
+<line x1="36" y1="123" x2="964" y2="123" stroke="#30363D"/>
+<text x="36" y="160" class="meta">OPEN TO</text>
+<text x="36" y="201" class="cyan">Software Development · Junior Opportunities</text>
+<text x="36" y="239" class="cyan">Tech Collaboration · Web Projects</text>
+
+</svg>

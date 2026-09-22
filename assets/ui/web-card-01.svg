@@ -18,13 +18,13 @@ xmlns="http://www.w3.org/2000/svg">
 <rect x="1" y="1" width="1198" height="148" rx="10"
 fill="#0D1117" stroke="url(#g)"/>
 
-<text x="35" y="35" class="n">WEB.01 // COMMERCIAL INTERFACE</text>
-<text x="35" y="70" class="h">BLACK CROWN // BARBER STUDIO</text>
+<text x="35" y="35" class="n">WEB.01 · COMMERCIAL INTERFACE</text>
+<text x="35" y="70" class="h">BLACK CROWN · BARBER STUDIO</text>
 <text x="35" y="101" class="t">
 Responsive service showcase and appointment-oriented business interface.
 </text>
 <text x="35" y="130" class="c">
-SERVICES // APPOINTMENTS // RESPONSIVE UI
+SERVICES · APPOINTMENTS · RESPONSIVE UI
 </text>
 
 <circle cx="1130" cy="32" r="5" fill="#3FB950"/>

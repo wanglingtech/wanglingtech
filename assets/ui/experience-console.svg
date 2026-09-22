@@ -1,59 +1,20 @@
-<svg width="1200" height="330" viewBox="0 0 1200 330"
-xmlns="http://www.w3.org/2000/svg">
-
-<defs>
-<linearGradient id="g">
-<stop stop-color="#A855F7"/>
-<stop offset=".55" stop-color="#7C3AED"/>
-<stop offset="1" stop-color="#22D3EE"/>
-</linearGradient>
-
-<style>
-.h{font:700 18px monospace;fill:#E6EDF3}
-.p{font:700 13px monospace;fill:#A855F7}
-.t{font:500 14px monospace;fill:#C9D1D9}
-.c{font:600 12px monospace;fill:#22D3EE}
-</style>
-</defs>
-
-<rect x="1" y="1" width="1198" height="328" rx="12"
-fill="#0D1117" stroke="url(#g)" stroke-width="2"/>
-
-<rect x="25" y="23" width="1150" height="43" rx="6" fill="#161B22"/>
-
-<text x="45" y="50" class="h">
-CAREER.EVENT // WEB DEVELOPMENT INTERN
-</text>
-
-<circle cx="1090" cy="44" r="5" fill="#3FB950"/>
-<text x="1104" y="48" font-family="monospace" font-size="10" fill="#3FB950">
-COMPLETED
-</text>
-
-<text x="45" y="102" class="p">
-GRUPO LOOMSITE SOLUCIONES TI S.A.C.S.
-</text>
-
-<text x="45" y="130" class="c">
-APR 2026 ───────────────────── AUG 2026
-</text>
-
-<line x1="610" y1="86" x2="610" y2="290" stroke="#30363D"/>
-
-<text x="45" y="172" class="t">+ Web development &amp; maintenance</text>
-<text x="45" y="200" class="t">+ Functional / visual issue resolution</text>
-<text x="45" y="228" class="t">+ Responsive validation</text>
-<text x="45" y="256" class="t">+ Cross-device compatibility</text>
-<text x="45" y="284" class="t">+ Technical improvements</text>
-
-<text x="650" y="102" class="p">PRODUCTION // STACK</text>
-
-<text x="650" y="143" class="t">HTML / CSS</text>
-<text x="650" y="174" class="t">JavaScript</text>
-<text x="650" y="205" class="t">WordPress / WooCommerce</text>
-
-<text x="650" y="252" class="c">
-LANDING PAGE // E-COMMERCE // E-LEARNING
-</text>
+<svg width="1000" height="523" viewBox="0 0 1000 523" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+<title id="title">Web Development Intern at Grupo Loomsite, April to August 2026</title>
+<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.title{font:700 28px monospace;fill:#E6EDF3}.meta{font:700 18px monospace;fill:#A855F7}.body{font:500 21px monospace;fill:#C9D1D9}.cyan{font:600 20px monospace;fill:#22D3EE}.small{font:500 18px monospace;fill:#8B949E}</style></defs>
+<rect x="1" y="1" width="998" height="521" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
+<text x="36" y="48" class="title">WEB DEVELOPMENT INTERN</text>
+<text x="36" y="87" class="cyan">GRUPO LOOMSITE SOLUCIONES TI S.A.C.S.</text>
+<text x="36" y="124" class="meta">APR 2026 — AUG 2026</text>
+<line x1="36" y1="148" x2="964" y2="148" stroke="#30363D"/>
+<text x="36" y="185" class="meta">WORK</text>
+<text x="36" y="222" class="body">Web development and maintenance</text>
+<text x="36" y="255" class="body">Functional and visual issue resolution</text>
+<text x="36" y="288" class="body">Responsive validation</text>
+<text x="36" y="321" class="body">Cross-device compatibility</text>
+<text x="36" y="354" class="body">Technical improvements</text>
+<line x1="36" y1="377" x2="964" y2="377" stroke="#30363D"/>
+<text x="36" y="414" class="meta">PRODUCTION STACK</text>
+<text x="36" y="450" class="body">HTML · CSS · JavaScript · WordPress · WooCommerce</text>
+<text x="36" y="492" class="cyan">Landing Pages · E-Commerce · E-Learning</text>
 
 </svg>
