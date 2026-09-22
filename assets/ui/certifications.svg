@@ -1,8 +1,19 @@
-<svg width="1200" height="330" viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="certs" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.num{font:700 13px monospace;fill:#22D3EE}.org{font:700 14px monospace;fill:#A855F7}.name{font:600 16px monospace;fill:#E6EDF3}</style></defs>
-<rect x="1" y="1" width="1198" height="328" rx="14" fill="#0D1117" stroke="#30363D"/><text x="35" y="42" class="org">CONFIRMED LEARNING RECORDS // 04</text>
-<g><rect x="30" y="65" width="555" height="105" rx="10" fill="#161B22" stroke="#7C3AED"/><text x="50" y="94" class="num">01 // 2026</text><text x="50" y="122" class="org">CISCO NETWORKING ACADEMY</text><text x="50" y="151" class="name">Computer Hardware Basics</text></g>
-<g><rect x="615" y="65" width="555" height="105" rx="10" fill="#161B22" stroke="#A855F7"/><text x="635" y="94" class="num">02 // 2026</text><text x="635" y="122" class="org">MTPE</text><text x="635" y="151" class="name">Word &amp; Excel for Work — Basic Level</text></g>
-<g><rect x="30" y="190" width="555" height="105" rx="10" fill="#161B22" stroke="#A855F7"/><text x="50" y="219" class="num">03 // 2025</text><text x="50" y="247" class="org">UNIVERSIDAD CÉSAR VALLEJO</text><text x="50" y="276" class="name">Help Desk Assistant</text></g>
-<g><rect x="615" y="190" width="555" height="105" rx="10" fill="#161B22" stroke="#22D3EE"/><text x="635" y="219" class="num">04 // 2025</text><text x="635" y="247" class="org">UNIVERSIDAD CÉSAR VALLEJO</text><text x="635" y="276" class="name">Knowledge Management in the AI Era I &amp; II</text></g><rect x="30" y="313" width="1140" height="2" fill="url(#certs)"/>
+<svg width="1000" height="440" viewBox="0 0 1000 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+<title id="title">Four confirmed training records</title>
+<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.title{font:700 28px monospace;fill:#E6EDF3}.meta{font:700 18px monospace;fill:#A855F7}.body{font:500 21px monospace;fill:#C9D1D9}.cyan{font:600 20px monospace;fill:#22D3EE}</style></defs>
+<rect x="1" y="1" width="998" height="438" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/><text x="30" y="44" class="meta">CONFIRMED LEARNING RECORDS · 04</text>
+<rect x="26" y="70" width="460" height="160" rx="10" fill="#161B22" stroke="#7C3AED"/><text x="46" y="101" class="cyan">2026</text>
+<text x="46" y="137" class="meta">CISCO NETWORKING ACADEMY</text>
+<text x="46" y="173" class="body">Computer Hardware Basics</text>
+<rect x="514" y="70" width="460" height="160" rx="10" fill="#161B22" stroke="#A855F7"/><text x="534" y="101" class="cyan">2026</text>
+<text x="534" y="137" class="meta">MTPE</text>
+<text x="534" y="173" class="body">Word &amp; Excel for Work</text>
+<text x="534" y="203" class="body">Basic Level</text>
+<rect x="26" y="250" width="460" height="160" rx="10" fill="#161B22" stroke="#A855F7"/><text x="46" y="281" class="cyan">2025</text>
+<text x="46" y="317" class="meta">UNIVERSIDAD CÉSAR VALLEJO</text>
+<text x="46" y="353" class="body">Help Desk Assistant</text>
+<rect x="514" y="250" width="460" height="160" rx="10" fill="#161B22" stroke="#22D3EE"/><text x="534" y="281" class="cyan">2025</text>
+<text x="534" y="317" class="meta">UNIVERSIDAD CÉSAR VALLEJO</text>
+<text x="534" y="353" class="body">Knowledge Management</text>
+<text x="534" y="383" class="body">in the AI Era I &amp; II</text>
 </svg>

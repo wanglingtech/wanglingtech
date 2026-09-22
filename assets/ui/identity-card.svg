@@ -1,15 +1,24 @@
-<svg width="1000" height="560" viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="identityEdge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".55" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.label{font:700 14px monospace;fill:#A855F7}.name{font:700 30px monospace;fill:#E6EDF3}.role{font:600 18px monospace;fill:#22D3EE}.head{font:700 14px monospace;fill:#8B949E}.body{font:500 17px monospace;fill:#C9D1D9}.value{font:600 16px monospace;fill:#E6EDF3}</style></defs>
-<rect x="1" y="1" width="998" height="558" rx="14" fill="#0D1117" stroke="#30363D"/><rect x="1" y="1" width="998" height="4" rx="2" fill="url(#identityEdge)"/>
-<text x="40" y="48" class="label">IDENTITY // PUBLIC PROFILE</text><text x="40" y="94" class="name">WANGLING</text><text x="40" y="128" class="role">Systems Engineering • Software Development</text><line x1="40" y1="151" x2="640" y2="151" stroke="#30363D"/>
-<text x="40" y="187" class="head">PROFILE</text><text x="40" y="218" class="body">Engineering student with practical experience in</text><text x="40" y="246" class="body">software development, web systems and maintenance.</text>
-<text x="40" y="290" class="head">FOCUS</text><text x="40" y="321" class="body">Software Development • Databases</text><text x="40" y="349" class="body">Software Quality • IT Systems</text>
-<text x="40" y="393" class="head">CURRENT EXPLORATION</text><text x="40" y="424" class="body">Cybersecurity • IoT • Data</text><text x="40" y="452" class="body">Artificial Intelligence</text>
-<line x1="670" y1="40" x2="670" y2="520" stroke="#30363D"/>
-<text x="710" y="72" class="head">ROLE</text><text x="710" y="101" class="value">Systems Engineering Student</text>
-<text x="710" y="153" class="head">ACADEMIC LEVEL</text><text x="710" y="182" class="value">VIII Semester</text>
-<text x="710" y="234" class="head">LOCATION</text><text x="710" y="263" class="value">Lima • Peru</text>
-<text x="710" y="315" class="head">PRIMARY</text><text x="710" y="344" class="value">Software Development</text>
-<text x="710" y="396" class="head">STATUS</text><circle cx="717" cy="426" r="6" fill="#3FB950"/><text x="736" y="432" class="value">Active</text>
-<rect x="710" y="477" width="245" height="4" rx="2" fill="#21262D"/><rect x="710" y="477" width="245" height="4" rx="2" fill="url(#identityEdge)"/>
+<svg width="1000" height="635" viewBox="0 0 1000 635" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+<title id="title">WangLing public professional profile</title>
+<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.title{font:700 28px monospace;fill:#E6EDF3}.meta{font:700 18px monospace;fill:#A855F7}.body{font:500 21px monospace;fill:#C9D1D9}.cyan{font:600 20px monospace;fill:#22D3EE}.small{font:500 18px monospace;fill:#8B949E}</style></defs>
+<rect x="1" y="1" width="998" height="633" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
+<text x="36" y="46" class="meta">PUBLIC PROFILE</text>
+<text x="36" y="94" class="title">WANGLING</text>
+<text x="36" y="131" class="cyan">Systems Engineering Student</text>
+<line x1="36" y1="157" x2="964" y2="157" stroke="#30363D"/>
+<text x="36" y="195" class="meta">PROFILE</text>
+<text x="36" y="230" class="body">Engineering student with practical experience in</text>
+<text x="36" y="262" class="body">software development, web systems and maintenance.</text>
+<text x="36" y="308" class="meta">PRIMARY FOCUS</text>
+<text x="36" y="343" class="cyan">Software Development</text>
+<text x="36" y="389" class="meta">ADDITIONAL FOCUS</text>
+<text x="36" y="424" class="body">Databases · Software Quality · IT Systems</text>
+<text x="36" y="470" class="meta">CURRENT EXPLORATION</text>
+<text x="36" y="505" class="body">Cybersecurity · IoT · Data · Artificial Intelligence</text>
+<line x1="36" y1="532" x2="964" y2="532" stroke="#30363D"/>
+<text x="36" y="568" class="meta">ACADEMIC LEVEL</text>
+<text x="36" y="603" class="body">VIII Semester</text>
+<text x="580" y="568" class="meta">LOCATION</text>
+<text x="580" y="603" class="body">Lima · Peru</text>
+
 </svg>
