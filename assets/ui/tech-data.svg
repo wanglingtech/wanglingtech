@@ -1,4 +1,42 @@
-<svg width="1000" height="118" viewBox="0 0 1000 118" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="edge02" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.n{font:700 14px monospace;fill:#22D3EE}.h{font:700 23px monospace;fill:#E6EDF3}.s{font:600 16px monospace;fill:#A855F7}.d{font:500 15px monospace;fill:#C9D1D9}</style></defs>
-<rect x="1" y="1" width="998" height="116" rx="12" fill="#0D1117" stroke="url(#edge02)" stroke-width="2"/><rect x="24" y="22" width="62" height="34" rx="7" fill="#161B22" stroke="#22D3EE"/><text x="55" y="44" text-anchor="middle" class="n">02</text><text x="112" y="47" class="h">DATA &amp; PERSISTENCE</text><text x="112" y="78" class="s">Relational Data Systems</text><text x="112" y="101" class="d">Structured data • ORM</text>
+<svg width="1000" height="118" viewBox="0 0 1000 118" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tech-data-title">
+<title id="tech-data-title">Data and Persistence - Relational Data Systems - Structured data and ORM</title>
+<defs>
+<linearGradient id="tda-border" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#D946EF"/></linearGradient>
+<linearGradient id="tda-bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0a2e"/><stop offset="100%" stop-color="#0d021a"/></linearGradient>
+<linearGradient id="tda-bg-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#faf5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+<style><![CDATA[
+@media (prefers-color-scheme: dark) {
+  .tda-bg { fill: url(#tda-bg-dark); }
+  .tda-border { stroke: url(#tda-border); }
+  .tda-badge-bg { fill: #2d1b4e; stroke: #d946ef; }
+  .tda-num { fill: #c084fc; }
+  .tda-title { fill: #f3e8ff; }
+  .tda-sub { fill: #a855f7; }
+  .tda-desc { fill: #d8b4fe; }
+}
+@media (prefers-color-scheme: light) {
+  .tda-bg { fill: url(#tda-bg-light); }
+  .tda-border { stroke: url(#tda-border); stroke-width: 2; }
+  .tda-badge-bg { fill: #e9d5ff; stroke: #9333ea; }
+  .tda-num { fill: #7e22ce; }
+  .tda-title { fill: #4c1d95; }
+  .tda-sub { fill: #9333ea; }
+  .tda-desc { fill: #6b21a8; }
+}
+@media (prefers-contrast: more) {
+  .tda-title { fill: #ffffff; }
+  .tda-desc { fill: #e9d5ff; }
+  .tda-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]></style>
+</defs>
+<rect x="1" y="1" width="998" height="116" rx="12" class="tda-bg tda-border" stroke-width="2"/>
+<rect x="24" y="22" width="62" height="34" rx="7" class="tda-badge-bg" stroke-width="1.2"/>
+<text x="55" y="44" text-anchor="middle" class="tda-num" font-family="monospace" font-size="14" font-weight="700">02</text>
+<text x="112" y="47" class="tda-title" font-family="monospace" font-size="23" font-weight="700">DATA &amp; PERSISTENCE</text>
+<text x="112" y="78" class="tda-sub" font-family="monospace" font-size="16" font-weight="600">Relational Data Systems</text>
+<text x="112" y="101" class="tda-desc" font-family="monospace" font-size="15" font-weight="500">Structured data • ORM</text>
 </svg>

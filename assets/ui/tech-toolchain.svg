@@ -1,4 +1,42 @@
-<svg width="1000" height="118" viewBox="0 0 1000 118" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="edge03" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#A855F7"/></linearGradient><style>.n{font:700 14px monospace;fill:#22D3EE}.h{font:700 23px monospace;fill:#E6EDF3}.s{font:600 16px monospace;fill:#A855F7}.d{font:500 15px monospace;fill:#C9D1D9}</style></defs>
-<rect x="1" y="1" width="998" height="116" rx="12" fill="#0D1117" stroke="url(#edge03)" stroke-width="2"/><rect x="24" y="22" width="62" height="34" rx="7" fill="#161B22" stroke="#A855F7"/><text x="55" y="44" text-anchor="middle" class="n">03</text><text x="112" y="47" class="h">ENGINEERING TOOLCHAIN</text><text x="112" y="78" class="s">Development Workflow</text><text x="112" y="101" class="d">Version control • Testing tools</text>
+<svg width="1000" height="118" viewBox="0 0 1000 118" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tech-toolchain-title">
+<title id="tech-toolchain-title">Engineering Toolchain - Development Workflow - Version control and Testing tools</title>
+<defs>
+<linearGradient id="tt-border" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
+<linearGradient id="tt-bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0a2e"/><stop offset="100%" stop-color="#0d021a"/></linearGradient>
+<linearGradient id="tt-bg-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#faf5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+<style><![CDATA[
+@media (prefers-color-scheme: dark) {
+  .tt-bg { fill: url(#tt-bg-dark); }
+  .tt-border { stroke: url(#tt-border); }
+  .tt-badge-bg { fill: #2d1b4e; stroke: #a855f7; }
+  .tt-num { fill: #c084fc; }
+  .tt-title { fill: #f3e8ff; }
+  .tt-sub { fill: #a855f7; }
+  .tt-desc { fill: #d8b4fe; }
+}
+@media (prefers-color-scheme: light) {
+  .tt-bg { fill: url(#tt-bg-light); }
+  .tt-border { stroke: url(#tt-border); stroke-width: 2; }
+  .tt-badge-bg { fill: #e9d5ff; stroke: #9333ea; }
+  .tt-num { fill: #7e22ce; }
+  .tt-title { fill: #4c1d95; }
+  .tt-sub { fill: #9333ea; }
+  .tt-desc { fill: #6b21a8; }
+}
+@media (prefers-contrast: more) {
+  .tt-title { fill: #ffffff; }
+  .tt-desc { fill: #e9d5ff; }
+  .tt-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]></style>
+</defs>
+<rect x="1" y="1" width="998" height="116" rx="12" class="tt-bg tt-border" stroke-width="2"/>
+<rect x="24" y="22" width="62" height="34" rx="7" class="tt-badge-bg" stroke-width="1.2"/>
+<text x="55" y="44" text-anchor="middle" class="tt-num" font-family="monospace" font-size="14" font-weight="700">03</text>
+<text x="112" y="47" class="tt-title" font-family="monospace" font-size="23" font-weight="700">ENGINEERING TOOLCHAIN</text>
+<text x="112" y="78" class="tt-sub" font-family="monospace" font-size="16" font-weight="600">Development Workflow</text>
+<text x="112" y="101" class="tt-desc" font-family="monospace" font-size="15" font-weight="500">Version control • Testing tools</text>
 </svg>

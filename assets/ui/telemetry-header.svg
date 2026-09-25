@@ -1,40 +1,97 @@
 <svg width="1200" height="170" viewBox="0 0 1200 170"
-xmlns="http://www.w3.org/2000/svg">
+xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="telemetry-header-title">
+
+<title id="telemetry-header-title">System Telemetry - Development Activity Monitor - Public GitHub activity, repositories, languages, contribution stream - Profile Node wanglingtech, status synchronized</title>
 
 <defs>
-<linearGradient id="g">
+<linearGradient id="th-border" x1="0" x2="1">
 <stop stop-color="#A855F7"/>
 <stop offset=".5" stop-color="#7C3AED"/>
-<stop offset="1" stop-color="#22D3EE"/>
+<stop offset="1" stop-color="#D946EF"/>
+</linearGradient>
+
+<linearGradient id="th-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+
+<linearGradient id="th-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
+</linearGradient>
+
+<linearGradient id="th-panel-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#2d1b4e"/>
+<stop offset="100%" stop-color="#1a0a2e"/>
+</linearGradient>
+
+<linearGradient id="th-panel-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#e9d5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
 </linearGradient>
 
 <style>
-.a{font:700 15px monospace;fill:#A855F7}
-.b{font:700 26px monospace;fill:#E6EDF3}
-.c{font:500 13px monospace;fill:#8B949E}
-.d{font:600 12px monospace;fill:#22D3EE}
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .th-bg { fill: url(#th-bg-dark); }
+  .th-border { stroke: url(#th-border); }
+  .th-line { stroke: url(#th-border); }
+  .th-label { fill: #c084fc; }
+  .th-title { fill: #f3e8ff; }
+  .th-detail { fill: #a855f7; }
+  .th-panel { fill: url(#th-panel-dark); }
+  .th-panel-border { stroke: #3f1d5c; }
+  .th-panel-label { fill: #a855f7; }
+  .th-panel-text { fill: #d8b4fe; }
+  .th-status { fill: #a855f7; }
+}
+@media (prefers-color-scheme: light) {
+  .th-bg { fill: url(#th-bg-light); }
+  .th-border { stroke: url(#th-border); stroke-width: 2; }
+  .th-line { stroke: url(#th-border); }
+  .th-label { fill: #7e22ce; }
+  .th-title { fill: #4c1d95; }
+  .th-detail { fill: #9333ea; }
+  .th-panel { fill: url(#th-panel-light); }
+  .th-panel-border { stroke: #d8b4fe; }
+  .th-panel-label { fill: #9333ea; }
+  .th-panel-text { fill: #6b21a8; }
+  .th-status { fill: #9333ea; }
+}
+@media (prefers-contrast: more) {
+  .th-title { fill: #ffffff; }
+  .th-detail { fill: #e9d5ff; }
+  .th-panel-text { fill: #ffffff; }
+  .th-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
 </style>
 </defs>
 
 <rect x="1" y="1" width="1198" height="168" rx="12"
-fill="#0D1117" stroke="url(#g)" stroke-width="2"/>
+class="th-bg th-border" stroke-width="2"/>
 
-<text x="40" y="43" class="a">SYSTEM // TELEMETRY</text>
-<text x="40" y="82" class="b">DEVELOPMENT ACTIVITY MONITOR</text>
-<text x="40" y="112" class="c">
+<text x="40" y="43" class="th-label" font-family="monospace" font-size="15" font-weight="700">SYSTEM // TELEMETRY</text>
+<text x="40" y="82" class="th-title" font-family="monospace" font-size="26" font-weight="700">DEVELOPMENT ACTIVITY MONITOR</text>
+<text x="40" y="112" class="th-detail" font-family="monospace" font-size="13" font-weight="500">
 Public GitHub activity · repositories · languages · contribution stream
 </text>
 
 <rect x="865" y="35" width="290" height="95" rx="7"
-fill="#161B22" stroke="#30363D"/>
+class="th-panel th-panel-border" stroke-width="1"/>
 
-<text x="890" y="64" class="d">PROFILE NODE</text>
-<text x="890" y="91" class="c">wanglingtech</text>
-<text x="890" y="114" class="c">STATUS // SYNCHRONIZED</text>
+<text x="890" y="64" class="th-panel-label" font-family="monospace" font-size="12" font-weight="600">PROFILE NODE</text>
+<text x="890" y="91" class="th-panel-text" font-family="monospace" font-size="13" font-weight="500">wanglingtech</text>
+<text x="890" y="114" class="th-panel-text" font-family="monospace" font-size="13" font-weight="500">STATUS // SYNCHRONIZED</text>
 
-<circle cx="1125" cy="61" r="6" fill="#3FB950"/>
+<circle cx="1125" cy="61" r="6" class="th-status">
+  <animate attributeName="opacity" values=".5;1;.5" dur="2s" repeatCount="indefinite"/>
+</circle>
 
 <line x1="40" y1="143" x2="1155" y2="143"
-stroke="url(#g)" stroke-width="2"/>
+class="th-line" stroke-width="2"/>
 
 </svg>

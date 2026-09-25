@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────────────────────────
+#  Agent rules / AI configuration — LOCAL ONLY
+#  Never commit or push this to GitHub.
+# ─────────────────────────────────────────────────────────────
+.agents/rules/
+.agents/**/*.local
+
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets.*
+credentials.json
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs & temp
+*.log
+*.tmp

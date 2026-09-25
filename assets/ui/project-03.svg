@@ -1,17 +1,72 @@
-<svg width="1000" height="408" viewBox="0 0 1000 408" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
-<title id="title">Project 03: SECURITY MANAGEMENT</title>
-<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.title{font:700 28px monospace;fill:#E6EDF3}.meta{font:700 18px monospace;fill:#A855F7}.body{font:500 21px monospace;fill:#C9D1D9}.cyan{font:600 20px monospace;fill:#22D3EE}.small{font:500 18px monospace;fill:#8B949E}</style></defs>
-<rect x="1" y="1" width="998" height="406" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
-<rect x="24" y="22" width="952" height="42" rx="7" fill="#161B22"/><text x="40" y="50" class="meta">PROJECT 03</text>
-<text x="36" y="108" class="title">SECURITY MANAGEMENT</text>
-<text x="36" y="145" class="body">Resident, visitor and access management system.</text>
-<text x="36" y="188" class="meta">STATUS</text>
-<text x="150" y="188" class="cyan">IN DEVELOPMENT</text>
-<line x1="36" y1="213" x2="964" y2="213" stroke="#30363D"/>
-<text x="36" y="250" class="meta">CAPABILITIES</text>
-<text x="36" y="288" class="body">Residents · Visitors</text>
-<text x="510" y="288" class="body">Access Control · Events</text>
-<text x="36" y="338" class="meta">STACK</text>
-<text x="36" y="374" class="body">TypeScript · Node.js</text>
-
+<svg width="1000" height="408" viewBox="0 0 1000 408" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="project-03-title">
+<title id="project-03-title">Project 03: Security Management - Resident visitor and access management system - Status: In Development - Capabilities: Residents, Visitors, Access Control, Events - Stack: TypeScript, Node.js</title>
+<defs>
+<linearGradient id="p03-border" x1="0" x2="1">
+<stop stop-color="#7C3AED"/>
+<stop offset=".5" stop-color="#A855F7"/>
+<stop offset="1" stop-color="#D946EF"/>
+</linearGradient>
+<linearGradient id="p03-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+<linearGradient id="p03-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
+</linearGradient>
+<linearGradient id="p03-header-dark" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#2d1b4e"/>
+<stop offset="100%" stop-color="#1a0a2e"/>
+</linearGradient>
+<linearGradient id="p03-header-light" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#e9d5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
+</linearGradient>
+<style>
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .p03-bg { fill: url(#p03-bg-dark); }
+  .p03-border { stroke: url(#p03-border); }
+  .p03-header { fill: url(#p03-header-dark); }
+  .p03-meta { fill: #c084fc; }
+  .p03-title { fill: #f3e8ff; }
+  .p03-body { fill: #d8b4fe; }
+  .p03-accent { fill: #a855f7; }
+  .p03-divider { stroke: #3f1d5c; }
+}
+@media (prefers-color-scheme: light) {
+  .p03-bg { fill: url(#p03-bg-light); }
+  .p03-border { stroke: url(#p03-border); stroke-width: 2; }
+  .p03-header { fill: url(#p03-header-light); }
+  .p03-meta { fill: #7e22ce; }
+  .p03-title { fill: #4c1d95; }
+  .p03-body { fill: #6b21a8; }
+  .p03-accent { fill: #9333ea; }
+  .p03-divider { stroke: #d8b4fe; }
+}
+@media (prefers-contrast: more) {
+  .p03-title { fill: #ffffff; }
+  .p03-body { fill: #e9d5ff; }
+  .p03-accent { fill: #d8b4fe; }
+  .p03-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
+</style>
+</defs>
+<rect x="1" y="1" width="998" height="406" rx="14" class="p03-bg p03-border" stroke-width="2"/>
+<rect x="24" y="22" width="952" height="42" rx="7" class="p03-header"/>
+<text x="40" y="50" class="p03-meta" font-family="monospace" font-size="18" font-weight="700">PROJECT 03</text>
+<text x="36" y="108" class="p03-title" font-family="monospace" font-size="28" font-weight="700">SECURITY MANAGEMENT</text>
+<text x="36" y="145" class="p03-body" font-family="monospace" font-size="21" font-weight="500">Resident, visitor and access management system.</text>
+<text x="36" y="188" class="p03-meta" font-family="monospace" font-size="18" font-weight="700">STATUS</text>
+<text x="150" y="188" class="p03-accent" font-family="monospace" font-size="20" font-weight="600">IN DEVELOPMENT</text>
+<line x1="36" y1="213" x2="964" y2="213" class="p03-divider" stroke-width="1"/>
+<text x="36" y="250" class="p03-meta" font-family="monospace" font-size="18" font-weight="700">CAPABILITIES</text>
+<text x="36" y="288" class="p03-body" font-family="monospace" font-size="21" font-weight="500">Residents · Visitors</text>
+<text x="510" y="288" class="p03-body" font-family="monospace" font-size="21" font-weight="500">Access Control · Events</text>
+<text x="36" y="338" class="p03-meta" font-family="monospace" font-size="18" font-weight="700">STACK</text>
+<text x="36" y="374" class="p03-body" font-family="monospace" font-size="21" font-weight="500">TypeScript · Node.js</text>
 </svg>

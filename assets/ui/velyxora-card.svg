@@ -1,22 +1,62 @@
-<svg width="1000" height="565" viewBox="0 0 1000 565" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
-<title id="title">Project 05: VELYXORA</title>
-<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.title{font:700 28px monospace;fill:#E6EDF3}.meta{font:700 18px monospace;fill:#A855F7}.body{font:500 21px monospace;fill:#C9D1D9}.cyan{font:600 20px monospace;fill:#22D3EE}.small{font:500 18px monospace;fill:#8B949E}</style></defs>
-<rect x="1" y="1" width="998" height="563" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
-<rect x="24" y="22" width="952" height="42" rx="7" fill="#161B22"/><text x="40" y="50" class="meta">PROJECT 05</text>
-<text x="36" y="108" class="title">VELYXORA</text>
-<text x="36" y="145" class="body">Full-Stack Authentication System</text>
-<text x="36" y="188" class="meta">STATUS</text>
-<text x="150" y="188" class="cyan">IN DEVELOPMENT</text>
-<line x1="36" y1="213" x2="964" y2="213" stroke="#30363D"/>
-<text x="36" y="250" class="meta">CURRENT FOCUS</text>
-<text x="36" y="288" class="body">Authentication · Cookie-based Authentication</text>
-<text x="36" y="322" class="body">Rate Limiting</text>
-<text x="36" y="370" class="meta">STACK</text>
-<text x="36" y="406" class="body">FRONTEND   React · Vite · TypeScript</text>
-<text x="36" y="440" class="body">BACKEND    Node.js · Express · TypeScript</text>
-<line x1="36" y1="460" x2="964" y2="460" stroke="#30363D"/>
-<text x="36" y="497" class="meta">API ENDPOINTS</text>
-<text x="36" y="533" class="cyan">/api/auth/login</text>
-<text x="510" y="533" class="cyan">/api/auth/me</text>
-
+<svg width="1000" height="565" viewBox="0 0 1000 565" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="velyxora-title">
+<title id="velyxora-title">Project 05: Velyxora - Full-Stack Authentication System with cookie-based auth, rate limiting, React Vite TypeScript frontend, Node Express TypeScript backend</title>
+<defs>
+<linearGradient id="velyxora-border" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#D946EF"/></linearGradient>
+<linearGradient id="velyxora-bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0a2e"/><stop offset="100%" stop-color="#0d021a"/></linearGradient>
+<linearGradient id="velyxora-bg-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#faf5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+<linearGradient id="velyxora-header-dark" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2d1b4e"/><stop offset="100%" stop-color="#1a0a2e"/></linearGradient>
+<linearGradient id="velyxora-header-light" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#e9d5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+<style>
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .velyxora-bg { fill: url(#velyxora-bg-dark); }
+  .velyxora-border { stroke: url(#velyxora-border); }
+  .velyxora-header { fill: url(#velyxora-header-dark); }
+  .velyxora-meta { fill: #c084fc; }
+  .velyxora-title { fill: #f3e8ff; }
+  .velyxora-body { fill: #d8b4fe; }
+  .velyxora-accent { fill: #a855f7; }
+  .velyxora-divider { stroke: #3f1d5c; }
+  .velyxora-small { fill: #a855f7; }
+}
+@media (prefers-color-scheme: light) {
+  .velyxora-bg { fill: url(#velyxora-bg-light); }
+  .velyxora-border { stroke: url(#velyxora-border); stroke-width: 2; }
+  .velyxora-header { fill: url(#velyxora-header-light); }
+  .velyxora-meta { fill: #7e22ce; }
+  .velyxora-title { fill: #4c1d95; }
+  .velyxora-body { fill: #6b21a8; }
+  .velyxora-accent { fill: #9333ea; }
+  .velyxora-divider { stroke: #d8b4fe; }
+  .velyxora-small { fill: #9333ea; }
+}
+@media (prefers-contrast: more) {
+  .velyxora-title { fill: #ffffff; }
+  .velyxora-body { fill: #e9d5ff; }
+  .velyxora-accent { fill: #d8b4fe; }
+  .velyxora-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
+</style>
+</defs>
+<rect x="1" y="1" width="998" height="563" rx="14" class="velyxora-bg velyxora-border" stroke-width="2"/>
+<rect x="24" y="22" width="952" height="42" rx="7" class="velyxora-header"/><text x="40" y="50" class="velyxora-meta" font-family="monospace" font-size="18" font-weight="700">PROJECT 05</text>
+<text x="36" y="108" class="velyxora-title" font-family="monospace" font-size="28" font-weight="700">VELYXORA</text>
+<text x="36" y="145" class="velyxora-body" font-family="monospace" font-size="21" font-weight="500">Full-Stack Authentication System</text>
+<text x="36" y="188" class="velyxora-meta" font-family="monospace" font-size="18" font-weight="700">STATUS</text>
+<text x="150" y="188" class="velyxora-accent" font-family="monospace" font-size="20" font-weight="600">IN DEVELOPMENT</text>
+<line x1="36" y1="213" x2="964" y2="213" class="velyxora-divider" stroke-width="1"/>
+<text x="36" y="250" class="velyxora-meta" font-family="monospace" font-size="18" font-weight="700">CURRENT FOCUS</text>
+<text x="36" y="288" class="velyxora-body" font-family="monospace" font-size="21" font-weight="500">Authentication · Cookie-based Authentication</text>
+<text x="36" y="322" class="velyxora-body" font-family="monospace" font-size="21" font-weight="500">Rate Limiting</text>
+<text x="36" y="370" class="velyxora-meta" font-family="monospace" font-size="18" font-weight="700">STACK</text>
+<text x="36" y="406" class="velyxora-body" font-family="monospace" font-size="21" font-weight="500">FRONTEND   React · Vite · TypeScript</text>
+<text x="36" y="440" class="velyxora-body" font-family="monospace" font-size="21" font-weight="500">BACKEND    Node.js · Express · TypeScript</text>
+<line x1="36" y1="460" x2="964" y2="460" class="velyxora-divider" stroke-width="1"/>
+<text x="36" y="497" class="velyxora-meta" font-family="monospace" font-size="18" font-weight="700">API ENDPOINTS</text>
+<text x="36" y="533" class="velyxora-accent" font-family="monospace" font-size="20" font-weight="600">/api/auth/login</text>
+<text x="510" y="533" class="velyxora-accent" font-family="monospace" font-size="20" font-weight="600">/api/auth/me</text>
 </svg>

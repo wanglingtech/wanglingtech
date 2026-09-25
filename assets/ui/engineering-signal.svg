@@ -1,43 +1,81 @@
 <svg width="1200" height="240" viewBox="0 0 1200 240"
-xmlns="http://www.w3.org/2000/svg">
+xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="engineering-signal-title">
+
+<title id="engineering-signal-title">Engineering System Design Protocol - Software is one layer of the system - Engineering means understanding how the layers connect - Design, Build, Test, Measure, Improve</title>
 
 <defs>
-<linearGradient id="g">
+<linearGradient id="es-border" x1="0" x2="1">
 <stop stop-color="#A855F7"/>
 <stop offset=".5" stop-color="#7C3AED"/>
-<stop offset="1" stop-color="#22D3EE"/>
+<stop offset="1" stop-color="#D946EF"/>
+</linearGradient>
+
+<linearGradient id="es-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+
+<linearGradient id="es-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
 </linearGradient>
 
 <style>
-.h{font:700 17px monospace;fill:#22D3EE}
-.t{font:600 15px monospace;fill:#E6EDF3}
-.s{font:600 12px monospace;fill:#A855F7}
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .es-bg { fill: url(#es-bg-dark); }
+  .es-border { stroke: url(#es-border); }
+  .es-heading { fill: #a855f7; }
+  .es-text { fill: #f3e8ff; }
+  .es-sub { fill: #c084fc; }
+  .es-line { stroke: url(#es-border); }
+  .es-dot { fill: #a855f7; }
+}
+@media (prefers-color-scheme: light) {
+  .es-bg { fill: url(#es-bg-light); }
+  .es-border { stroke: url(#es-border); stroke-width: 2; }
+  .es-heading { fill: #9333ea; }
+  .es-text { fill: #4c1d95; }
+  .es-sub { fill: #7e22ce; }
+  .es-line { stroke: url(#es-border); }
+  .es-dot { fill: #9333ea; }
+}
+@media (prefers-contrast: more) {
+  .es-text { fill: #ffffff; }
+  .es-heading { fill: #e9d5ff; }
+  .es-sub { fill: #d8b4fe; }
+  .es-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
 </style>
 </defs>
 
 <rect x="1" y="1" width="1198" height="238" rx="12"
-fill="#0D1117" stroke="url(#g)" stroke-width="2"/>
+class="es-bg es-border" stroke-width="2"/>
 
-<text x="600" y="54" text-anchor="middle" class="h">
+<text x="600" y="54" text-anchor="middle" class="es-heading" font-family="monospace" font-size="17" font-weight="700">
 [ ENGINEERING ] // SYSTEM DESIGN PROTOCOL
 </text>
 
-<text x="600" y="94" text-anchor="middle" class="t">
+<text x="600" y="94" text-anchor="middle" class="es-text" font-family="monospace" font-size="15" font-weight="600">
 SOFTWARE IS ONE LAYER OF THE SYSTEM
 </text>
 
-<text x="600" y="122" text-anchor="middle" class="t">
+<text x="600" y="122" text-anchor="middle" class="es-text" font-family="monospace" font-size="15" font-weight="600">
 ENGINEERING MEANS UNDERSTANDING HOW THE LAYERS CONNECT
 </text>
 
-<text x="600" y="173" text-anchor="middle" class="s">
+<text x="600" y="173" text-anchor="middle" class="es-sub" font-family="monospace" font-size="12" font-weight="600">
 DESIGN  →  BUILD  →  TEST  →  MEASURE  →  IMPROVE
 </text>
 
 <line x1="170" y1="204" x2="1030" y2="204"
-stroke="url(#g)" stroke-width="2"/>
+class="es-line" stroke-width="2"/>
 
-<circle cx="170" cy="204" r="4" fill="#A855F7"/>
-<circle cx="1030" cy="204" r="4" fill="#22D3EE"/>
+<circle cx="170" cy="204" r="4" class="es-dot"/>
+<circle cx="1030" cy="204" r="4" class="es-dot"/>
 
 </svg>

@@ -1,15 +1,74 @@
-<svg width="1000" height="520" viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-<title id="title">PROFESSIONAL RADAR with relative focus percentages</title>
-<desc id="desc">Bars left, radar right. Relative focus derived from the previous radar geometry, not a proficiency assessment. Problem Solving: 88%; Continuous Learning: 83%; Adaptability: 74%; Organization: 83%; Communication: 80%; Teamwork: 83%.</desc>
+<svg width="1000" height="520" viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pr-title pr-desc">
+<title id="pr-title">Professional Radar with relative focus percentages</title>
+<desc id="pr-desc">Bars left, radar right. Relative focus derived from the previous radar geometry, not a proficiency assessment. Problem Solving: 88%; Continuous Learning: 83%; Adaptability: 74%; Organization: 83%; Communication: 80%; Teamwork: 83%.</desc>
 <defs>
-  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
-  <linearGradient id="bar" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="0.6" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
-  <style>.title{font:700 23px monospace;fill:#E6EDF3}.meta{font:700 15px monospace;fill:#A855F7}.axis{font:700 18px monospace;fill:#22D3EE}.label{font:500 20px monospace;fill:#C9D1D9}.value{font:700 20px monospace;fill:#22D3EE}.note{font:500 16px monospace;fill:#8B949E}@media (prefers-reduced-motion: no-preference){.shape{animation:breathe 5s ease-in-out infinite}}@keyframes breathe{0%,100%{fill-opacity:.45}50%{fill-opacity:.65}}</style>
+  <linearGradient id="pr-border" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#D946EF"/></linearGradient>
+  <linearGradient id="pr-bar" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="0.6" stop-color="#A855F7"/><stop offset="1" stop-color="#D946EF"/></linearGradient>
+  <linearGradient id="pr-bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0a2e"/><stop offset="100%" stop-color="#0d021a"/></linearGradient>
+  <linearGradient id="pr-bg-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#faf5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+  <style><![CDATA[
+  .pr-title{font:700 23px monospace}
+  .pr-meta{font:700 15px monospace}
+  .pr-axis{font:700 18px monospace}
+  .pr-label{font:500 20px monospace}
+  .pr-value{font:700 20px monospace}
+  .pr-note{font:500 16px monospace}
+
+  @media (prefers-reduced-motion: no-preference){
+    .pr-anim { animation: pr-breathe 5s ease-in-out infinite }
+  }
+  @keyframes pr-breathe { 0%,100%{fill-opacity:.45} 50%{fill-opacity:.65} }
+
+  @media (prefers-color-scheme: dark) {
+    .pr-bg { fill: url(#pr-bg-dark); }
+    .pr-border { stroke: url(#pr-border); }
+    .pr-title { fill: #f3e8ff; }
+    .pr-meta { fill: #c084fc; }
+    .pr-axis { fill: #a855f7; }
+    .pr-label { fill: #d8b4fe; }
+    .pr-value { fill: #a855f7; }
+    .pr-note { fill: #a855f7; }
+    .pr-grid { stroke: #3f1d5c; }
+    .pr-divider { stroke: #3f1d5c; }
+    .pr-shape { fill: #7C3AED; stroke: #A855F7; }
+    .pr-vertex { fill: #a855f7; }
+    .pr-bar-bg { fill: #2d1b4e; }
+    .pr-bar-fill { fill: url(#pr-bar); }
+  }
+
+  @media (prefers-color-scheme: light) {
+    .pr-bg { fill: url(#pr-bg-light); }
+    .pr-border { stroke: url(#pr-border); stroke-width: 2; }
+    .pr-title { fill: #4c1d95; }
+    .pr-meta { fill: #7e22ce; }
+    .pr-axis { fill: #9333ea; }
+    .pr-label { fill: #6b21a8; }
+    .pr-value { fill: #9333ea; }
+    .pr-note { fill: #7e22ce; }
+    .pr-grid { stroke: #d8b4fe; }
+    .pr-divider { stroke: #d8b4fe; }
+    .pr-shape { fill: #9333ea; stroke: #7c3aed; }
+    .pr-vertex { fill: #9333ea; }
+    .pr-bar-bg { fill: #e9d5ff; }
+    .pr-bar-fill { fill: url(#pr-bar); }
+  }
+
+  @media (prefers-contrast: more) {
+    .pr-title { fill: #ffffff; }
+    .pr-label { fill: #e9d5ff; }
+    .pr-value { fill: #e9d5ff; }
+    .pr-border { stroke-width: 3; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+  ]]></style>
 </defs>
-<rect x="1" y="1" width="488" height="518" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
-<rect x="511" y="1" width="488" height="518" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
-<g transform="translate(510 0)"><text x="26" y="42" class="title">PROFESSIONAL RADAR</text><text x="26" y="70" class="meta">PROFESSIONAL DEVELOPMENT FOCUS</text>
-<g fill="none" stroke="#30363D">
+<rect x="1" y="1" width="488" height="518" rx="14" class="pr-bg pr-border" stroke-width="2"/>
+<rect x="511" y="1" width="488" height="518" rx="14" class="pr-bg pr-border" stroke-width="2"/>
+<g transform="translate(510 0)"><text x="26" y="42" class="pr-title">PROFESSIONAL RADAR</text><text x="26" y="70" class="pr-meta">PROFESSIONAL DEVELOPMENT FOCUS</text>
+<g fill="none" class="pr-grid">
 <polygon points="245.0,229.8 276.4,247.9 276.4,284.1 245.0,302.2 213.6,284.1 213.6,247.9"/>
 <polygon points="245.0,193.5 307.8,229.8 307.8,302.2 245.0,338.5 182.2,302.3 182.2,229.8"/>
 <polygon points="245.0,157.2 339.2,211.6 339.2,320.4 245.0,374.8 150.8,320.4 150.8,211.6"/>
@@ -21,25 +80,25 @@
 <line x1="245" y1="266" x2="119.4" y2="338.5"/>
 <line x1="245" y1="266" x2="119.4" y2="193.5"/>
 </g>
-<polygon class="shape" points="245.0,138.4 349.2,205.8 337.9,319.6 245.0,386.4 144.5,324.0 140.8,205.8" fill="#7C3AED" fill-opacity=".55" stroke="#A855F7" stroke-width="3"/>
-<circle cx="245.0" cy="138.4" r="5" fill="#22D3EE"/>
-<text x="245.0" y="99.0" text-anchor="middle" class="axis">SOLVE</text>
-<circle cx="349.2" cy="205.8" r="5" fill="#22D3EE"/>
-<text x="394.8" y="185.5" text-anchor="start" class="axis">LEARN</text>
-<circle cx="337.9" cy="319.6" r="5" fill="#22D3EE"/>
-<text x="394.8" y="358.5" text-anchor="start" class="axis">ADAPT</text>
-<circle cx="245.0" cy="386.4" r="5" fill="#22D3EE"/>
-<text x="245.0" y="445.0" text-anchor="middle" class="axis">ORG</text>
-<circle cx="144.5" cy="324.0" r="5" fill="#22D3EE"/>
-<text x="95.2" y="358.5" text-anchor="end" class="axis">COMM</text>
-<circle cx="140.8" cy="205.8" r="5" fill="#22D3EE"/>
-<text x="95.2" y="185.5" text-anchor="end" class="axis">TEAM</text>
-<line x1="26" y1="468" x2="464" y2="468" stroke="#30363D"/><text x="26" y="496" class="note">RELATIVE FOCUS / NOT PROFICIENCY</text></g>
-<g transform="translate(0 0)"><text x="26" y="42" class="title">FOCUS BREAKDOWN</text><text x="26" y="70" class="meta">RELATIVE AXIS EXTENT (%)</text>
-<text x="26" y="113" class="label">Problem Solving</text><text x="464" y="113" text-anchor="end" class="value">88%</text><rect x="26" y="125" width="438" height="10" rx="5" fill="#21262D"/><rect x="26" y="125" width="385.44" height="10" rx="5" fill="url(#bar)"/>
-<text x="26" y="170" class="label">Continuous Learning</text><text x="464" y="170" text-anchor="end" class="value">83%</text><rect x="26" y="182" width="438" height="10" rx="5" fill="#21262D"/><rect x="26" y="182" width="363.54" height="10" rx="5" fill="url(#bar)"/>
-<text x="26" y="227" class="label">Adaptability</text><text x="464" y="227" text-anchor="end" class="value">74%</text><rect x="26" y="239" width="438" height="10" rx="5" fill="#21262D"/><rect x="26" y="239" width="324.12" height="10" rx="5" fill="url(#bar)"/>
-<text x="26" y="284" class="label">Organization</text><text x="464" y="284" text-anchor="end" class="value">83%</text><rect x="26" y="296" width="438" height="10" rx="5" fill="#21262D"/><rect x="26" y="296" width="363.54" height="10" rx="5" fill="url(#bar)"/>
-<text x="26" y="341" class="label">Communication</text><text x="464" y="341" text-anchor="end" class="value">80%</text><rect x="26" y="353" width="438" height="10" rx="5" fill="#21262D"/><rect x="26" y="353" width="350.40" height="10" rx="5" fill="url(#bar)"/>
-<text x="26" y="398" class="label">Teamwork</text><text x="464" y="398" text-anchor="end" class="value">83%</text><rect x="26" y="410" width="438" height="10" rx="5" fill="#21262D"/><rect x="26" y="410" width="363.54" height="10" rx="5" fill="url(#bar)"/>
-<line x1="26" y1="468" x2="464" y2="468" stroke="#30363D"/><text x="26" y="496" class="note">SAME VALUES AS RADAR</text></g></svg>
+<polygon class="pr-shape pr-anim" points="245.0,138.4 349.2,205.8 337.9,319.6 245.0,386.4 144.5,324.0 140.8,205.8" fill-opacity=".55" stroke-width="3"/>
+<circle cx="245.0" cy="138.4" r="5" class="pr-vertex"/>
+<text x="245.0" y="99.0" text-anchor="middle" class="pr-axis">SOLVE</text>
+<circle cx="349.2" cy="205.8" r="5" class="pr-vertex"/>
+<text x="394.8" y="185.5" text-anchor="start" class="pr-axis">LEARN</text>
+<circle cx="337.9" cy="319.6" r="5" class="pr-vertex"/>
+<text x="394.8" y="358.5" text-anchor="start" class="pr-axis">ADAPT</text>
+<circle cx="245.0" cy="386.4" r="5" class="pr-vertex"/>
+<text x="245.0" y="445.0" text-anchor="middle" class="pr-axis">ORG</text>
+<circle cx="144.5" cy="324.0" r="5" class="pr-vertex"/>
+<text x="95.2" y="358.5" text-anchor="end" class="pr-axis">COMM</text>
+<circle cx="140.8" cy="205.8" r="5" class="pr-vertex"/>
+<text x="95.2" y="185.5" text-anchor="end" class="pr-axis">TEAM</text>
+<line x1="26" y1="468" x2="464" y2="468" class="pr-divider"/><text x="26" y="496" class="pr-note">RELATIVE FOCUS / NOT PROFICIENCY</text></g>
+<g transform="translate(0 0)"><text x="26" y="42" class="pr-title">FOCUS BREAKDOWN</text><text x="26" y="70" class="pr-meta">RELATIVE AXIS EXTENT (%)</text>
+<text x="26" y="113" class="pr-label">Problem Solving</text><text x="464" y="113" text-anchor="end" class="pr-value">88%</text><rect x="26" y="125" width="438" height="10" rx="5" class="pr-bar-bg"/><rect x="26" y="125" width="385.44" height="10" rx="5" class="pr-bar-fill"/>
+<text x="26" y="170" class="pr-label">Continuous Learning</text><text x="464" y="170" text-anchor="end" class="pr-value">83%</text><rect x="26" y="182" width="438" height="10" rx="5" class="pr-bar-bg"/><rect x="26" y="182" width="363.54" height="10" rx="5" class="pr-bar-fill"/>
+<text x="26" y="227" class="pr-label">Adaptability</text><text x="464" y="227" text-anchor="end" class="pr-value">74%</text><rect x="26" y="239" width="438" height="10" rx="5" class="pr-bar-bg"/><rect x="26" y="239" width="324.12" height="10" rx="5" class="pr-bar-fill"/>
+<text x="26" y="284" class="pr-label">Organization</text><text x="464" y="284" text-anchor="end" class="pr-value">83%</text><rect x="26" y="296" width="438" height="10" rx="5" class="pr-bar-bg"/><rect x="26" y="296" width="363.54" height="10" rx="5" class="pr-bar-fill"/>
+<text x="26" y="341" class="pr-label">Communication</text><text x="464" y="341" text-anchor="end" class="pr-value">80%</text><rect x="26" y="353" width="438" height="10" rx="5" class="pr-bar-bg"/><rect x="26" y="353" width="350.40" height="10" rx="5" class="pr-bar-fill"/>
+<text x="26" y="398" class="pr-label">Teamwork</text><text x="464" y="398" text-anchor="end" class="pr-value">83%</text><rect x="26" y="410" width="438" height="10" rx="5" class="pr-bar-bg"/><rect x="26" y="410" width="363.54" height="10" rx="5" class="pr-bar-fill"/>
+<line x1="26" y1="468" x2="464" y2="468" class="pr-divider"/><text x="26" y="496" class="pr-note">SAME VALUES AS RADAR</text></g></svg>

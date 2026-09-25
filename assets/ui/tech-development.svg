@@ -1,4 +1,42 @@
-<svg width="1000" height="118" viewBox="0 0 1000 118" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="edge01" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#A855F7"/></linearGradient><style>.n{font:700 14px monospace;fill:#22D3EE}.h{font:700 23px monospace;fill:#E6EDF3}.s{font:600 16px monospace;fill:#A855F7}.d{font:500 15px monospace;fill:#C9D1D9}</style></defs>
-<rect x="1" y="1" width="998" height="116" rx="12" fill="#0D1117" stroke="url(#edge01)" stroke-width="2"/><rect x="24" y="22" width="62" height="34" rx="7" fill="#161B22" stroke="#A855F7"/><text x="55" y="44" text-anchor="middle" class="n">01</text><text x="112" y="47" class="h">CORE DEVELOPMENT</text><text x="112" y="78" class="s">Application Engineering</text><text x="112" y="101" class="d">Frontend • Backend</text>
+<svg width="1000" height="118" viewBox="0 0 1000 118" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tech-development-title">
+<title id="tech-development-title">Core Development - Application Engineering - Frontend and Backend</title>
+<defs>
+<linearGradient id="td-border" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
+<linearGradient id="td-bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0a2e"/><stop offset="100%" stop-color="#0d021a"/></linearGradient>
+<linearGradient id="td-bg-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#faf5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+<style><![CDATA[
+@media (prefers-color-scheme: dark) {
+  .td-bg { fill: url(#td-bg-dark); }
+  .td-border { stroke: url(#td-border); }
+  .td-badge-bg { fill: #2d1b4e; stroke: #a855f7; }
+  .td-num { fill: #c084fc; }
+  .td-title { fill: #f3e8ff; }
+  .td-sub { fill: #a855f7; }
+  .td-desc { fill: #d8b4fe; }
+}
+@media (prefers-color-scheme: light) {
+  .td-bg { fill: url(#td-bg-light); }
+  .td-border { stroke: url(#td-border); stroke-width: 2; }
+  .td-badge-bg { fill: #e9d5ff; stroke: #9333ea; }
+  .td-num { fill: #7e22ce; }
+  .td-title { fill: #4c1d95; }
+  .td-sub { fill: #9333ea; }
+  .td-desc { fill: #6b21a8; }
+}
+@media (prefers-contrast: more) {
+  .td-title { fill: #ffffff; }
+  .td-desc { fill: #e9d5ff; }
+  .td-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]></style>
+</defs>
+<rect x="1" y="1" width="998" height="116" rx="12" class="td-bg td-border" stroke-width="2"/>
+<rect x="24" y="22" width="62" height="34" rx="7" class="td-badge-bg" stroke-width="1.2"/>
+<text x="55" y="44" text-anchor="middle" class="td-num" font-family="monospace" font-size="14" font-weight="700">01</text>
+<text x="112" y="47" class="td-title" font-family="monospace" font-size="23" font-weight="700">CORE DEVELOPMENT</text>
+<text x="112" y="78" class="td-sub" font-family="monospace" font-size="16" font-weight="600">Application Engineering</text>
+<text x="112" y="101" class="td-desc" font-family="monospace" font-size="15" font-weight="500">Frontend • Backend</text>
 </svg>

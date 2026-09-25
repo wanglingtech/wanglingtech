@@ -1,49 +1,101 @@
-<svg width="1200" height="60" viewBox="0 0 1200 60" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="60" viewBox="0 0 1200 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="section-title-06-title">
+<title id="section-title-06-title">Section 06: Current Mission</title>
 <defs>
-  <linearGradient id="sg" x1="0" x2="1">
-    <stop offset="0%" stop-color="#7C3AED"/>
-    <stop offset="50%" stop-color="#A855F7"/>
-    <stop offset="100%" stop-color="#22D3EE"/>
-  </linearGradient>
-  <linearGradient id="ss" x1="0" x2="1">
-    <stop offset="0%" stop-color="#A855F7" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#F5D0FE"/>
-    <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
-  </linearGradient>
-  <filter id="sglow">
-    <feGaussianBlur stdDeviation="2.4" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
+<linearGradient id="st06-border" x1="0" x2="1">
+<stop offset="0%" stop-color="#7C3AED"/>
+<stop offset="50%" stop-color="#A855F7"/>
+<stop offset="100%" stop-color="#D946EF"/>
+</linearGradient>
+<linearGradient id="st06-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+<linearGradient id="st06-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
+</linearGradient>
+<linearGradient id="st06-scan-dark" x1="0" x2="1">
+<stop offset="0%" stop-color="#a855f7" stop-opacity="0"/>
+<stop offset="50%" stop-color="#c084fc" stop-opacity="0.6"/>
+<stop offset="100%" stop-color="#d946ef" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="st06-scan-light" x1="0" x2="1">
+<stop offset="0%" stop-color="#9333ea" stop-opacity="0"/>
+<stop offset="50%" stop-color="#a855f7" stop-opacity="0.5"/>
+<stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+</linearGradient>
+<filter id="st06-glow">
+<feGaussianBlur stdDeviation="2.4" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<style>
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .st06-bg { fill: url(#st06-bg-dark); }
+  .st06-border { stroke: #3f1d5c; }
+  .st06-top-line { fill: url(#st06-border); }
+  .st06-badge-bg { fill: #2d1b4e; }
+  .st06-badge-border { stroke: url(#st06-border); }
+  .st06-badge-text { fill: #c084fc; }
+  .st06-title { fill: #f3e8ff; }
+  .st06-cursor { fill: #a855f7; }
+  .st06-status-dot { fill: #a855f7; }
+  .st06-status-text { fill: #a855f7; }
+  .st06-scan { fill: url(#st06-scan-dark); }
+}
+@media (prefers-color-scheme: light) {
+  .st06-bg { fill: url(#st06-bg-light); }
+  .st06-border { stroke: #d8b4fe; stroke-width: 2; }
+  .st06-top-line { fill: url(#st06-border); }
+  .st06-badge-bg { fill: #e9d5ff; }
+  .st06-badge-border { stroke: url(#st06-border); }
+  .st06-badge-text { fill: #7e22ce; }
+  .st06-title { fill: #4c1d95; }
+  .st06-cursor { fill: #9333ea; }
+  .st06-status-dot { fill: #9333ea; }
+  .st06-status-text { fill: #9333ea; }
+  .st06-scan { fill: url(#st06-scan-light); }
+}
+@media (prefers-contrast: more) {
+  .st06-title { fill: #ffffff; }
+  .st06-badge-text { fill: #e9d5ff; }
+  .st06-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
+</style>
 </defs>
 
-<rect x="1" y="1" width="1198" height="58" rx="10" fill="#0D1117" stroke="#30363D"/>
-<rect x="1" y="1" width="1198" height="3" rx="1.5" fill="url(#sg)"/>
+<rect x="1" y="1" width="1198" height="58" rx="10" class="st06-bg st06-border"/>
+<rect x="1" y="1" width="1198" height="3" rx="1.5" class="st06-top-line"/>
 
 <!-- NUMBER BADGE -->
 <rect x="18" y="16" width="58" height="28" rx="6"
-      fill="#161B22" stroke="url(#sg)" stroke-width="1.2"/>
+      class="st06-badge-bg st06-badge-border" stroke-width="1.2"/>
 <text x="47" y="35" text-anchor="middle"
-      fill="#A855F7" font-family="monospace" font-size="13" font-weight="bold">06</text>
+      class="st06-badge-text" font-family="monospace" font-size="13" font-weight="bold">06</text>
 
 <!-- TITLE -->
 <text x="92" y="36"
-      fill="#E6EDF3" font-family="monospace" font-size="16"
+      class="st06-title" font-family="monospace" font-size="16"
       font-weight="bold" letter-spacing="8">CURRENT MISSION</text>
 
 <!-- BLINKING CURSOR -->
-<rect x="299" y="20" width="3" height="20" fill="#22D3EE" filter="url(#sglow)">
-
+<rect x="299" y="20" width="3" height="20" class="st06-cursor" filter="url(#st06-glow)">
+  <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
 </rect>
 
 <!-- RIGHT STATUS -->
-<circle cx="1130" cy="30" r="4" fill="#3FB950" filter="url(#sglow)">
-
+<circle cx="1130" cy="30" r="4" class="st06-status-dot" filter="url(#st06-glow)">
+  <animate attributeName="opacity" values=".5;1;.5" dur="2s" repeatCount="indefinite"/>
 </circle>
-<text x="1142" y="35" fill="#3FB950"
+<text x="1142" y="35" class="st06-status-text"
       font-family="monospace" font-size="11">READY</text>
 
 <!-- SCAN LINE -->
-<rect x="-200" y="28" width="160" height="2" fill="url(#ss)" filter="url(#sglow)">
-
+<rect x="-200" y="28" width="160" height="2" class="st06-scan" filter="url(#st06-glow)">
+  <animate attributeName="x" values="-200;1200" dur="3s" repeatCount="indefinite"/>
 </rect>
 </svg>

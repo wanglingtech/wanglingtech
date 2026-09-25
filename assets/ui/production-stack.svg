@@ -1,33 +1,71 @@
 <svg width="1200" height="145" viewBox="0 0 1200 145"
-xmlns="http://www.w3.org/2000/svg">
+xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="production-stack-title">
+
+<title id="production-stack-title">Production Technologies - HTML, CSS, JavaScript, WordPress, WooCommerce - Landing Pages, E-Commerce, E-Learning, Responsive Maintenance</title>
 
 <defs>
-<linearGradient id="g">
+<linearGradient id="ps-border" x1="0" x2="1">
 <stop stop-color="#A855F7"/>
 <stop offset=".5" stop-color="#7C3AED"/>
-<stop offset="1" stop-color="#22D3EE"/>
+<stop offset="1" stop-color="#D946EF"/>
+</linearGradient>
+
+<linearGradient id="ps-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+
+<linearGradient id="ps-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
 </linearGradient>
 
 <style>
-.h{font:700 18px monospace;fill:#E6EDF3}
-.t{font:600 12px monospace;fill:#22D3EE}
-.s{font:500 11px monospace;fill:#8B949E}
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .ps-bg { fill: url(#ps-bg-dark); }
+  .ps-border { stroke: url(#ps-border); }
+  .ps-title { fill: #f3e8ff; }
+  .ps-tech { fill: #a855f7; }
+  .ps-detail { fill: #c084fc; }
+  .ps-status { fill: #a855f7; }
+}
+@media (prefers-color-scheme: light) {
+  .ps-bg { fill: url(#ps-bg-light); }
+  .ps-border { stroke: url(#ps-border); stroke-width: 2; }
+  .ps-title { fill: #4c1d95; }
+  .ps-tech { fill: #9333ea; }
+  .ps-detail { fill: #7e22ce; }
+  .ps-status { fill: #9333ea; }
+}
+@media (prefers-contrast: more) {
+  .ps-title { fill: #ffffff; }
+  .ps-tech { fill: #e9d5ff; }
+  .ps-detail { fill: #d8b4fe; }
+  .ps-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
 </style>
 </defs>
 
 <rect x="1" y="1" width="1198" height="143" rx="10"
-fill="#0D1117" stroke="url(#g)"/>
+class="ps-bg ps-border" stroke-width="1"/>
 
-<text x="35" y="39" class="h">PRODUCTION // TECHNOLOGIES</text>
+<text x="35" y="39" class="ps-title" font-family="monospace" font-size="18" font-weight="700">PRODUCTION // TECHNOLOGIES</text>
 
-<text x="35" y="78" class="t">
+<text x="35" y="78" class="ps-tech" font-family="monospace" font-size="12" font-weight="600">
 HTML // CSS // JAVASCRIPT // WORDPRESS // WOOCOMMERCE
 </text>
 
-<text x="35" y="111" class="s">
+<text x="35" y="111" class="ps-detail" font-family="monospace" font-size="11" font-weight="500">
 LANDING PAGES · E-COMMERCE · E-LEARNING · RESPONSIVE MAINTENANCE
 </text>
 
-<circle cx="1135" cy="37" r="5" fill="#3FB950"/>
+<circle cx="1135" cy="37" r="5" class="ps-status">
+  <animate attributeName="opacity" values=".5;1;.5" dur="2s" repeatCount="indefinite"/>
+</circle>
 
 </svg>

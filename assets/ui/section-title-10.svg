@@ -1,1 +1,42 @@
-<svg width="1000" height="64" viewBox="0 0 1000 64" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="s11" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".55" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs><rect x="1" y="1" width="998" height="62" rx="10" fill="#0D1117" stroke="#30363D"/><rect x="1" y="1" width="998" height="3" rx="2" fill="url(#s11)"/><rect x="20" y="17" width="58" height="30" rx="6" fill="#161B22" stroke="#A855F7"/><text x="49" y="38" text-anchor="middle" fill="#A855F7" font-family="monospace" font-size="14" font-weight="700">10</text><text x="98" y="39" fill="#E6EDF3" font-family="monospace" font-size="19" font-weight="700">SYSTEM TELEMETRY</text><circle cx="952" cy="32" r="5" fill="#22D3EE"/></svg>
+<svg width="1000" height="64" viewBox="0 0 1000 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="section-title-10-title">
+<title id="section-title-10-title">Section 10: System Telemetry</title>
+<defs>
+<linearGradient id="st10-border" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#D946EF"/></linearGradient>
+<linearGradient id="st10-bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0a2e"/><stop offset="100%" stop-color="#0d021a"/></linearGradient>
+<linearGradient id="st10-bg-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#faf5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+<style><![CDATA[
+@media (prefers-color-scheme: dark) {
+  .st10-bg { fill: url(#st10-bg-dark); }
+  .st10-border { stroke: #3f1d5c; }
+  .st10-top-line { fill: url(#st10-border); }
+  .st10-badge-bg { fill: #2d1b4e; stroke: url(#st10-border); }
+  .st10-badge-text { fill: #c084fc; }
+  .st10-title { fill: #f3e8ff; }
+  .st10-status-dot { fill: #a855f7; }
+}
+@media (prefers-color-scheme: light) {
+  .st10-bg { fill: url(#st10-bg-light); }
+  .st10-border { stroke: #d8b4fe; stroke-width: 2; }
+  .st10-top-line { fill: url(#st10-border); }
+  .st10-badge-bg { fill: #e9d5ff; stroke: url(#st10-border); }
+  .st10-badge-text { fill: #7e22ce; }
+  .st10-title { fill: #4c1d95; }
+  .st10-status-dot { fill: #9333ea; }
+}
+@media (prefers-contrast: more) {
+  .st10-title { fill: #ffffff; }
+  .st10-badge-text { fill: #e9d5ff; }
+  .st10-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]></style>
+</defs>
+<rect x="1" y="1" width="998" height="62" rx="10" class="st10-bg st10-border"/>
+<rect x="1" y="1" width="998" height="3" rx="2" class="st10-top-line"/>
+<rect x="20" y="17" width="58" height="30" rx="6" class="st10-badge-bg" stroke-width="1.2"/>
+<text x="49" y="38" text-anchor="middle" class="st10-badge-text" font-family="monospace" font-size="14" font-weight="700">10</text>
+<text x="98" y="39" class="st10-title" font-family="monospace" font-size="19" font-weight="700">SYSTEM TELEMETRY</text>
+<circle cx="952" cy="32" r="5" class="st10-status-dot"><animate attributeName="opacity" values=".5;1;.5" dur="2s" repeatCount="indefinite"/></circle>
+</svg>

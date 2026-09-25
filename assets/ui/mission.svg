@@ -1,20 +1,72 @@
-<svg width="1000" height="543" viewBox="0 0 1000 543" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
-<title id="title">Current mission and professional direction</title>
-<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.title{font:700 28px monospace;fill:#E6EDF3}.meta{font:700 18px monospace;fill:#A855F7}.body{font:500 21px monospace;fill:#C9D1D9}.cyan{font:600 20px monospace;fill:#22D3EE}.small{font:500 18px monospace;fill:#8B949E}</style></defs>
-<rect x="1" y="1" width="998" height="541" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
-<text x="36" y="49" class="title">CURRENT MISSION</text>
-<text x="36" y="90" class="body">Building stronger foundations for</text>
-<text x="36" y="123" class="body">production-oriented software engineering.</text>
-<line x1="36" y1="149" x2="964" y2="149" stroke="#30363D"/>
-<text x="36" y="185" class="meta">FOCUS AREAS</text>
-<text x="36" y="224" class="cyan">Full-Stack Development</text>
-<text x="36" y="260" class="cyan">Software Architecture &amp; Clean Code</text>
-<text x="36" y="296" class="cyan">SQL &amp; Database Design</text>
-<text x="36" y="332" class="cyan">Software Quality &amp; Testing</text>
-<text x="36" y="368" class="cyan">Cybersecurity Fundamentals</text>
-<text x="36" y="404" class="cyan">IoT &amp; Applied AI</text>
-<line x1="36" y1="435" x2="964" y2="435" stroke="#30363D"/>
-<text x="36" y="473" class="meta">PROFESSIONAL DIRECTION</text>
-<text x="36" y="512" class="body">Software Developer · Full-Stack Developer</text>
-
+﻿<svg width="1000" height="543" viewBox="0 0 1000 543" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mission-title">
+<title id="mission-title">Current mission and professional direction - Building stronger foundations for production-oriented software engineering - Focus areas: Full-Stack Development, Software Architecture &amp; Clean Code, SQL &amp; Database Design, Software Quality &amp; Testing, Cybersecurity Fundamentals, IoT &amp; Applied AI - Professional Direction: Software Developer · Full-Stack Developer</title>
+<defs>
+<linearGradient id="ms-border" x1="0" x2="1">
+<stop stop-color="#7C3AED"/>
+<stop offset=".5" stop-color="#A855F7"/>
+<stop offset="1" stop-color="#D946EF"/>
+</linearGradient>
+<linearGradient id="ms-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+<linearGradient id="ms-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
+</linearGradient>
+<linearGradient id="ms-header-dark" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#2d1b4e"/>
+<stop offset="100%" stop-color="#1a0a2e"/>
+</linearGradient>
+<linearGradient id="ms-header-light" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#e9d5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
+</linearGradient>
+<style>
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .ms-bg { fill: url(#ms-bg-dark); }
+  .ms-border { stroke: url(#ms-border); }
+  .ms-title { fill: #f3e8ff; }
+  .ms-body { fill: #d8b4fe; }
+  .ms-meta { fill: #c084fc; }
+  .ms-accent { fill: #a855f7; }
+  .ms-divider { stroke: #3f1d5c; }
+}
+@media (prefers-color-scheme: light) {
+  .ms-bg { fill: url(#ms-bg-light); }
+  .ms-border { stroke: url(#ms-border); stroke-width: 2; }
+  .ms-title { fill: #4c1d95; }
+  .ms-body { fill: #6b21a8; }
+  .ms-meta { fill: #7e22ce; }
+  .ms-accent { fill: #9333ea; }
+  .ms-divider { stroke: #d8b4fe; }
+}
+@media (prefers-contrast: more) {
+  .ms-title { fill: #ffffff; }
+  .ms-body { fill: #e9d5ff; }
+  .ms-accent { fill: #d8b4fe; }
+  .ms-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
+</style>
+</defs>
+<rect x="1" y="1" width="998" height="541" rx="14" class="ms-bg ms-border" stroke-width="2"/>
+<text x="36" y="49" class="ms-title" font-family="monospace" font-size="28" font-weight="700">CURRENT MISSION</text>
+<text x="36" y="90" class="ms-body" font-family="monospace" font-size="21" font-weight="500">Building stronger foundations for</text>
+<text x="36" y="123" class="ms-body" font-family="monospace" font-size="21" font-weight="500">production-oriented software engineering.</text>
+<line x1="36" y1="149" x2="964" y2="149" class="ms-divider" stroke-width="1"/>
+<text x="36" y="185" class="ms-meta" font-family="monospace" font-size="18" font-weight="700">FOCUS AREAS</text>
+<text x="36" y="224" class="ms-accent" font-family="monospace" font-size="20" font-weight="600">Full-Stack Development</text>
+<text x="36" y="260" class="ms-accent" font-family="monospace" font-size="20" font-weight="600">Software Architecture &amp; Clean Code</text>
+<text x="36" y="296" class="ms-accent" font-family="monospace" font-size="20" font-weight="600">SQL &amp; Database Design</text>
+<text x="36" y="332" class="ms-accent" font-family="monospace" font-size="20" font-weight="600">Software Quality &amp; Testing</text>
+<text x="36" y="368" class="ms-accent" font-family="monospace" font-size="20" font-weight="600">Cybersecurity Fundamentals</text>
+<text x="36" y="404" class="ms-accent" font-family="monospace" font-size="20" font-weight="600">IoT &amp; Applied AI</text>
+<line x1="36" y1="435" x2="964" y2="435" class="ms-divider" stroke-width="1"/>
+<text x="36" y="473" class="ms-meta" font-family="monospace" font-size="18" font-weight="700">PROFESSIONAL DIRECTION</text>
+<text x="36" y="512" class="ms-body" font-family="monospace" font-size="21" font-weight="500">Software Developer · Full-Stack Developer</text>
 </svg>

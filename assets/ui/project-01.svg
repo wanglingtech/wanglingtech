@@ -1,17 +1,72 @@
-<svg width="1000" height="408" viewBox="0 0 1000 408" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
-<title id="title">Project 01: ERP / POS MANAGEMENT SYSTEM</title>
-<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.title{font:700 28px monospace;fill:#E6EDF3}.meta{font:700 18px monospace;fill:#A855F7}.body{font:500 21px monospace;fill:#C9D1D9}.cyan{font:600 20px monospace;fill:#22D3EE}.small{font:500 18px monospace;fill:#8B949E}</style></defs>
-<rect x="1" y="1" width="998" height="406" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
-<rect x="24" y="22" width="952" height="42" rx="7" fill="#161B22"/><text x="40" y="50" class="meta">PROJECT 01</text>
-<text x="36" y="108" class="title">ERP / POS MANAGEMENT SYSTEM</text>
-<text x="36" y="145" class="body">Business management platform.</text>
-<text x="36" y="188" class="meta">STATUS</text>
-<text x="150" y="188" class="cyan">PROJECT</text>
-<line x1="36" y1="213" x2="964" y2="213" stroke="#30363D"/>
-<text x="36" y="250" class="meta">CAPABILITIES</text>
-<text x="36" y="288" class="body">Sales · Inventory</text>
-<text x="510" y="288" class="body">Customers · Reports</text>
-<text x="36" y="338" class="meta">STACK</text>
-<text x="36" y="374" class="body">Angular · TypeScript · Node.js · Express · PostgreSQL</text>
-
+<svg width="1000" height="408" viewBox="0 0 1000 408" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="project-01-title">
+<title id="project-01-title">Project 01: ERP / POS Management System - Business management platform - Status: Project - Capabilities: Sales, Inventory, Customers, Reports - Stack: Angular, TypeScript, Node.js, Express, PostgreSQL</title>
+<defs>
+<linearGradient id="p01-border" x1="0" x2="1">
+<stop stop-color="#7C3AED"/>
+<stop offset=".5" stop-color="#A855F7"/>
+<stop offset="1" stop-color="#D946EF"/>
+</linearGradient>
+<linearGradient id="p01-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+<linearGradient id="p01-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
+</linearGradient>
+<linearGradient id="p01-header-dark" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#2d1b4e"/>
+<stop offset="100%" stop-color="#1a0a2e"/>
+</linearGradient>
+<linearGradient id="p01-header-light" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#e9d5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
+</linearGradient>
+<style>
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .p01-bg { fill: url(#p01-bg-dark); }
+  .p01-border { stroke: url(#p01-border); }
+  .p01-header { fill: url(#p01-header-dark); }
+  .p01-meta { fill: #c084fc; }
+  .p01-title { fill: #f3e8ff; }
+  .p01-body { fill: #d8b4fe; }
+  .p01-accent { fill: #a855f7; }
+  .p01-divider { stroke: #3f1d5c; }
+}
+@media (prefers-color-scheme: light) {
+  .p01-bg { fill: url(#p01-bg-light); }
+  .p01-border { stroke: url(#p01-border); stroke-width: 2; }
+  .p01-header { fill: url(#p01-header-light); }
+  .p01-meta { fill: #7e22ce; }
+  .p01-title { fill: #4c1d95; }
+  .p01-body { fill: #6b21a8; }
+  .p01-accent { fill: #9333ea; }
+  .p01-divider { stroke: #d8b4fe; }
+}
+@media (prefers-contrast: more) {
+  .p01-title { fill: #ffffff; }
+  .p01-body { fill: #e9d5ff; }
+  .p01-accent { fill: #d8b4fe; }
+  .p01-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
+</style>
+</defs>
+<rect x="1" y="1" width="998" height="406" rx="14" class="p01-bg p01-border" stroke-width="2"/>
+<rect x="24" y="22" width="952" height="42" rx="7" class="p01-header"/>
+<text x="40" y="50" class="p01-meta" font-family="monospace" font-size="18" font-weight="700">PROJECT 01</text>
+<text x="36" y="108" class="p01-title" font-family="monospace" font-size="28" font-weight="700">ERP / POS MANAGEMENT SYSTEM</text>
+<text x="36" y="145" class="p01-body" font-family="monospace" font-size="21" font-weight="500">Business management platform.</text>
+<text x="36" y="188" class="p01-meta" font-family="monospace" font-size="18" font-weight="700">STATUS</text>
+<text x="150" y="188" class="p01-accent" font-family="monospace" font-size="20" font-weight="600">PROJECT</text>
+<line x1="36" y1="213" x2="964" y2="213" class="p01-divider" stroke-width="1"/>
+<text x="36" y="250" class="p01-meta" font-family="monospace" font-size="18" font-weight="700">CAPABILITIES</text>
+<text x="36" y="288" class="p01-body" font-family="monospace" font-size="21" font-weight="500">Sales · Inventory</text>
+<text x="510" y="288" class="p01-body" font-family="monospace" font-size="21" font-weight="500">Customers · Reports</text>
+<text x="36" y="338" class="p01-meta" font-family="monospace" font-size="18" font-weight="700">STACK</text>
+<text x="36" y="374" class="p01-body" font-family="monospace" font-size="21" font-weight="500">Angular · TypeScript · Node.js · Express · PostgreSQL</text>
 </svg>

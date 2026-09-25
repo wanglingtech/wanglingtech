@@ -22,7 +22,7 @@ jobs:
     steps:
 
       - name: Generate cyberpunk contribution snake
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
         with:
           github_user_name: wanglingtech
 
@@ -31,7 +31,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#A855F7&color_dots=#161B22,#2E1065,#581C87,#7E22CE,#A855F7
 
       - name: Publish snake
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
         with:
           build_dir: dist
           target_branch: output

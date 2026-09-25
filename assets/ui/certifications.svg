@@ -1,19 +1,63 @@
-<svg width="1000" height="440" viewBox="0 0 1000 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
-<title id="title">Four confirmed training records</title>
-<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.title{font:700 28px monospace;fill:#E6EDF3}.meta{font:700 18px monospace;fill:#A855F7}.body{font:500 21px monospace;fill:#C9D1D9}.cyan{font:600 20px monospace;fill:#22D3EE}</style></defs>
-<rect x="1" y="1" width="998" height="438" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/><text x="30" y="44" class="meta">CONFIRMED LEARNING RECORDS · 04</text>
-<rect x="26" y="70" width="460" height="160" rx="10" fill="#161B22" stroke="#7C3AED"/><text x="46" y="101" class="cyan">2026</text>
-<text x="46" y="137" class="meta">CISCO NETWORKING ACADEMY</text>
-<text x="46" y="173" class="body">Computer Hardware Basics</text>
-<rect x="514" y="70" width="460" height="160" rx="10" fill="#161B22" stroke="#A855F7"/><text x="534" y="101" class="cyan">2026</text>
-<text x="534" y="137" class="meta">MTPE</text>
-<text x="534" y="173" class="body">Word &amp; Excel for Work</text>
-<text x="534" y="203" class="body">Basic Level</text>
-<rect x="26" y="250" width="460" height="160" rx="10" fill="#161B22" stroke="#A855F7"/><text x="46" y="281" class="cyan">2025</text>
-<text x="46" y="317" class="meta">UNIVERSIDAD CÉSAR VALLEJO</text>
-<text x="46" y="353" class="body">Help Desk Assistant</text>
-<rect x="514" y="250" width="460" height="160" rx="10" fill="#161B22" stroke="#22D3EE"/><text x="534" y="281" class="cyan">2025</text>
-<text x="534" y="317" class="meta">UNIVERSIDAD CÉSAR VALLEJO</text>
-<text x="534" y="353" class="body">Knowledge Management</text>
-<text x="534" y="383" class="body">in the AI Era I &amp; II</text>
+<svg width="1000" height="440" viewBox="0 0 1000 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="certifications-title">
+<title id="certifications-title">Four confirmed training records - 2026 Cisco Networking Academy Computer Hardware Basics, 2026 MTPE Word and Excel for Work Basic Level, 2025 Universidad Cesar Vallejo Help Desk Assistant, 2025 Universidad Cesar Vallejo Knowledge Management in the AI Era I and II</title>
+<defs>
+<linearGradient id="cert-border" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#D946EF"/></linearGradient>
+<linearGradient id="cert-bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0a2e"/><stop offset="100%" stop-color="#0d021a"/></linearGradient>
+<linearGradient id="cert-bg-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#faf5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+<linearGradient id="cert-card-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2d1b4e"/><stop offset="100%" stop-color="#1a0a2e"/></linearGradient>
+<linearGradient id="cert-card-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#e9d5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+<style><![CDATA[
+@media (prefers-color-scheme: dark) {
+  .cert-bg { fill: url(#cert-bg-dark); }
+  .cert-border { stroke: url(#cert-border); }
+  .cert-card { fill: url(#cert-card-dark); }
+  .cert-card-border { stroke: #3f1d5c; }
+  .cert-meta { fill: #c084fc; }
+  .cert-body { fill: #d8b4fe; }
+  .cert-accent { fill: #a855f7; }
+}
+@media (prefers-color-scheme: light) {
+  .cert-bg { fill: url(#cert-bg-light); }
+  .cert-border { stroke: url(#cert-border); stroke-width: 2; }
+  .cert-card { fill: url(#cert-card-light); }
+  .cert-card-border { stroke: #d8b4fe; }
+  .cert-meta { fill: #7e22ce; }
+  .cert-body { fill: #6b21a8; }
+  .cert-accent { fill: #9333ea; }
+}
+@media (prefers-contrast: more) {
+  .cert-meta { fill: #e9d5ff; }
+  .cert-body { fill: #e9d5ff; }
+  .cert-accent { fill: #d8b4fe; }
+  .cert-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]></style>
+</defs>
+<rect x="1" y="1" width="998" height="438" rx="14" class="cert-bg cert-border" stroke-width="2"/>
+<text x="30" y="44" class="cert-meta" font-family="monospace" font-size="18" font-weight="700">CONFIRMED LEARNING RECORDS · 04</text>
+
+<rect x="26" y="70" width="460" height="160" rx="10" class="cert-card cert-card-border" stroke-width="1.2"/>
+<text x="46" y="101" class="cert-accent" font-family="monospace" font-size="20" font-weight="600">2026</text>
+<text x="46" y="137" class="cert-meta" font-family="monospace" font-size="18" font-weight="700">CISCO NETWORKING ACADEMY</text>
+<text x="46" y="173" class="cert-body" font-family="monospace" font-size="21" font-weight="500">Computer Hardware Basics</text>
+
+<rect x="514" y="70" width="460" height="160" rx="10" class="cert-card cert-card-border" stroke-width="1.2"/>
+<text x="534" y="101" class="cert-accent" font-family="monospace" font-size="20" font-weight="600">2026</text>
+<text x="534" y="137" class="cert-meta" font-family="monospace" font-size="18" font-weight="700">MTPE</text>
+<text x="534" y="173" class="cert-body" font-family="monospace" font-size="21" font-weight="500">Word &amp; Excel for Work</text>
+<text x="534" y="203" class="cert-body" font-family="monospace" font-size="21" font-weight="500">Basic Level</text>
+
+<rect x="26" y="250" width="460" height="160" rx="10" class="cert-card cert-card-border" stroke-width="1.2"/>
+<text x="46" y="281" class="cert-accent" font-family="monospace" font-size="20" font-weight="600">2025</text>
+<text x="46" y="317" class="cert-meta" font-family="monospace" font-size="18" font-weight="700">UNIVERSIDAD CÉSAR VALLEJO</text>
+<text x="46" y="353" class="cert-body" font-family="monospace" font-size="21" font-weight="500">Help Desk Assistant</text>
+
+<rect x="514" y="250" width="460" height="160" rx="10" class="cert-card cert-card-border" stroke-width="1.2"/>
+<text x="534" y="281" class="cert-accent" font-family="monospace" font-size="20" font-weight="600">2025</text>
+<text x="534" y="317" class="cert-meta" font-family="monospace" font-size="18" font-weight="700">UNIVERSIDAD CÉSAR VALLEJO</text>
+<text x="534" y="353" class="cert-body" font-family="monospace" font-size="21" font-weight="500">Knowledge Management</text>
+<text x="534" y="383" class="cert-body" font-family="monospace" font-size="21" font-weight="500">in the AI Era I &amp; II</text>
 </svg>

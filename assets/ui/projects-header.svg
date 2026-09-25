@@ -1,35 +1,71 @@
 <svg width="1200" height="150" viewBox="0 0 1200 150"
-xmlns="http://www.w3.org/2000/svg">
+xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="projects-header-title">
+
+<title id="projects-header-title">Selected Engineering Projects - Full Stack, Computer Vision, Access Control, Web Engineering - Design, Implement, Test, Iterate</title>
 
 <defs>
-<linearGradient id="g">
+<linearGradient id="ph-border" x1="0" x2="1">
 <stop stop-color="#A855F7"/>
 <stop offset=".5" stop-color="#7C3AED"/>
-<stop offset="1" stop-color="#22D3EE"/>
+<stop offset="1" stop-color="#D946EF"/>
+</linearGradient>
+
+<linearGradient id="ph-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+
+<linearGradient id="ph-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
 </linearGradient>
 
 <style>
-.h{font:700 20px monospace;fill:#E6EDF3}
-.s{font:600 12px monospace;fill:#22D3EE}
-.x{font:500 11px monospace;fill:#A855F7}
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .ph-bg { fill: url(#ph-bg-dark); }
+  .ph-border { stroke: url(#ph-border); }
+  .ph-line { stroke: url(#ph-border); }
+  .ph-title { fill: #f3e8ff; }
+  .ph-subtitle { fill: #a855f7; }
+  .ph-detail { fill: #c084fc; }
+}
+@media (prefers-color-scheme: light) {
+  .ph-bg { fill: url(#ph-bg-light); }
+  .ph-border { stroke: url(#ph-border); stroke-width: 2; }
+  .ph-line { stroke: url(#ph-border); }
+  .ph-title { fill: #4c1d95; }
+  .ph-subtitle { fill: #9333ea; }
+  .ph-detail { fill: #7e22ce; }
+}
+@media (prefers-contrast: more) {
+  .ph-title { fill: #ffffff; }
+  .ph-subtitle { fill: #e9d5ff; }
+  .ph-detail { fill: #d8b4fe; }
+  .ph-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
 </style>
 </defs>
 
 <rect x="1" y="1" width="1198" height="148" rx="12"
-fill="#0D1117" stroke="url(#g)" stroke-width="2"/>
+class="ph-bg ph-border" stroke-width="2"/>
 
-<text x="600" y="43" text-anchor="middle" class="h">
+<text x="600" y="43" text-anchor="middle" class="ph-title" font-family="monospace" font-size="20" font-weight="700">
 SELECTED ENGINEERING PROJECTS
 </text>
 
 <line x1="300" y1="62" x2="900" y2="62"
-stroke="url(#g)"/>
+class="ph-line" stroke-width="2"/>
 
-<text x="600" y="93" text-anchor="middle" class="s">
+<text x="600" y="93" text-anchor="middle" class="ph-subtitle" font-family="monospace" font-size="12" font-weight="600">
 FULL STACK · COMPUTER VISION · ACCESS CONTROL · WEB ENGINEERING
 </text>
 
-<text x="600" y="122" text-anchor="middle" class="x">
+<text x="600" y="122" text-anchor="middle" class="ph-detail" font-family="monospace" font-size="11" font-weight="500">
 DESIGN · IMPLEMENT · TEST · ITERATE
 </text>
 

@@ -1,8 +1,10 @@
 <svg width="1200" height="26" viewBox="0 0 1200 26"
-     xmlns="http://www.w3.org/2000/svg">
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="section-line-title">
+
+  <title id="section-line-title">Section divider</title>
 
   <defs>
-    <linearGradient id="base" x1="0" x2="1">
+    <linearGradient id="sl-base" x1="0" x2="1">
       <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
       <stop offset="15%" stop-color="#7C3AED"/>
       <stop offset="50%" stop-color="#A855F7"/>
@@ -10,19 +12,39 @@
       <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </linearGradient>
 
-    <linearGradient id="pulse" x1="0" x2="1">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#F5D0FE"/>
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    <linearGradient id="sl-pulse-dark" x1="0" x2="1">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#d946ef" stop-opacity="0"/>
     </linearGradient>
 
-    <filter id="glow">
+    <linearGradient id="sl-pulse-light" x1="0" x2="1">
+      <stop offset="0%" stop-color="#9333ea" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="sl-glow">
       <feGaussianBlur stdDeviation="2.8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <style>
+    <![CDATA[
+    @media (prefers-color-scheme: dark) {
+      .sl-pulse { fill: url(#sl-pulse-dark); }
+    }
+    @media (prefers-color-scheme: light) {
+      .sl-pulse { fill: url(#sl-pulse-light); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+    ]]>
+    </style>
   </defs>
 
   <line
@@ -30,7 +52,7 @@
     y1="13"
     x2="1165"
     y2="13"
-    stroke="url(#base)"
+    stroke="url(#sl-base)"
     stroke-width="1.5"
   />
 
@@ -43,8 +65,8 @@
     width="190"
     height="4"
     rx="2"
-    fill="url(#pulse)"
-    filter="url(#glow)">
+    class="sl-pulse"
+    filter="url(#sl-glow)">
 
     <animate
       attributeName="x"

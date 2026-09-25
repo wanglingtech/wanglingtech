@@ -1,4 +1,40 @@
-<svg width="1200" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="web02" x1="0" x2="1"><stop stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.n{font:700 11px monospace;fill:#A855F7}.h{font:700 21px monospace;fill:#E6EDF3}.t{font:500 13px monospace;fill:#C9D1D9}.c{font:600 11px monospace;fill:#22D3EE}</style></defs>
-<rect x="1" y="1" width="1198" height="148" rx="10" fill="#0D1117" stroke="url(#web02)"/><text x="35" y="35" class="n">WEB.02 · DIGITAL COMMERCE</text><text x="35" y="70" class="h">BRASAS DEL SABOR</text><text x="35" y="101" class="t">Interactive restaurant website with catalog and direct ordering workflow.</text><text x="35" y="130" class="c">CATALOG · CART · WHATSAPP · MAPS</text><circle cx="1130" cy="32" r="5" fill="#22D3EE"/>
+<svg width="1200" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="web-card-02-title">
+<title id="web-card-02-title">Web 02: Brasas del Sabor - Interactive restaurant website with catalog and direct ordering workflow</title>
+<defs>
+<linearGradient id="web-card-02-border" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#D946EF"/></linearGradient>
+<linearGradient id="web-card-02-bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0a2e"/><stop offset="100%" stop-color="#0d021a"/></linearGradient>
+<linearGradient id="web-card-02-bg-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#faf5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+<style>
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .web-card-02-bg { fill: url(#web-card_02-bg-dark); }
+  .web-card-02-label { fill: #c084fc; }
+  .web-card_02-title { fill: #f3e8ff; }
+  .web-card-02-desc { fill: #d8b4fe; }
+  .web-card_02-tags { fill: #a855f7; }
+  .web-card_02-border { stroke: url(#web-card_02-border); }
+  .web-card_02-status { fill: #a855f7; }
+}
+@media (prefers-color-scheme: light) {
+  .web-card_02-bg { fill: url(#web-card_02-bg-light); }
+  .web-card_02-label { fill: #7e22ce; }
+  .web-card_02-title { fill: #4c1d95; }
+  .web-card_02-desc { fill: #6b21a8; }
+  .web-card_02-tags { fill: #9333ea; }
+  .web-card_02-border { stroke: url(#web-card_02-border); stroke-width: 2; }
+  .web-card_02-status { fill: #9333ea; }
+}
+@media (prefers-contrast: more) {
+  .web-card_02-title { fill: #ffffff; }
+  .web-card_02-desc { fill: #e9d5ff; }
+  .web-card_02-tags { fill: #d8b4fe; }
+  .web-card_02-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
+</style>
+</defs>
+<rect x="1" y="1" width="1198" height="148" rx="10" class="web-card_02-bg web-card_02-border"/><text x="35" y="35" class="web-card_02-label" font-family="monospace" font-size="11" font-weight="700">WEB.02 · DIGITAL COMMERCE</text><text x="35" y="70" class="web-card_02-title" font-family="monospace" font-size="21" font-weight="700">BRASAS DEL SABOR</text><text x="35" y="101" class="web-card_02-desc" font-family="monospace" font-size="13" font-weight="500">Interactive restaurant website with catalog and direct ordering workflow.</text><text x="35" y="130" class="web-card_02-tags" font-family="monospace" font-size="11" font-weight="600">CATALOG · CART · WHATSAPP · MAPS</text><circle cx="1130" cy="32" r="5" class="web-card_02-status"/>
 </svg>

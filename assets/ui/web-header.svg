@@ -1,32 +1,69 @@
 <svg width="1200" height="145" viewBox="0 0 1200 145"
-xmlns="http://www.w3.org/2000/svg">
+xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="web-header-title">
+
+<title id="web-header-title">Commercial Web Interfaces - Responsive Design, Business UI, Digital Commerce</title>
 
 <defs>
-<linearGradient id="g">
-<stop stop-color="#A855F7"/>
-<stop offset=".55" stop-color="#7C3AED"/>
-<stop offset="1" stop-color="#22D3EE"/>
+<linearGradient id="web-header-border" x1="0" x2="1">
+<stop stop-color="#7C3AED"/>
+<stop offset=".5" stop-color="#A855F7"/>
+<stop offset="1" stop-color="#D946EF"/>
+</linearGradient>
+
+<linearGradient id="web-header-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+
+<linearGradient id="web-header-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
 </linearGradient>
 
 <style>
-.h{font:700 20px monospace;fill:#E6EDF3}
-.s{font:600 12px monospace;fill:#22D3EE}
-.x{font:500 11px monospace;fill:#A855F7}
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .web-header-bg { fill: url(#web-header-bg-dark); }
+  .web-header-title { fill: #f3e8ff; }
+  .web-header-subtitle { fill: #d8b4fe; }
+  .web-header-detail { fill: #c084fc; }
+  .web-header-border { stroke: url(#web-header-border); }
+}
+
+@media (prefers-color-scheme: light) {
+  .web-header-bg { fill: url(#web-header-bg-light); }
+  .web-header-title { fill: #4c1d95; }
+  .web-header-subtitle { fill: #7e22ce; }
+  .web-header-detail { fill: #a855f7; }
+  .web-header-border { stroke: url(#web-header-border); stroke-width: 2; }
+}
+
+@media (prefers-contrast: more) {
+  .web-header-title { fill: #ffffff; }
+  .web-header-subtitle { fill: #e9d5ff; }
+  .web-header-detail { fill: #d8b4fe; }
+  .web-header-border { stroke-width: 3; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
 </style>
 </defs>
 
 <rect x="1" y="1" width="1198" height="143" rx="12"
-fill="#0D1117" stroke="url(#g)" stroke-width="2"/>
+class="web-header-bg web-header-border" stroke-width="2"/>
 
-<text x="600" y="43" text-anchor="middle" class="h">
+<text x="600" y="43" text-anchor="middle" class="web-header-title" font-family="monospace" font-size="20" font-weight="700">
 COMMERCIAL · WEB INTERFACES
 </text>
 
-<text x="600" y="81" text-anchor="middle" class="s">
+<text x="600" y="81" text-anchor="middle" class="web-header-subtitle" font-family="monospace" font-size="12" font-weight="600">
 RESPONSIVE DESIGN · BUSINESS UI · DIGITAL COMMERCE
 </text>
 
-<text x="600" y="113" text-anchor="middle" class="x">
+<text x="600" y="113" text-anchor="middle" class="web-header-detail" font-family="monospace" font-size="11" font-weight="500">
 FROM BUSINESS REQUIREMENTS TO DEPLOYED INTERFACES
 </text>
 

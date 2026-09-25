@@ -1,32 +1,72 @@
 <svg width="1200" height="150" viewBox="0 0 1200 150"
-xmlns="http://www.w3.org/2000/svg">
+xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="web-card-01-title">
+
+<title id="web-card-01-title">Web 01: Black Crown Barber Studio - Responsive service showcase and appointment-oriented business interface</title>
 
 <defs>
-<linearGradient id="g">
-<stop stop-color="#A855F7"/>
-<stop offset="1" stop-color="#22D3EE"/>
+<linearGradient id="web-card-01-border" x1="0" x2="1">
+<stop stop-color="#7C3AED"/>
+<stop offset="1" stop-color="#D946EF"/>
+</linearGradient>
+
+<linearGradient id="web-card-01-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+
+<linearGradient id="web-card-01-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
 </linearGradient>
 
 <style>
-.n{font:700 11px monospace;fill:#A855F7}
-.h{font:700 21px monospace;fill:#E6EDF3}
-.t{font:500 13px monospace;fill:#C9D1D9}
-.c{font:600 11px monospace;fill:#22D3EE}
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .web-card-01-bg { fill: url(#web-card-01-bg-dark); }
+  .web-card-01-label { fill: #c084fc; }
+  .web-card-01-title { fill: #f3e8ff; }
+  .web-card-01-desc { fill: #d8b4fe; }
+  .web-card-01-tags { fill: #a855f7; }
+  .web-card-01-border { stroke: url(#web-card-01-border); }
+  .web-card-01-status { fill: #a855f7; }
+}
+
+@media (prefers-color-scheme: light) {
+  .web-card-01-bg { fill: url(#web-card-01-bg-light); }
+  .web-card-01-label { fill: #7e22ce; }
+  .web-card-01-title { fill: #4c1d95; }
+  .web-card-01-desc { fill: #6b21a8; }
+  .web-card-01-tags { fill: #9333ea; }
+  .web-card-01-border { stroke: url(#web-card-01-border); stroke-width: 2; }
+  .web-card-01-status { fill: #9333ea; }
+}
+
+@media (prefers-contrast: more) {
+  .web-card-01-title { fill: #ffffff; }
+  .web-card-01-desc { fill: #e9d5ff; }
+  .web-card-01-tags { fill: #d8b4fe; }
+  .web-card-01-border { stroke-width: 3; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
 </style>
 </defs>
 
 <rect x="1" y="1" width="1198" height="148" rx="10"
-fill="#0D1117" stroke="url(#g)"/>
+class="web-card-01-bg web-card-01-border"/>
 
-<text x="35" y="35" class="n">WEB.01 · COMMERCIAL INTERFACE</text>
-<text x="35" y="70" class="h">BLACK CROWN · BARBER STUDIO</text>
-<text x="35" y="101" class="t">
+<text x="35" y="35" class="web-card-01-label" font-family="monospace" font-size="11" font-weight="700">WEB.01 · COMMERCIAL INTERFACE</text>
+<text x="35" y="70" class="web-card-01-title" font-family="monospace" font-size="21" font-weight="700">BLACK CROWN · BARBER STUDIO</text>
+<text x="35" y="101" class="web-card-01-desc" font-family="monospace" font-size="13" font-weight="500">
 Responsive service showcase and appointment-oriented business interface.
 </text>
-<text x="35" y="130" class="c">
+<text x="35" y="130" class="web-card-01-tags" font-family="monospace" font-size="11" font-weight="600">
 SERVICES · APPOINTMENTS · RESPONSIVE UI
 </text>
 
-<circle cx="1130" cy="32" r="5" fill="#3FB950"/>
+<circle cx="1130" cy="32" r="5" class="web-card-01-status"/>
 
 </svg>

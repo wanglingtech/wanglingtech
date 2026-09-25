@@ -1,14 +1,36 @@
 <svg width="1200" height="390" viewBox="0 0 1200 390"
-xmlns="http://www.w3.org/2000/svg">
+xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tech-grid-title">
+
+<title id="tech-grid-title">Technology grid - Core Development: Application Engineering, Frontend and Backend, JS TS Angular React Node - Data Persistence: Relational Data Systems, PostgreSQL MySQL SQL Server Prisma ORM - Engineering Toolchain: Git GitHub VS Code Postman - Deployment Platform: Web Delivery, Vercel Cloudflare</title>
 
 <defs>
-  <linearGradient id="g" x1="0" x2="1">
+  <linearGradient id="tg-border" x1="0" x2="1">
     <stop stop-color="#A855F7"/>
-    <stop offset=".55" stop-color="#7C3AED"/>
-    <stop offset="1" stop-color="#22D3EE"/>
+    <stop offset=".5" stop-color="#7C3AED"/>
+    <stop offset="1" stop-color="#D946EF"/>
   </linearGradient>
 
-  <filter id="glow">
+  <linearGradient id="tg-bg-dark" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1a0a2e"/>
+    <stop offset="100%" stop-color="#0d021a"/>
+  </linearGradient>
+
+  <linearGradient id="tg-bg-light" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#faf5ff"/>
+    <stop offset="100%" stop-color="#f3e8ff"/>
+  </linearGradient>
+
+  <linearGradient id="tg-card-dark" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#2d1b4e"/>
+    <stop offset="100%" stop-color="#1a0a2e"/>
+  </linearGradient>
+
+  <linearGradient id="tg-card-light" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#e9d5ff"/>
+    <stop offset="100%" stop-color="#f3e8ff"/>
+  </linearGradient>
+
+  <filter id="tg-glow">
     <feGaussianBlur stdDeviation="3" result="b"/>
     <feMerge>
       <feMergeNode in="b"/>
@@ -17,72 +39,106 @@ xmlns="http://www.w3.org/2000/svg">
   </filter>
 
   <style>
-    .num{font:700 11px monospace;fill:#22D3EE}
-    .title{font:700 17px monospace;fill:#E6EDF3}
-    .sub{font:500 12px monospace;fill:#8B949E}
-    .status{font:600 10px monospace;fill:#3FB950}
+  <![CDATA[
+  .tg-frame-border { stroke: url(#tg-border); }
+  .tg-badge-border { stroke: url(#tg-border); }
+
+  @media (prefers-color-scheme: dark) {
+    .tg-frame { fill: url(#tg-bg-dark); }
+    .tg-card { fill: url(#tg-card-dark); }
+    .tg-card-border { stroke: #3f1d5c; }
+    .tg-header { fill: #2d1b4e; }
+    .tg-num { fill: #c084fc; }
+    .tg-title { fill: #f3e8ff; }
+    .tg-sub { fill: #a855f7; }
+    .tg-status { fill: #a855f7; }
+    .tg-footer-line { stroke: url(#tg-border); }
+  }
+
+  @media (prefers-color-scheme: light) {
+    .tg-frame { fill: url(#tg-bg-light); }
+    .tg-card { fill: url(#tg-card-light); }
+    .tg-card-border { stroke: #d8b4fe; }
+    .tg-header { fill: #e9d5ff; }
+    .tg-num { fill: #7e22ce; }
+    .tg-title { fill: #4c1d95; }
+    .tg-sub { fill: #9333ea; }
+    .tg-status { fill: #9333ea; }
+    .tg-footer-line { stroke: url(#tg-border); }
+  }
+
+  @media (prefers-contrast: more) {
+    .tg-title { fill: #ffffff; }
+    .tg-sub { fill: #e9d5ff; }
+    .tg-frame-border { stroke-width: 3; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+  ]]>
   </style>
 </defs>
 
-<rect width="1200" height="390" rx="14" fill="#0D1117"/>
+<rect width="1200" height="390" rx="14" class="tg-frame"/>
 
 <!-- CARD 1 -->
 <rect x="20" y="20" width="570" height="165" rx="10"
-fill="#0D1117" stroke="#7C3AED"/>
+class="tg-card tg-card-border" stroke-width="1"/>
 
-<rect x="38" y="38" width="534" height="38" rx="6" fill="#161B22"/>
+<rect x="38" y="38" width="534" height="38" rx="6" class="tg-header"/>
 
-<text x="55" y="62" class="num">01</text>
-<text x="95" y="62" class="title">CORE // DEVELOPMENT</text>
+<text x="55" y="62" class="tg-num" font-family="monospace" font-size="11" font-weight="700">01</text>
+<text x="95" y="62" class="tg-title" font-family="monospace" font-size="17" font-weight="700">CORE // DEVELOPMENT</text>
 
-<circle cx="540" cy="57" r="4" fill="#3FB950"/>
-<text x="470" y="112" class="sub">APPLICATION ENGINEERING</text>
-<text x="55" y="112" class="sub">FRONTEND + BACKEND</text>
-<text x="55" y="143" class="sub">JS · TS · ANGULAR · REACT · NODE</text>
+<circle cx="540" cy="57" r="4" class="tg-status"/>
+<text x="470" y="112" class="tg-sub" font-family="monospace" font-size="12" font-weight="500">APPLICATION ENGINEERING</text>
+<text x="55" y="112" class="tg-sub" font-family="monospace" font-size="12" font-weight="500">FRONTEND + BACKEND</text>
+<text x="55" y="143" class="tg-sub" font-family="monospace" font-size="12" font-weight="500">JS · TS · ANGULAR · REACT · NODE</text>
 
 <!-- CARD 2 -->
 <rect x="610" y="20" width="570" height="165" rx="10"
-fill="#0D1117" stroke="#A855F7"/>
+class="tg-card tg-card-border" stroke-width="1"/>
 
-<rect x="628" y="38" width="534" height="38" rx="6" fill="#161B22"/>
+<rect x="628" y="38" width="534" height="38" rx="6" class="tg-header"/>
 
-<text x="645" y="62" class="num">02</text>
-<text x="685" y="62" class="title">DATA // PERSISTENCE</text>
+<text x="645" y="62" class="tg-num" font-family="monospace" font-size="11" font-weight="700">02</text>
+<text x="685" y="62" class="tg-title" font-family="monospace" font-size="17" font-weight="700">DATA // PERSISTENCE</text>
 
-<circle cx="1130" cy="57" r="4" fill="#3FB950"/>
+<circle cx="1130" cy="57" r="4" class="tg-status"/>
 
-<text x="645" y="112" class="sub">RELATIONAL DATA SYSTEMS</text>
-<text x="645" y="143" class="sub">POSTGRESQL · MYSQL · SQL SERVER · SQL · PRISMA ORM</text>
+<text x="645" y="112" class="tg-sub" font-family="monospace" font-size="12" font-weight="500">RELATIONAL DATA SYSTEMS</text>
+<text x="645" y="143" class="tg-sub" font-family="monospace" font-size="12" font-weight="500">POSTGRESQL · MYSQL · SQL SERVER · SQL · PRISMA ORM</text>
 
 <!-- CARD 3 -->
 <rect x="20" y="205" width="570" height="165" rx="10"
-fill="#0D1117" stroke="#A855F7"/>
+class="tg-card tg-card-border" stroke-width="1"/>
 
-<rect x="38" y="223" width="534" height="38" rx="6" fill="#161B22"/>
+<rect x="38" y="223" width="534" height="38" rx="6" class="tg-header"/>
 
-<text x="55" y="247" class="num">03</text>
-<text x="95" y="247" class="title">ENGINEERING // TOOLCHAIN</text>
+<text x="55" y="247" class="tg-num" font-family="monospace" font-size="11" font-weight="700">03</text>
+<text x="95" y="247" class="tg-title" font-family="monospace" font-size="17" font-weight="700">ENGINEERING // TOOLCHAIN</text>
 
-<circle cx="540" cy="242" r="4" fill="#3FB950"/>
+<circle cx="540" cy="242" r="4" class="tg-status"/>
 
-<text x="55" y="297" class="sub">DEVELOPMENT WORKFLOW</text>
-<text x="55" y="328" class="sub">GIT · GITHUB · VS CODE · POSTMAN</text>
+<text x="55" y="297" class="tg-sub" font-family="monospace" font-size="12" font-weight="500">DEVELOPMENT WORKFLOW</text>
+<text x="55" y="328" class="tg-sub" font-family="monospace" font-size="12" font-weight="500">GIT · GITHUB · VS CODE · POSTMAN</text>
 
 <!-- CARD 4 -->
 <rect x="610" y="205" width="570" height="165" rx="10"
-fill="#0D1117" stroke="#22D3EE"/>
+class="tg-card tg-card-border" stroke-width="1"/>
 
-<rect x="628" y="223" width="534" height="38" rx="6" fill="#161B22"/>
+<rect x="628" y="223" width="534" height="38" rx="6" class="tg-header"/>
 
-<text x="645" y="247" class="num">04</text>
-<text x="685" y="247" class="title">DEPLOYMENT // PLATFORM</text>
+<text x="645" y="247" class="tg-num" font-family="monospace" font-size="11" font-weight="700">04</text>
+<text x="685" y="247" class="tg-title" font-family="monospace" font-size="17" font-weight="700">DEPLOYMENT // PLATFORM</text>
 
-<circle cx="1130" cy="242" r="4" fill="#3FB950"/>
+<circle cx="1130" cy="242" r="4" class="tg-status"/>
 
-<text x="645" y="297" class="sub">WEB DELIVERY</text>
-<text x="645" y="328" class="sub">VERCEL · CLOUDFLARE</text>
+<text x="645" y="297" class="tg-sub" font-family="monospace" font-size="12" font-weight="500">WEB DELIVERY</text>
+<text x="645" y="328" class="tg-sub" font-family="monospace" font-size="12" font-weight="500">VERCEL · CLOUDFLARE</text>
 
 <line x1="20" y1="383" x2="1180" y2="383"
-stroke="url(#g)" stroke-width="2"/>
+class="tg-footer-line" stroke-width="2"/>
 
 </svg>

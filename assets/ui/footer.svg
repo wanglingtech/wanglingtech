@@ -1,1 +1,67 @@
-<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="footerEdge" x1="0" x2="1"><stop stop-color="#7C3AED" stop-opacity="0"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient><filter id="footerGlow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><line x1="70" y1="18" x2="930" y2="18" stroke="url(#footerEdge)" stroke-width="2"/><text x="500" y="63" text-anchor="middle" fill="#E6EDF3" font-family="monospace" font-size="25" font-weight="700">WANGLING TECH</text><text x="500" y="101" text-anchor="middle" fill="#22D3EE" font-family="monospace" font-size="16">DESIGN → BUILD → TEST → MEASURE → IMPROVE</text><text x="500" y="133" text-anchor="middle" fill="#C9D1D9" font-family="monospace" font-size="15">SYSTEMS ENGINEERING · SOFTWARE DEVELOPMENT</text><text x="500" y="161" text-anchor="middle" fill="#8B949E" font-family="monospace" font-size="14">LIMA · PERU</text><circle cx="394" cy="191" r="4" fill="#A855F7" filter="url(#footerGlow)"><animate attributeName="opacity" values=".45;1;.45" dur="5s" repeatCount="indefinite"/></circle><text x="500" y="197" text-anchor="middle" fill="#A855F7" font-family="monospace" font-size="14">BUILD · LEARN · ITERATE</text><line x1="70" y1="214" x2="930" y2="214" stroke="url(#footerEdge)" stroke-width="2"/></svg>
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="footer-title">
+<title id="footer-title">Wangling Tech - Design Build Test Measure Improve - Systems Engineering Software Development - Lima Peru - Build Learn Iterate</title>
+<defs>
+<linearGradient id="footer-border" x1="0" x2="1">
+<stop stop-color="#7C3AED" stop-opacity="0"/>
+<stop offset=".5" stop-color="#A855F7"/>
+<stop offset="1" stop-color="#D946EF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="footer-bg-dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1a0a2e"/>
+<stop offset="100%" stop-color="#0d021a"/>
+</linearGradient>
+<linearGradient id="footer-bg-light" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#faf5ff"/>
+<stop offset="100%" stop-color="#f3e8ff"/>
+</linearGradient>
+<filter id="footer-glow">
+<feGaussianBlur stdDeviation="2" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<style>
+<![CDATA[
+@media (prefers-color-scheme: dark) {
+  .footer-bg { fill: url(#footer-bg-dark); }
+  .footer-border { stroke: url(#footer-border); }
+  .footer-title { fill: #f3e8ff; }
+  .footer-tagline { fill: #a855f7; }
+  .footer-subtitle { fill: #d8b4fe; }
+  .footer-location { fill: #c084fc; }
+  .footer-dot { fill: #a855f7; }
+  .footer-motto { fill: #a855f7; }
+}
+@media (prefers-color-scheme: light) {
+  .footer-bg { fill: url(#footer-bg-light); }
+  .footer-border { stroke: url(#footer-border); stroke-width: 2; }
+  .footer-title { fill: #4c1d95; }
+  .footer-tagline { fill: #9333ea; }
+  .footer-subtitle { fill: #6b21a8; }
+  .footer-location { fill: #7e22ce; }
+  .footer-dot { fill: #9333ea; }
+  .footer-motto { fill: #9333ea; }
+}
+@media (prefers-contrast: more) {
+  .footer-title { fill: #ffffff; }
+  .footer-tagline { fill: #e9d5ff; }
+  .footer-subtitle { fill: #d8b4fe; }
+  .footer-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]>
+</style>
+</defs>
+
+<rect x="1" y="1" width="998" height="218" rx="10" class="footer-bg footer-border" stroke-width="1"/>
+<line x1="70" y1="18" x2="930" y2="18" class="footer-border" stroke-width="2"/>
+<text x="500" y="63" text-anchor="middle" class="footer-title" font-family="monospace" font-size="25" font-weight="700">WANGLING TECH</text>
+<text x="500" y="101" text-anchor="middle" class="footer-tagline" font-family="monospace" font-size="16">DESIGN → BUILD → TEST → MEASURE → IMPROVE</text>
+<text x="500" y="133" text-anchor="middle" class="footer-subtitle" font-family="monospace" font-size="15">SYSTEMS ENGINEERING · SOFTWARE DEVELOPMENT</text>
+<text x="500" y="161" text-anchor="middle" class="footer-location" font-family="monospace" font-size="14">LIMA · PERU</text>
+<circle cx="394" cy="191" r="4" class="footer-dot" filter="url(#footer-glow)">
+  <animate attributeName="opacity" values=".45;1;.45" dur="5s" repeatCount="indefinite"/>
+</circle>
+<text x="500" y="197" text-anchor="middle" class="footer-motto" font-family="monospace" font-size="14">BUILD · LEARN · ITERATE</text>
+<line x1="70" y1="214" x2="930" y2="214" class="footer-border" stroke-width="2"/>
+</svg>

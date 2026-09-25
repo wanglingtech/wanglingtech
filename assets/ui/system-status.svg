@@ -1,10 +1,35 @@
-<svg width="1000" height="106" viewBox="0 0 1000 106" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
-<title id="title">Profile active: build, learn, iterate</title>
-<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><style>.title{font:700 28px monospace;fill:#E6EDF3}.meta{font:700 18px monospace;fill:#A855F7}.body{font:500 21px monospace;fill:#C9D1D9}.cyan{font:600 20px monospace;fill:#22D3EE}.small{font:500 18px monospace;fill:#8B949E}</style></defs>
-<rect x="1" y="1" width="998" height="104" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
-<text x="36" y="40" class="meta">PROFILE STATUS</text>
-<text x="36" y="77" class="cyan">ACTIVE</text>
-<text x="360" y="40" class="meta">APPROACH</text>
-<text x="360" y="77" class="cyan">BUILD · LEARN · ITERATE</text>
-
+<svg width="1000" height="106" viewBox="0 0 1000 106" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="system-status-title">
+<title id="system-status-title">Profile status active - Approach: build, learn, iterate</title>
+<defs>
+<linearGradient id="ssy-border" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#D946EF"/></linearGradient>
+<linearGradient id="ssy-bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0a2e"/><stop offset="100%" stop-color="#0d021a"/></linearGradient>
+<linearGradient id="ssy-bg-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#faf5ff"/><stop offset="100%" stop-color="#f3e8ff"/></linearGradient>
+<style><![CDATA[
+@media (prefers-color-scheme: dark) {
+  .ssy-bg { fill: url(#ssy-bg-dark); }
+  .ssy-border { stroke: url(#ssy-border); }
+  .ssy-meta { fill: #c084fc; }
+  .ssy-accent { fill: #a855f7; }
+}
+@media (prefers-color-scheme: light) {
+  .ssy-bg { fill: url(#ssy-bg-light); }
+  .ssy-border { stroke: url(#ssy-border); stroke-width: 2; }
+  .ssy-meta { fill: #7e22ce; }
+  .ssy-accent { fill: #9333ea; }
+}
+@media (prefers-contrast: more) {
+  .ssy-meta { fill: #e9d5ff; }
+  .ssy-accent { fill: #d8b4fe; }
+  .ssy-border { stroke-width: 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+]]></style>
+</defs>
+<rect x="1" y="1" width="998" height="104" rx="14" class="ssy-bg ssy-border" stroke-width="2"/>
+<text x="36" y="40" class="ssy-meta" font-family="monospace" font-size="18" font-weight="700">PROFILE STATUS</text>
+<text x="36" y="77" class="ssy-accent" font-family="monospace" font-size="20" font-weight="600">ACTIVE</text>
+<text x="360" y="40" class="ssy-meta" font-family="monospace" font-size="18" font-weight="700">APPROACH</text>
+<text x="360" y="77" class="ssy-accent" font-family="monospace" font-size="20" font-weight="600">BUILD · LEARN · ITERATE</text>
 </svg>
